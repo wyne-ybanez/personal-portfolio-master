@@ -1,4 +1,4 @@
-# Code Institute Personal Portfolio Project
+# Code Institute MS1: Personal Portfolio Project
 
 ## Project Goal
 
@@ -14,7 +14,11 @@ The website should allow it's users to automatically identify the reason for why
 
 - As a user I would also prefer if the website can communicate the reasoning for its creation from the first instance of perceiving it.
 
+- All interactions and buttons should be responsive, whether I am viewing the website from a mobile phone or hovering over the buttons with a cursor. There should be a indication to confirm what I am doing.
+
 <br>
+
+## Features
 
 Opening the website: 
 
@@ -22,9 +26,9 @@ Opening the website:
 
 - The website should be consistent and objective. It should avoid straying away from promoting the candidate, this may create confusion. 
 
-- The website must must navigate to relevant information, either by scrolling up and down or using the navigation links in the navbar. 
+- The website's main page must navigate to relevant information, either by scrolling up and down or using the navigation links in the navbar. 
   
--  If I as a user or recruiter would like to know about the candidate i.e. their personality/ their experience and skills. This should be on the website & I should be able to find this quickly and easily.
+- As a user or recruiter would like to know about the candidate, their personality/ their experience and skills. This should be on the website & users should be able to find this quickly and easily.
 
 About Me:
 
@@ -42,39 +46,47 @@ Projects:
 
 Transparent Fixed-Navbar: 
 
-- If at any point I should find myself lost whilst navigating the website, I should be able to return to the home page or to the page I would like to view easily. 
+- Navigation Bar Code mainly deriving from Bootstrap. 
 
-- I should be able to traverse to any section of the website at any point in time.
+- If at any point the user should find themselves lost whilst navigating the website, they should be able to return to the home page or to the page they would like to view easily. 
 
-- At no point should the navbar distract me from the information provided on the candidate's websit. Hence, it should be transparent.
+- Users should be able to traverse to any section of the website at any point in time.
+
+- At no point should the navbar distract the user from the information provided on the candidate's website. Hence, it should be transparent.
 
 ![Sticky-Navbar-Demo](assets/readMe/sticky-navbar.png)
 
 <br>
 
-Footer:
-
-- When reaching the end point of the website, there may be a further queries I would like to ask the candidate. I would appreciate it if there was a way to contact the candidate.
-
-- The footer should have the relevant social links and buttons. These can help me as a user/recruiter to research candidate further to discover more about them. 
-
-- If I would like to read back over information in the previous sections. The footer should allow me to return to the relevant pages ie. Home page.
-
-![Footer-Demo](assets/readMe/footer.png)
-
 Contact Form: 
+
+- It would be efficient if there was a way for users to contact the candidate at any point of whilst traversing their website.
+
+- This feature will require the user to input their contact details. Namely, the email address and name. If the candidate should ever respond, he/she will then know where/who the response is going to. 
 
 ![Contact-me-Demo](assets/readMe/contact-me.png)
 
 <br>
 
+Footer:
+
+- When reaching the end point of the website, there may be a further queries users would like to ask the candidate. The 'contact me' feature should be present in preparation for this.
+
+- The footer should have the relevant social links and buttons. These can help users/recruiters to research candidate further to discover more about them. 
+
+- If users would like to read back over information in the previous sections. The footer should allow me to return to the relevant pages ie. Home page.
+
+![Footer-Demo](assets/readMe/footer.png)
+
+<br>
+
 Testimonials: 
 
-- Perhaps I would like to know more about the candidate, about impressions past employers or connections hold towards him/her.
+- Perhaps users would like to know more about the candidate, about impressions past employers or connections hold towards him/her.
 
-- Should I find myself in this page, it is probably because I require social proof. I am looking for a candidate that can be of benefit to us now and in future.
+- Should users find themselves in this page, it is probably because they require social proof - "I am looking for a candidate that can be of benefit to us now and in future."
 
-- I would like to investigate further if this candidate is great match for our organization. I want to know the projects he/she has collaborated with, what he/she is doing now and what he/she hopes to be.
+- Users might like to investigate further if this candidate is great match for their organization. These users will want to know the projects he/she has collaborated with, what he/she is doing now and what he/she hopes to be.
 
 ![Testimonial](assets/readMe/testimonial.png)
 
@@ -84,9 +96,38 @@ Responsive:
 
 - The website should be responsive and confirm all interactions. 
 
-- There should be some sort of indicator or animation that can confirm whenever I am hovering over a button or clicking on it when using a computer or desktop.
+- There should be some sort of indicator or animation that can confirm whenever the user is hovering over a button or clicking on it when using a computer or desktop.
 
-- It should shrink it's windows and align items correctly when I am minimzing the window or using a mobile phone. 
+- It should shrink it's windows and align items correctly when the user is minimzing the window or using a mobile phone. 
+  
+  <br>
+
+## Technologies used 
+- HTML
+- CSS
+- VScode 
+- VSCode extension: LiveServer (https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- AOS (https://michalsnik.github.io/aos/)
+- HVR (https://github.com/IanLunn/Hover/blob/master/css/hover.css)
+- Bootstrap v4.5.3 (https://getbootstrap.com/)
+
+
+
+## Deployment
+
+
+## Credits
+## Content 
+(written content like wikipedia)
+## Media 
+(Where the photos were obtained from)
+### Acknowledgements
+(I received inspiration of this project from)
+
+
+
+
+
 
 
 

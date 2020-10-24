@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/*====== NAVBAR =======*/
+/* background Image full page - https://css-tricks.com/perfect-full-page-background-image/ */
+header {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 2px;
+    background: url('../img/hero-img.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar {
+    background-color:rgba(31, 30, 30, 0.24);
+    transition: .2 ease background-color;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin: 0;
+    color: #fff;
+}
+
+.nav-item {
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Hovering over effect: https://www.w3schools.com/cssref/sel_hover.asp */
+
+a:hover {
+    color: #7CFC00;
+}
+
+
+/* Animation Code from: https://github.com/IanLunn/Hover/blob/master/css/hover.css */
+
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+  .hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #7CFC00;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+  .hvr-underline-from-center:hover:before, 
+  .hvr-underline-from-center:focus:before, 
+  .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
+
+  /* Solution For Visible Navbar Toggler: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color */
+
+.transparent .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.transparent .navbar-toggler {
+    border-color: #fff;
+} 
+/*====== END NAVBAR ======*/
