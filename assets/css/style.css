@@ -4,18 +4,25 @@ body {
     overflow-x: hidden;
 }
 
-/*====== NAVBAR =======*/
 /* background Image full page - https://css-tricks.com/perfect-full-page-background-image/ */
+/* To darken the background image - https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css/36390220 */
 header {
     width: 100%;
     height: 100vh;
     margin-bottom: 2px;
-    background: url('../img/hero-img.jpg') no-repeat center center fixed;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.1), 
+        rgba(0, 0, 0, 0.3)
+        ), 
+    url('../img/background.jpeg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: bottom;
 }
+
+/*====== NAVBAR =======*/
 
 .navbar {
     background-color:rgba(31, 30, 30, 0.24);
@@ -53,7 +60,7 @@ a:hover {
     overflow: hidden;
 }
 
-  .hvr-underline-from-center:before {
+.hvr-underline-from-center:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -70,20 +77,60 @@ a:hover {
     transition-timing-function: ease-out;
 }
 
-  .hvr-underline-from-center:hover:before, 
-  .hvr-underline-from-center:focus:before, 
-  .hvr-underline-from-center:active:before {
+.hvr-underline-from-center:hover:before, 
+.hvr-underline-from-center:focus:before, 
+.hvr-underline-from-center:active:before {
     left: 0;
     right: 0;
 }
 
   /* Solution For Visible Navbar Toggler: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color */
+.fa {
+    color: #fff;
+    margin-top: .3rem;
+}
+/*====== END NAVBAR ======*/
 
-.transparent .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+/*====== BACKGROUND IMAGE ======*/
+
+.hero-h1, .hero-h2, .social-icons {   
+    position: relative; 
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 56px;
+    text-align: center;
+    /* margin-left: 40rem; */
+    text-shadow: 0 1rem 1rem rgba(0, 0, 0, 2);
 }
 
-.transparent .navbar-toggler {
-    border-color: #fff;
-} 
-/*====== END NAVBAR ======*/
+.hero-h1 {
+    padding-top: 13rem;
+    font-weight:400;
+}
+
+.hero-h2 {
+    padding-top: 3rem;
+    font-weight: 200;
+}
+
+.social-icons {
+    padding-top: 3rem;
+}
+
+/* Debug annoying unconnected underline after icon: https://stackoverflow.com/questions/33835756/after-including-bootstrap-icons-get-weird-underline */
+.social-icons a {
+    text-decoration: none;
+}
+
+.social-icons .fa { 
+    position: relative;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 24px;
+    margin-right: 24px;
+    text-decoration: none;
+}
+
+.social-icons .fa:hover {
+    color: #7CFC00;
+}

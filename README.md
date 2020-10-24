@@ -44,7 +44,7 @@ Projects:
 
 <br>
 
-Transparent Fixed-Navbar: 
+Transparent Sticky-Navbar: 
 
 - Navigation Bar Code mainly deriving from Bootstrap. 
 
