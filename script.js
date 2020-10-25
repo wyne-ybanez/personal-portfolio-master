@@ -1,21 +1,16 @@
-// Transparent Scroll Effect of Navbar from: https://bootsnipp.com/snippets/kl8Q3
-// Transparent Navbar Scroll Effect - WebCifar : https://www.youtube.com/watch?v=ZFQkb26UD1Y&list=LL&index=16&t=11023s
+// Transparent Scroll Effect of Navbar from: https://stackoverflow.com/questions/29646622/set-bootstrap-navbar-transparency-on-scroll
+function checkScroll(){
+    var startY = $('.navbar').height() * 2; 
 
-// $(window).on("scroll", function() {
-//     if($(window).scrollBottom()) {
-//           $('nav').removeClass('navbar');
-//     }
-//     else {
-//           $('nav').addClass('navbar');
-//         //   removeClass('navbar')
-//     }
-// })
-
-document.addEventListener('scroll',() => {
-    var scroll_position = window.scrollY;
-     if(scroll_position > 450){
-        header.style.backgroundColor = ""; 
+    if($(window).scrollTop() > startY){
+        $('.navbar').addClass("scrolled");
     }else{
-        header.style.backgroundColor = "transparent";
+        $('.navbar').removeClass("scrolled");
     }
-});
+}
+
+if($('.navbar').length > 0){
+    $(window).on("scroll load resize", function(){
+        checkScroll();
+    });
+}

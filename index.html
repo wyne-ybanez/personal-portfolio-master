@@ -1,6 +1,4 @@
 <!------------------------ CITATIONS --------------------------->
-
-<!-- Transparent Sticky Navbar - Web Cifar: https://www.youtube.com/watch?v=ZFQkb26UD1Y&list=PL_T6Zm3R6K7MxvvPpJMdQJBsFcuxZIx7R&index=102&t=11023s -->
 <!-- Google Fonts: https://fonts.google.com/specimen/Montserrat?sidebar.open=true&selection.family=Montserrat:wght@300;400;700|Roboto:wght@300;400;700&query=Monts -->
 <!-- Animate on Scroll: https://michalsnik.github.io/aos/ -->
 
@@ -21,7 +19,7 @@
         <!------- Navbar ------->
 
         <!-- Transparent Navbar: https://stackoverflow.com/questions/16453537/bootstrap-transparent-navbar -->
-    <header>
+    <div class="header container-fluid">
         <nav class="navbar navbar-expand-md sticky-top">
             <a href="index.html" class="navbar-brand font-weight-bold h1">
                 WYNE YBANEZ
@@ -62,41 +60,62 @@
     <div class="bg-container">
         <div class="hero">
             <h1 class="hero-h1" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
-                Hi, My name is Wyne
+                Wyne Ybanez
             </h1> 
             <h2 class="hero-h2" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="1700" data-aos-duration="1500">
-                I'm a Junior Software Developer
+                A Junior Software Developer
             </h2> 
-            <div class="social-icons"
-            data-aos="fade-up" 
-            data-aos-anchor-placement="top-bottom" 
-            data-aos-delay="3000" d
-            data-aos-duration="2000">
-                <a href="http://linkedin.com" style="text-decoration:none;" target="_blank">
-                    <i class="fa fa-linkedin fa-2x"></i>
-                </a>
-                <a href="http://github.com" target="_blank">
-                    <i class="fa fa-github fa-2x"></i>
-                </a>                
-                <a href="http://instagram.com" target="_blank">
-                    <i class="fa fa-instagram fa-2x"></i>
-                </a>
-                <a href="http://twitter.com" target="_blank">
-                    <i class="fa fa-twitter fa-2x"></i>
-                </a>
+                <div class="social-icons"
+                data-aos="fade-up" 
+                data-aos-anchor-placement="top-bottom" 
+                data-aos-delay="3000" d
+                data-aos-duration="2000">
+                    <a href="http://linkedin.com" style="text-decoration:none;" target="_blank">
+                        <i class="fa fa-linkedin fa-1.8x"></i>
+                    </a>
+                    <a href="http://github.com" target="_blank">
+                        <i class="fa fa-github fa-1.8x"></i>
+                    </a>                
+                    <a href="http://instagram.com" target="_blank">
+                        <i class="fa fa-instagram fa-1.8x"></i>
+                    </a>
+                    <a href="http://twitter.com" target="_blank">
+                        <i class="fa fa-twitter fa-1.8x"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
-</header>
     <!------- End of Banner Section ------->
 
     <!------- About Me  ------->
-    <secion>
-        <p>
-        </p>
-    </secion>
+    <!-- Edit Media Query for mobile -->
+    <section class="container-fluid about-me">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="section-heading text-uppercase text-light">About me</h1>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-4 col-sm-12 aboutme-img-container">
+                    <img src="assets/img/aboutme.jpg" class="aboutme-img img-fluid" alt="About Me Image">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                        <h5 class="text-light float-right">I am an aspiring junior developer. 
+                            I've recently graduated from Single Honours in University. I have worked in 
+                            retail and hospitality for a number of years. Ever since I started on Software Development, 
+                            I have not looked back.
+                            I am currently learning front-end coding languages and will soon be 
+                            learning new technologies in relation to the back-end. These will
+                            include languages such as JavaScript, Python, Jquery, Django, NoSQL, Flask. 
+                            I am an ambitious candidate and I hope to develop my skills even further.
+                            I am currently attending Code Institute.
+                            I believe I can be of benefit to you and your organization. 
+                        </h5>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!------- About Me  ------->
     <!------- End of About Me ------->
     
     <!------- Work History Timeline ------->
