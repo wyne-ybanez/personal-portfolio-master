@@ -102,6 +102,14 @@ Responsive:
   
   <br>
 
+Color Scheme: 
+
+- The overall color scheme of the website will consist of dark color which in contrast, the website will be utilising brighter colors to display visual effects content. 
+  
+- First I began to use the banner image of my profile picture however, I opted instead for the picture of the aurora borealis. 
+
+- This was the perfect blend of light blue, blue, white and dark which complimented each other to form a beautiful spectacle. I then used this overall theme for the website.
+
 ## Technologies used 
 - HTML
 - CSS
