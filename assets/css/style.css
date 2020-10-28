@@ -2,7 +2,8 @@
 * {
     box-sizing: border-box;
 }
-body {
+
+html, body {
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -166,7 +167,7 @@ a:hover {
 
 .about-me {
     background-color: #03070A;
-    padding-bottom: 11rem;
+    padding-bottom: 6.5rem;
 }
 
 .about-me .section-heading {
@@ -221,6 +222,7 @@ a:hover {
 .history {
     background-color: #03070A;
     color: white;
+    padding-bottom: 7rem;
 }
 
 .history .section-heading:after{
@@ -238,11 +240,11 @@ a:hover {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 
 .timeline img {
-    max-width: 30%;
+    max-width: 27%;
     position: relative;
     background-color: #00DDB8;
     border-radius: 250px;
@@ -258,7 +260,7 @@ a:hover {
     width: 6px;
     background-color: #00DDB8;
     top: 3rem;
-    bottom: 35rem;
+    bottom: 36rem;
     left: 50%;
     margin-left: -3px;
 }
@@ -294,10 +296,6 @@ a:hover {
 .bottom {
     padding-top: 3rem;
     left: -25.275%;
-}
-
-.bottom-heading {
-    padding-bottom: 1.5rem;
 }
   
 .left::before {
@@ -338,7 +336,43 @@ a:hover {
 }
 
 .image {
-    left: 35%;
+    left: 36%;
+}
+
+.bottom-heading {
+    padding-bottom: 1.5rem;
+}
+
+.bottom-text {
+    padding: 0 14rem;
+}
+
+/*====== TESTIMONIALS ======*/
+.testimonials {
+    background-color: #03070A;
+    padding-bottom: 7rem;
+}
+
+.testimonials .section-heading {
+    margin-bottom: 6rem;
+}
+
+.testimonials .section-heading:after{
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 30%; 
+    padding-top: 20px; 
+    border-bottom: 2px solid white;
+}
+
+.carousel-item {
+    color: #fff;
+    padding: 0 20rem;
+}
+
+.carousel-indicators {
+    top: 12rem;
 }
   
 /* Media queries - Responsive timeline on screens less than 600px wide */

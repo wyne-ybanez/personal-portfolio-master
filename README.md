@@ -34,13 +34,13 @@ About Me:
 
 ![About-Demo](assets/readMe/about-me.png)
 
+- This section of the page will have a call to action buttons, mainly to project.html and contactme.html. 
+  
+- Should at any point the user feels that they would like to see my projects or contact me. This shortcut shall be provided. 
+
 Work History Timeline: 
 
 ![Timeline-Demo](assets/readMe/timeline.png) 
-
-Projects: 
-
-![Projects-Demo](assets/readMe/projects.png)
 
 <br>
 
@@ -63,10 +63,22 @@ Contact Form:
 - It would be efficient if there was a way for users to contact the candidate at any point of whilst traversing their website.
 
 - This feature will require the user to input their contact details. Namely, the email address and name. If the candidate should ever respond, he/she will then know where/who the response is going to. 
+  
+- This will go into a separate html page.
 
 ![Contact-me-Demo](assets/readMe/contact-me.png)
 
 <br>
+
+Projects: 
+
+- This section of the website will be implemented through a separate html page.
+  
+- It will display 5 projects. The projects will for the mean time link to external third-party websites however, in future I will link my other completed projects to this section.
+
+- It will consist of 5 projects supported by descriptive text at the side.
+
+![Projects-Demo](assets/readMe/projects.png)
 
 Footer:
 
@@ -77,18 +89,6 @@ Footer:
 - If users would like to read back over information in the previous sections. The footer should allow me to return to the relevant pages ie. Home page.
 
 ![Footer-Demo](assets/readMe/footer.png)
-
-<br>
-
-Testimonials: 
-
-- Perhaps users would like to know more about the candidate, about impressions past employers or connections hold towards him/her.
-
-- Should users find themselves in this page, it is probably because they require social proof - "I am looking for a candidate that can be of benefit to us now and in future."
-
-- Users might like to investigate further if this candidate is great match for their organization. These users will want to know the projects he/she has collaborated with, what he/she is doing now and what he/she hopes to be.
-
-![Testimonial](assets/readMe/testimonial.png)
 
 <br>
 
@@ -106,9 +106,21 @@ Color Scheme:
 
 - The overall color scheme of the website will consist of dark color which in contrast, the website will be utilising brighter colors to display visual effects content. 
   
-- First I began to use the banner image of my profile picture however, I opted instead for the picture of the aurora borealis. 
+  <br>
+  
+## Changes 
+- (Banner Section) First I began to use the banner image of my profile picture however, I opted instead for the picture of the aurora borealis. 
+
+- (About Section) Originally there was a wireframe for a progresion bar feature in the 'About me' section. I decided to remove the progression bar feature.
 
 - This was the perfect blend of light blue, blue, white and dark which complimented each other to form a beautiful spectacle. I then used this overall theme for the website.
+
+- (testimonial.html) I initially wanted to create a 'testimonial.html' and place the projects.html inside the main body of index.html. The testimonials have instead moved to index.html above the footer.
+
+- I was planning to convey his via a carousel feature. I opted instead to create projects.html as a separate file, replacing the testimonial.html idea. I thought the projects would clutter the main page and make it too long.
+
+![testimonial-Demo](assets/readMe/testimonial.png)
+
 
 ## Technologies used 
 - HTML
