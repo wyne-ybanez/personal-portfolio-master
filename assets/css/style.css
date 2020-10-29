@@ -76,7 +76,7 @@ a:hover {
 }
 
 
-/* Animation Code from: https://github.com/IanLunn/Hover/blob/master/css/hover.css */
+/* Hover Animation Code from: https://github.com/IanLunn/Hover/blob/master/css/hover.css */
 
 .hvr-underline-from-center {
     display: inline-block;
@@ -144,7 +144,7 @@ a:hover {
     padding-top: 3rem;
 }
 
-/* Debug annoying unconnected underline after icon: https://stackoverflow.com/questions/33835756/after-including-bootstrap-icons-get-weird-underline */
+/* Debug unconnected underline after icon: https://stackoverflow.com/questions/33835756/after-including-bootstrap-icons-get-weird-underline */
 .social-icons a {
     text-decoration: none;
 }
@@ -167,7 +167,7 @@ a:hover {
 
 .about-me {
     background-color: #03070A;
-    padding-bottom: 6.5rem;
+    padding-bottom: 11rem;
 }
 
 .about-me .section-heading {
@@ -222,7 +222,7 @@ a:hover {
 .history {
     background-color: #03070A;
     color: white;
-    padding-bottom: 7rem;
+    padding-bottom: 11rem;
 }
 
 .history .section-heading:after{
@@ -350,7 +350,7 @@ a:hover {
 /*====== TESTIMONIALS ======*/
 .testimonials {
     background-color: #03070A;
-    padding-bottom: 7rem;
+    padding-bottom: 17rem;
 }
 
 .testimonials .section-heading {
@@ -372,9 +372,44 @@ a:hover {
 }
 
 .carousel-indicators {
-    top: 12rem;
+    top: 13rem;
 }
-  
+
+.carousel-control-next, 
+.carousel-control-prev {
+    width: 30%;
+}
+
+/*====== FOOTER ======*/
+
+.footer {
+    background-color: #00DDB8;
+    padding-top: 1.2rem;
+    text-align: center;
+}
+
+.footer h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer .footer-social-icons {
+    display: flex;
+}
+
+.footer .footer-social-icons fa {
+    text-decoration: none;
+}
+ 
+.footer .footer-social-item {
+    font-size: 2rem;
+    padding: 0 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .footer-social-item:hover i{
+    filter: invert(1);
+}
 /* Media queries - Responsive timeline on screens less than 600px wide */
 
 
