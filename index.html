@@ -20,46 +20,46 @@
 
         <!-- Transparent Navbar: https://stackoverflow.com/questions/16453537/bootstrap-transparent-navbar -->
     <section class="header container-fluid">
-        <nav class="navbar navbar-expand-md sticky-top">
-            <a href="index.html" class="navbar-brand font-weight-bold h1">
-                WYNE YBANEZ
-            </a>
+                <nav class="navbar navbar-expand-lg sticky-top">
+                    <a href="index.html" class="navbar-brand font-weight-bold h1">
+                        WYNE YBANEZ
+                    </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                    <i class="fa fa-bars"></i>
-                </span>
-            </button>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <i class="fa fa-bars"></i>
+                        </span>
+                    </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                   <li> 
-                        <a class="nav-item nav-link active hvr-underline-from-center" href="index.html">Home <span class="sr-only">(current)</span></a>
-                   </li>
-                   <li>           
-                        <a class="nav-item nav-link hvr-underline-from-center" data-after="about" href="#about">About Me</a>
-                   </li>
-                   <li>            
-                        <a class="nav-item nav-link hvr-underline-from-center" data-after="timeline" href="#timeline">Timeline</a>
-                    </li>
-                    <li>                
-                        <a class="nav-item nav-link hvr-underline-from-center" data-after="projects" href="testimonials">Testimonials</a>
-                    </li>
-                    <li>              
-                        <a class="nav-item nav-link hvr-underline-from-center" data-after="projects" href="projects.html">Projects</a>
-                    </li>
-                    <li>           
-                        <a class="nav-item nav-link hvr-underline-from-center" data-after="contact" href="contact.html">Contact Me</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                        <li> 
+                                <a class="nav-item nav-link active hvr-underline-from-center" href="#banner">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li>           
+                                <a class="nav-item nav-link hvr-underline-from-center" data-after="about-me" href="#about-me">About Me</a>
+                        </li>
+                        <li>            
+                                <a class="nav-item nav-link hvr-underline-from-center" data-after="timeline" href="#history">Timeline</a>
+                            </li>
+                            <li>                
+                                <a class="nav-item nav-link hvr-underline-from-center" data-after="testimonials" href="#testimonials">Testimonials</a>
+                            </li>
+                            <li>              
+                                <a class="nav-item nav-link hvr-underline-from-center" data-after="projects" href="projects.html">Projects</a>
+                            </li>
+                            <li>           
+                                <a class="nav-item nav-link hvr-underline-from-center" data-after="contact" href="contact.html">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
 
     <!------- End of Navbar ------->
 
     <!------- Banner Section ------->
     <div class="bg-container">
-        <div class="banner">
+        <div id="banner">
             <h1 class="banner-h1" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
                 Wyne Ybanez
             </h1> 
@@ -69,7 +69,7 @@
                 <div class="social-icons"
                 data-aos="fade-up" 
                 data-aos-anchor-placement="top-bottom" 
-                data-aos-delay="3000" d
+                data-aos-delay="3000" 
                 data-aos-duration="2000">
                     <a href="http://linkedin.com" style="text-decoration:none;" target="_blank">
                         <i class="fa fa-linkedin fa-1.8x"></i>
@@ -91,8 +91,9 @@
 
     <!------- About Me  ------->
     <!-- Edit Media Query for mobile -->
-    <section class="container-fluid about-me">
-        <div class="row">
+    <section class="container-fluid about-me"> 
+        <div id="about-me">
+        <div class="row no-gutters">
             <div class="col-12">
                 <h1 class="section-heading text-uppercase text-light">About me</h1>
             </div>
@@ -106,15 +107,18 @@
                             retail and hospitality for a number of years. Ever since I started on Software Development, 
                             I have not looked back.
                         <p></p>
-                            I am currently learning front-end coding languages and will soon be 
-                            learning new technologies in relation to the back-end. These will
-                            include languages such as JavaScript, Python, Jquery, Django, SQL, Flask. 
+                            I am currently learning new technologies in relation to Full-Stack Developement. These will
+                            include languages such as HTML, CSS, Bootstrap, JavaScript, Python, Jquery, Django, SQL, Flask. 
                             I am an ambitious candidate and I hope to develop my skills even further.
                             I am currently attending Code Institute.
                             I believe I can be of benefit to you and your organization. 
+                        <p></p>
+                            <button href="projects.html" target="_blank" type="button" class="projects-cta btn btn-primary">Projects</button> 
+                            <button href="contact.html" target="_blank" type="button" class="contactme-cta btn">Contact Me</button>
                         </h5>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
@@ -122,6 +126,7 @@
     
     <!------- Work History Timeline ------->
     <section class="container-fluid history">
+        <div id="history">
         <div class="row no-gutters">
             <div class="col-sm-12">
                 <h1 class="section-heading text-uppercase text-light">WORK HISTORY TIMELINE</h1>
@@ -172,12 +177,14 @@
               </div>
             </div>
           </div>
+          </div>
     </section>
     <!------- End of Timeline  ------->
 
     <!------- Testimonials  ------->
     <!-- Bootstrap Carousel Code - Modified: https://getbootstrap.com/docs/4.5/components/carousel/ -->
     <section class="container-fluid testimonials">
+        <div id="testimonials">
             <div class="row">
                 <div class="col-12">
                     <h1 class="section-heading text-uppercase text-light">Testimonials</h1>
@@ -194,9 +201,9 @@
                     <div class="carousel-item active" data-interval="30000">
                         <h5 class="d-block w-60 text-center">
                             " Wyne was an absolute pleasure to work with. He gave us a great
-                            insight into how we could best reach our audience using a website.
+                            recommendation into how we could best reach our audience online. He helped us establish a website.
                             He was actively communicating through the entire project and was super flexible
-                            with what we wanted to add to the site. We cannot 
+                            with the fetures we wanted to add to the site. We cannot 
                             wait to work with him again. " 
                             <hr>
                             <i> - Jennifer O'Reilly, Triskel Arts Center</i>
@@ -204,12 +211,13 @@
                     </div>
                 <div class="carousel-item" data-interval="30000">
                         <h5 class="d-block w-60 text-center">
-                            " Wyne was an absolute pleasure to work with. He gave us a great
-                            insight into how we could best reach our audience using a website.
-                            He was acively communicating through the entire project. We cannot 
-                            wait to work with him again. " 
+                            " He was a pleasure to work with. During the pandemic we did not know if 
+                            our business would continue to thrive. Wyne helped us create an online presence through social media
+                            and a website our customers could order from. He aligned it with our 
+                            restaurant's overall theme. The website has drawn in new customers. It has given us so much hope.
+                            I would highly recommend his service to anyone. " 
                             <hr>
-                            <i> - Jennifer O'Reilly, Triskel Arts Center</i>
+                            <i> - Lisa Powell, Nash 14 Restaurant</i>
                         </h5> 
                 </div>
                 <div class="carousel-item" data-interval="30000">
@@ -232,42 +240,63 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+        </div>
     </section>
     <!------- End of Testimonials  ------->
+
+    <!-- Options Section -->
+    <section class="container-fluid options">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="options-selection">
+                    <a type="button" class="options-item" href="#banner" data-after="Home" data-aos="fade-right">
+                        Home
+                    </a>
+                    <a type="button" class="options-item" href="projects.html" target="_blank" data-aos="fade-right" data-aos-delay="300">
+                        Projects
+                    </a>
+                    <a type="button" class="options-item" href="contact.html" target="_blank" data-aos="fade-right" data-aos-delay="600">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Options -->
 
     <!------- Footer ------->
     <!-- WebCifar's code - Modified: https://github.com/WebCifar/one-page-website-html-css-project-for-practice  -->
     <section class="container-fluid footer">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="text-center text-dark"><strong>WYNE YBANEZ</strong></h3>
-                    <h5 class="text-center text-dark">A candidate with unlimited potential</h5>
+                    <h3 class="text-center text-light"><strong>WYNE YBANEZ</strong></h3>
+                    <h5 class="text-center text-light">A candidate with unlimited potential</h5>
                 </div>
                 <div class="col-md-12">
         <!-- Adam Sky's code solution to center icons: https://github.com/Adamsky94/milestone1/blob/master/index.html -->
                     <div class="footer-social-icons justify-content-center align-items-center order-1 order-md-2">
         <!-- End of Solution -->
                         <div class="footer-social-item">
-                            <a href="http://linkedin.com" target="_blank"><i class="fa fa-linkedin fa-1.8x text-dark"></i>
+                            <a href="http://linkedin.com" target="_blank"><i class="fa fa-linkedin fa-1.8x text-light"></i>
                             </a>    
                         </div> 
                         <div class="footer-social-item">
-                            <a href="http://github.com" target="_blank"><i class="fa fa-github fa-1.8x text-dark"></i>
+                            <a href="http://github.com" target="_blank"><i class="fa fa-github fa-1.8x text-light"></i>
                             </a> 
                         </div>
                         <div class="footer-social-item">
-                            <a href="http://instagram.com" target="_blank"><i class="fa fa-instagram fa-1.8x text-dark"></i>
+                            <a href="http://instagram.com" target="_blank"><i class="fa fa-instagram fa-1.8x text-light"></i>
                             </a> 
                         </div>
                         <div class="footer-social-item">
-                            <a href="http://twitter.com" target="_blank"><i class="fa fa-twitter fa-1.8x text-dark"></i>
+                            <a href="http://twitter.com" target="_blank"><i class="fa fa-twitter fa-1.8x text-light"></i>
                             </a> 
                         </div>
                     </div>
                 </div>
             </div>
             <br>
-            <i class="fa fa-copyright text-dark">2020 Wyne Ybanez</i>
+            <i class="fa fa-copyright text-light">2020 Wyne Ybanez</i>
     </section>
     <!------- End of Footer ------->
 

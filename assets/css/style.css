@@ -23,6 +23,10 @@ a:hover {
     color: #00DDB8;
 }
 
+.container-fluid {
+    padding: 0 0;
+}
+
 /* background Image full page - https://css-tricks.com/perfect-full-page-background-image/ */
 /* To darken the background image - https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css/36390220 */
 .header {
@@ -49,6 +53,7 @@ a:hover {
     -o-transition: all 0.6s ease-out;
     -ms-transition: all 0.6s ease-out;
     transition: all 0.6s ease-out;
+    margin-left: -13px;
 }
 
 .navbar.scrolled {
@@ -165,38 +170,38 @@ a:hover {
 
 /*====== ABOUT ME ======*/
 
-.about-me {
+#about-me {
     background-color: #03070A;
     padding-bottom: 11rem;
 }
 
-.about-me .section-heading {
+#about-me .section-heading {
     margin: 8rem 0 6rem 0;
 
 }
 
 /* Underlining the Heading with adjustable border: https://www.steckinsights.com/shorten-length-border-bottom-pure-css/ */
-.about-me .section-heading:after {
+#about-me .section-heading:after {
     content: ""; 
     display: block; 
     margin: 0 auto; 
     width: 30%; 
     padding-top: 20px; 
-    border-bottom: 2px solid white; 
+    border-bottom: 2px solid #00DDB8; 
 }
 
-.about-me h5 {
+#about-me h5 {
     padding: 3rem 6rem 2.5rem 4rem;
 }
 
-.about-me .aboutme-img-container {
-    margin-left: 12rem;
+#about-me .aboutme-img-container {
+    margin-left: 10rem;
     margin-bottom: 2rem;
     position:relative;
     z-index: 1;
 }
 
-.about-me .aboutme-img {
+#about-me .aboutme-img {
     border: 10px solid #00DDB8;
     width: 98%;
     height: 98%;
@@ -204,46 +209,91 @@ a:hover {
 }
 
 /* Coding from WebCifar - Modified: https://github.com/WebCifar/one-page-website-html-css-project-for-practice/blob/master/style.css */
-.about-me .aboutme-img-container::after {
+#about-me .aboutme-img-container::after {
     content:'';
     position: absolute;
     left: -33px;
     bottom: 30px;
     height: 98%;
     width: 98%;
-    border: 9px solid #00BFFF;
+    border: 9px solid #1E90FF;
     z-index: -1;
 }
+
+.projects-cta {
+    display: flex;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 100px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    margin-right: 4rem;
+    transition: .3s ease;
+    transition-property: background-color, color;
+    float: left;
+}
+
+.projects-cta:hover {
+    color: #1E90FF;
+    background-color: transparent;
+    background: white;
+}
+
+.contactme-cta {
+    background-color: #00DDB8;
+    display: flex;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 100px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    margin-right: 4rem;
+    transition: .3s ease;
+    transition-property: background-color, color;
+    float: left;
+}
+
+.contactme-cta:hover {
+    color: #00DDB8;
+    background-color: transparent;
+    background: white;
+}
+
+/* End of Modified Code */
 
 /*====== END OF ABOUT ME ======*/
 
 /*====== TIMELINE  ======*/
 
-.history {
+#history {
     background-color: #03070A;
     color: white;
     padding-bottom: 11rem;
 }
 
-.history .section-heading:after{
+#history .section-heading:after{
     content: ""; 
     display: block; 
     margin: 0 auto; 
     width: 30%; 
     padding-top: 20px; 
-    border-bottom: 2px solid white; 
+    border-bottom: 2px solid #00DDB8; 
 }
 
 /* WSSchool Timeline - Modified: https://www.w3schools.com/howto/howto_css_timeline.asp*/
 
-.timeline {
+#history .timeline {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 2rem;
 }
 
-.timeline img {
+#history .timeline img {
     max-width: 27%;
     position: relative;
     background-color: #00DDB8;
@@ -254,7 +304,7 @@ a:hover {
     margin-bottom: 3rem;
 }
   
-.timeline::after {
+#history .timeline::after {
     content: '';
     position: absolute;
     width: 6px;
@@ -265,14 +315,14 @@ a:hover {
     margin-left: -3px;
 }
 
-.container {
+#history .timeline .container {
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
     width: 50%;
 }
 
-.container::after {
+#history .timeline .container::after {
     content: '';
     position: absolute;
     width: 25px;
@@ -285,20 +335,20 @@ a:hover {
     z-index: 1;
 }
   
-.left {
+.timeline .left {
     left: -25.275%;
 }
   
-.right {
+.timeline .right {
     left: 25.275%;
 }
 
-.bottom {
+.timeline .bottom {
     padding-top: 3rem;
     left: -25.275%;
 }
   
-.left::before {
+.timeline .left::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -311,7 +361,7 @@ a:hover {
     border-color: transparent transparent transparent white;
 }
   
-.right::before {
+.timeline .right::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -324,64 +374,104 @@ a:hover {
     border-color: transparent white transparent transparent;
 }
   
-.right::after {
+.timeline .right::after {
     left: -16px;
 }
   
-.content {
+.timeline .content {
     padding: 20px 30px;
     background-color: gray;
     position: relative;
     border-radius: 6px;
 }
 
-.image {
+.timeline .image {
     left: 36%;
 }
 
-.bottom-heading {
-    padding-bottom: 1.5rem;
+.timeline .bottom-heading {
+    padding: 1.5rem 0;
 }
 
-.bottom-text {
+.timeline .bottom-text {
     padding: 0 14rem;
 }
 
 /*====== TESTIMONIALS ======*/
-.testimonials {
+#testimonials {
     background-color: #03070A;
-    padding-bottom: 17rem;
+    padding-bottom: 13rem;
 }
 
-.testimonials .section-heading {
+#testimonials .section-heading {
     margin-bottom: 6rem;
 }
 
-.testimonials .section-heading:after{
+#testimonials .section-heading:after{
     content: ""; 
     display: block; 
     margin: 0 auto; 
     width: 30%; 
     padding-top: 20px; 
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #00DDB8;
 }
 
-.carousel-item {
+#testimonials .carousel-item {
     color: #fff;
     padding: 0 20rem;
 }
 
-.carousel-indicators {
-    top: 13rem;
+#testimonials .carousel-indicators {
+    top: 15rem;
 }
 
-.carousel-control-next, 
-.carousel-control-prev {
+#testimonials .carousel-control-next, 
+#testimonials .carousel-control-prev {
     width: 30%;
 }
+/*====== OPTIONS ======*/
+/* Coding from WebCifar - Editted & Modified: https://github.com/WebCifar/one-page-website-html-css-project-for-practice/blob/master/style.css */
+.options {
+    background-color: #03070A;
+    color: #fff;
+}
+.options .options-selection {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 3rem 3rem 3rem;
+}
+
+.options-item {
+    width: 12rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 100px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-right: 4rem;
+    transition: .3s ease;
+    transition-property: background-color, color;
+    float: left;
+    background-color: #00DDB8;
+    border: solid #fff;
+    border-width: 3px;
+}
+
+.options-item:hover {
+    color: #00DDB8;
+    background-color: transparent;
+    background: white;
+}
+
+
 
 /*====== FOOTER ======*/
-
 .footer {
     background-color: #00DDB8;
     padding-top: 1.2rem;

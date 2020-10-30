@@ -142,6 +142,8 @@ Color Scheme:
 ## Media 
 (Where the photos were obtained from)
 ### Acknowledgements
+
+I received Inspiration for the social icons within the Banner section from Code Insitute Student David O' Shea <<https://www.grahamsweeney.ie/>> 
 (I received inspiration of this project from)
 
 
