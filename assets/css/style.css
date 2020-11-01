@@ -4,15 +4,20 @@
 }
 
 html, body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
 
 h1 {
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-weight: 700;
     text-align: center;
+}
+
+section {
+    background-color: #03070A;
+    color: #fff;
 }
 
 a {
@@ -73,6 +78,7 @@ a:hover {
     font-size: 25px;
     margin: 0;
     color: #fff;
+    padding-left: 15px;
 }
 
 .nav-item {
@@ -171,7 +177,6 @@ a:hover {
 /*====== ABOUT ME ======*/
 
 #about-me {
-    background-color: #03070A;
     padding-bottom: 11rem;
 }
 
@@ -270,8 +275,6 @@ a:hover {
 /*====== TIMELINE  ======*/
 
 #history {
-    background-color: #03070A;
-    color: white;
     padding-bottom: 11rem;
 }
 
@@ -455,8 +458,6 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: .1rem;
     margin-right: 4rem;
-    transition: .3s ease;
-    transition-property: background-color, color;
     float: left;
     background-color: #00DDB8;
     border: solid #fff;
@@ -467,9 +468,89 @@ a:hover {
     color: #00DDB8;
     background-color: transparent;
     background: white;
+    text-decoration: none;
 }
 
+/*====== PROJECTS ======*/
 
+#projects {
+    padding-top: 9rem;
+}
+
+#projects .section-heading {
+    padding-bottom: 3rem;
+}
+
+#projects .section-heading:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 30%; 
+    padding-top: 20px; 
+    border-bottom: 2px solid #00DDB8;
+}
+
+/* WebCifar's code - Modified: https://codepen.io/Web_Cifar/pen/dyXNVep */
+#projects .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#projects .left {
+    width: 50%;
+    height: 30rem;
+    background: url(https://images.unsplash.com/photo-1559595500-e15296bdbb48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80)
+    no-repeat center / cover;
+    border-radius: 8px; 
+    border: solid #fff;
+    border-width: 3px;
+}
+
+#projects .right {
+    width: 50%;
+    min-height: 400px;
+    background-color:#00DDB8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: #fff;
+    margin-left: -150px;
+}
+
+#projects .right h1 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#projects .right p {
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+/* Change media query for mobile phone use  */
+#projects .right a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #1E90FF;
+    color: #fff;
+    padding: 15px 30px;
+    display: inline-block;
+    letter-spacing: 2px;
+    margin-left: 7.7rem;
+}
+/* End of WebCifar Code */
+
+#projects .right a:hover {
+    background-color: #fff;
+    color: #000;
+}
 
 /*====== FOOTER ======*/
 .footer {
@@ -536,4 +617,23 @@ a:hover {
   }
 
   /* End of W3schools timelime code  */
+
+/* WebCifar's code for Project Section - https://codepen.io/Web_Cifar/pen/dyXNVep */
+  @media only screen and (max-width: 768px) {
+    #projects .container {
+      flex-direction: column;
+      width: 100%;
+      margin: 0 20px;
+    }
+    #projects .left {
+      width: 100%;
+      height: 400px;
+    }
+    #projects .right {
+      width: 90%;
+      margin: 0;
+      margin-top: -100px;
+    }
+  }
+  
   
