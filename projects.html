@@ -17,45 +17,43 @@
 </head>
 <body>
     <!------- Navbar ------->
-
         <!-- Transparent Navbar: https://stackoverflow.com/questions/16453537/bootstrap-transparent-navbar -->
-        <section class="container-fluid">
-            <nav class="navbar navbar-expand-lg sticky-top">
-                <a href="index.html" class="navbar-brand font-weight-bold h1">
-                    WYNE YBANEZ
-                </a>
+    <section class="container-fluid">
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <a href="index.html" class="navbar-brand font-weight-bold h1">
+                WYNE YBANEZ
+            </a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                        <i class="fa fa-bars"></i>
-                    </span>
-                </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fa fa-bars"></i>
+                </span>
+            </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li> 
-                            <a class="nav-item nav-link active hvr-underline-from-center" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li>           
-                            <a class="nav-item nav-link hvr-underline-from-center" data-after="contact" href="contact.html">Contact Me</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </section>
-
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li> 
+                        <a class="nav-item nav-link active hvr-underline-from-center" href="index.html" target="_blank">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li>           
+                        <a class="nav-item nav-link hvr-underline-from-center" data-after="contact" href="contactme.html" target="_blank">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
     <!------- End of Navbar ------->
 
     <!------- Projects ------->
-
-    <section class="container-fluid projects"> 
+    <section class="container-fluid"> 
+        <div id="projects">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <h1 class="section-heading text-uppercase text-light">projects</h1>
                     <!-- WebCifar's Code - Modified : https://codepen.io/Web_Cifar/pen/dyXNVep -->
                     <div class="container">
                         <div class="left" data-aos="fade-right"></div>
-                        <div class="right" data-aos="fade-left">
+                        <div class="right bg-secondary" data-aos="fade-left">
                             <div class="content">
                                 <h1>Frans Hals Museum</h1>
                                 <p>This website uses a combination of digital design elements and its own exhibits. 
@@ -73,7 +71,7 @@
                 <div class="col-md-12 col-sm-12">
                     <div class="container">
                         <div class="left-2" data-aos="fade-right"></div>
-                        <div class="right" data-aos="fade-left">
+                        <div class="right bg-secondary" data-aos="fade-left">
                             <div class="content">
                                 <h1>ETQ</h1>
                                 <p>Takes a very minimalistic approach to ecommerce with their stripped-down site with big, 
@@ -91,7 +89,7 @@
                 <div class="col-md-12 col-sm-12">
                     <div class="container">
                         <div class="left-3" data-aos="fade-right"></div>
-                        <div class="right" data-aos="fade-left">
+                        <div class="right bg-secondary" data-aos="fade-left">
                             <div class="content">
                                 <h1>Rain Forest Guardians</h1>
                                 <p>Seeking to build awareness around deforestation, the site allows users to "visit" 
@@ -109,7 +107,7 @@
                 <div class="col-md-12 col-sm-12">
                     <div class="container">
                         <div class="left-4" data-aos="fade-right"></div>
-                        <div class="right" data-aos="fade-left">
+                        <div class="right bg-secondary" data-aos="fade-left">
                             <div class="content">
                                 <h1>1917: In the Trenches</h1>
                                 <p>This website, made to promote the film 1917, allows you to walk around the 
@@ -122,22 +120,24 @@
                     </div>
                 </div>
             </div>
-    </section>      
     <!------- End of Projects ------->
+
     <!------- Options ------->
-    <section class="container-fluid options">
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <div class="options-selection">
-                    <a type="button" class="options-item" href="#banner" data-after="Home" data-aos="fade-right">
-                        Home
-                    </a>
-                    <a type="button" class="options-item" href="projects.html" target="_blank" data-aos="fade-right" data-aos-delay="300">
-                        Again
-                    </a>
-                    <a type="button" class="options-item" href="contact.html" target="_blank" data-aos="fade-right" data-aos-delay="600">
-                        Contact Me
-                    </a>
+            <div class="options">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="options-selection">
+                            <a type="button" class="options-item" href="index.html" target="_blank" data-after="Home" data-aos="fade-right">
+                                Home
+                            </a>
+                            <a type="button" class="options-item" href="contactme.html" target="_blank" data-aos="fade-right" data-aos-delay="300">
+                                Contact Me
+                            </a>
+                            <a type="button" class="options-item" href="#projects" data-aos="fade-right" data-aos-delay="600">
+                                Back
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

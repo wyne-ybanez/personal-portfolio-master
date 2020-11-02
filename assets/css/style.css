@@ -310,7 +310,7 @@ a:hover {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: #00DDB8;
+    background-color:#00DDB8;
     top: 3rem;
     bottom: 36rem;
     left: 50%;
@@ -330,8 +330,8 @@ a:hover {
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: white;
-    border: 4px solid #00DDB8;
+    background-color:white;
+    border: 4px solid#00DDB8;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -433,8 +433,7 @@ a:hover {
 }
 /*====== OPTIONS ======*/
 /* Coding from WebCifar - Editted & Modified: https://github.com/WebCifar/one-page-website-html-css-project-for-practice/blob/master/style.css */
-.options {
-    background-color: #03070A;
+.options{
     color: #fff;
 }
 .options .options-selection {
@@ -472,15 +471,23 @@ a:hover {
 
 /*====== PROJECTS ======*/
 
-.projects {
+#projects {
     padding-top: 1.5rem;
+    /* background Image full page - https://css-tricks.com/perfect-full-page-background-image/ */
+    background: url('../img/background.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: bottom;
+    border-bottom: 100px;
 }
 
-.projects .section-heading {
+#projects .section-heading {
     padding-bottom: 6rem;
 }
 
-.projects .section-heading:after {
+#projects .section-heading:after {
     content: ""; 
     display: block; 
     margin: 0 auto; 
@@ -490,7 +497,7 @@ a:hover {
 }
 
 /* WebCifar's code - Editted & Modified: https://codepen.io/Web_Cifar/pen/dyXNVep */
-.projects .container {
+#projects .container {
     width: 90%;
     max-width: 1000px;
     display: flex;
@@ -499,7 +506,7 @@ a:hover {
     padding-bottom: 5rem;
 }
 
-.projects .left {
+#projects .left {
     width: 70%;
     height: 30rem;
     background: url(https://blog.hubspot.com/hs-fs/hubfs/frans-hals-museum-best-website-design-2018.png?width=690&name=frans-hals-museum-best-website-design-2018.png)
@@ -509,7 +516,7 @@ a:hover {
     border-width: 3px;
 }
 
-.projects .left-2 {
+#projects .left-2 {
     width: 70%;
     height: 30rem;
     background: url(https://blog.hubspot.com/hs-fs/hubfs/00-Blog-Related_Images/blog/images/Screen_Shot_2015-08-04_at_5.16.53_PM.png?width=667&height=353&name=Screen_Shot_2015-08-04_at_5.16.53_PM.png)
@@ -519,7 +526,7 @@ a:hover {
     border-width: 3px;
 }
 
-.projects .left-3 {
+#projects .left-3 {
     width: 70%;
     height: 30rem;
     background: url(https://blog.hubspot.com/hs-fs/hubfs/rainforest-guardians-best-website-design-2016.jpg?width=690&name=rainforest-guardians-best-website-design-2016.jpg)
@@ -529,7 +536,7 @@ a:hover {
     border-width: 3px;
 }
 
-.projects .left-4 {
+#projects .left-4 {
     width: 70%;
     height: 30rem;
     background: url(https://blog.hubspot.com/hs-fs/hubfs/1917%20homepage.png?width=1395&name=1917%20homepage.png)
@@ -539,10 +546,9 @@ a:hover {
     border-width: 3px;
 }
 
-.projects .right {
+#projects .right {
     width: 50%;
     min-height: 400px;
-    background-color:#00DDB8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -552,23 +558,23 @@ a:hover {
     margin-left: -150px;
 }
 
-.projects .right h1 {
+#projects .right h1 {
     font-size: 40px;
     font-weight: lighter;
 }
 
-.projects .right p {
+#projects .right p {
     margin: 20px 0;
     font-weight: 500;
     line-height: 25px;
 }
 
 /* Change media query for mobile phone use  */
-.projects .right a {
+#projects .right a {
     text-decoration: none;
     text-transform: uppercase;
-    background-color: #1E90FF;
-    color: #fff;
+    background-color:#00DDB8;
+    color:#fff;
     padding: 15px 30px;
     display: inline-block;
     letter-spacing: 2px;
@@ -576,9 +582,67 @@ a:hover {
 }
 /* End of WebCifar Code */
 
-.projects .right a:hover {
+#projects .right a:hover {
     background-color:#fff;
-    color:#1E90FF;
+    color:#00DDB8;
+}
+
+/*====== CONTACT ME ======*/
+
+#contactme {
+    padding-top: 1.5rem;
+    /* background Image full page - https://css-tricks.com/perfect-full-page-background-image/ */
+    background: url('../img/background.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: bottom;
+    border-bottom: 100px;
+}
+
+#contactme .section-heading {
+    padding-bottom: 6rem;
+}
+
+#contactme .section-heading:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 30%; 
+    padding-top: 20px; 
+    border-bottom: 2px solid #00DDB8;
+}
+
+#contactme .jumbotron {
+    width: 50%;
+    display: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4rem;
+    margin-bottom: 5rem;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+#contactme .btn {
+    margin-top: 1rem;
+    border-radius: 10px;
+    background-color: #00DDB8;
+}
+
+#contactme .btn:hover {
+    background-color: #fff;
+    color: #00DDB8;
+}
+
+#contactme .contact-info {
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
 }
 
 /*====== FOOTER ======*/

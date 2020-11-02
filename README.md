@@ -26,13 +26,10 @@ The website should allow it's users to automatically identify the reason for why
 - The overall projec will have a black background.
 - The two main contrasting colours for the project is blue green and blue with white texts.
 
-<br>
-
 ### Fonts 
 - Montserrat is the font used for the body, it looks clean and professional.
 - Roboto is the secondary font - used mainly for headings.
-
-<br>
+- Sans serif is the fallback font should the fonts be imported incorrectly.
 
 ### Opening the website: 
 
@@ -41,8 +38,6 @@ The website should allow it's users to automatically identify the reason for why
 - The website should be consistent and objective. It should avoid straying away from promoting the candidate, this may create confusion. 
 
 - The website's main page must navigate to relevant information, either by scrolling up and down or using the navigation links in the navbar. 
-
-<br>
 
 ### About Me:
 
@@ -56,8 +51,6 @@ The website should allow it's users to automatically identify the reason for why
 
 [Click Here - Timeline Wireframe](assets/readMe/timeline.png) 
 
-<br>
-
 ### Transparent Sticky-Navbar: 
 
 - If at any point the user should find themselves lost whilst navigating the website, they should be able to return to the home page or to the page they would like to view easily. 
@@ -67,8 +60,6 @@ The website should allow it's users to automatically identify the reason for why
 - At no point should the navbar distract the user from the information provided on the candidate's website. Hence, it should be transparent.
 
 [Click Here - Sticky Navbar Wireframe](assets/readMe/sticky-navbar.png)
-
-<br>
 
 ### Contact Form: 
 
@@ -80,8 +71,6 @@ The website should allow it's users to automatically identify the reason for why
 
 [Click here - Contact Me Wireframe](assets/readMe/contact-me.png)
 
-<br>
-
 ### Projects: 
 
 - This section of the website will be implemented through a separate html page.
@@ -92,8 +81,6 @@ The website should allow it's users to automatically identify the reason for why
 
 [Click Here - Projects Wireframe](assets/readMe/projects.png)
 
-<br>
-
 ### Footer:
 
 - When reaching the end point of the website, there may be a further queries users would like to ask the candidate. The 'contact me' feature should be present in preparation for this.
@@ -103,7 +90,7 @@ The website should allow it's users to automatically identify the reason for why
 [Click Here - Footer Wireframe](assets/readMe/footer.png)
 
 - Buttons coded above the footer instead of within it
-  
+
 <br>
 
 ## Features
@@ -114,8 +101,6 @@ The website should allow it's users to automatically identify the reason for why
 - There should be some sort of indicator or animation that can confirm whenever the user is hovering over a button or clicking on it when using a computer or desktop.
 - It should shrink it's windows and align items correctly when the user is minimzing the window or using a mobile phone. 
 - The website should function accordingly in modern web browsers.
-  
-<br>
 
 ### Interactive: 
 
@@ -136,14 +121,10 @@ The website should allow it's users to automatically identify the reason for why
 ### Languages
 -  [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -  [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-
-<br>
   
 ### IDE
 - [VScode:](https://code.visualstudio.com/) - The IDE used to code the website. 
 - VSCode extension: [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-
-<br>
 
 ### Frameworks, Libraries, CDN's
 1. [AOS:](https://michalsnik.github.io/aos/) 
@@ -174,8 +155,6 @@ The website should allow it's users to automatically identify the reason for why
 3. Scrolling down until you reach "Github pages" 
 4. There is a heading named "Source". There is a button underneath it. Click on that button and change it from "none" to "main". Then click "save"
 5. Once the page refreshes, you will have to scroll down to "Github Pages". The published [site](https://wyne-ybanez.github.io/personal-portfolio-master/) with the link should be there.   
-   
-<br>
 
 ### Forking the Repository
 
@@ -184,8 +163,6 @@ You can fork the repository through the following steps. Forking the repository 
 1. Log in to GitHub and locate the GitHub Repository
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu. Looking towards the right of the page. Locate the button "Fork" then click 
 3. You should now have a copy of the original repository in your GitHub account
-
-<br>
 
 ### Local Clone
 
@@ -212,11 +189,9 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 
 <br>
 
-# Credits
+## Credits
 
-<br>
-
-## Code 
+### Code 
 
 ### Some of this code may have been Editted and Modified for the purpose of the project.
 
@@ -237,25 +212,19 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 - Debug solution for unconnected underline after icon. [Click Here](assets/tests/social-link-error.png) for image of the bug : https://stackoverflow.com/questions/33835756/after-including-bootstrap-icons-get-weird-underline
 - Styling from WebCifar for Options Section near the footer: https://github.com/WebCifar/one-page-website-html-css-project-for-practice/blob/master/style.css
 - WebCifar's code used for the Projects Section design: https://codepen.io/Web_Cifar/pen/dyXNVep
-  
-<br>
 
-## Content
+### Content
 - Index.html content was created originally
 - Using [Hubspot's blog](https://blog.hubspot.com/marketing/best-website-designs-list) website's content for project.html projects
 
-<br>
-
-## Media 
+### Media 
 
 - Image for Banner/Hero Section obtained from [Unsplash](unsplash.com)
 - Image for About Me Section is original
 - Images for projects section obtained from [Hubspot's Blog](https://blog.hubspot.com/marketing/best-website-designs-list)
 - Timeline Ending image obtained from [Daily tuition](https://github.com/akashyap2013/PortFolio_Website)
 
-<br>
-
-## Acknowledgements
+### Acknowledgements
 
 - One page style website, About me section design, Project Section styling and Footer design inspired by WebCifar (Shaif Arfan).
 - I received Inspiration for the social icons within the Banner section from Code Insitute Student David O' Shea: https://www.grahamsweeney.ie/ 
