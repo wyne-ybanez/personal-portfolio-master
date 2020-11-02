@@ -1,6 +1,6 @@
 # Code Institute MS1: Personal Portfolio Project
 
-[View the live project here.]()
+[View the live project here.](https://wyne-ybanez.github.io/personal-portfolio-master/)
 
 ## Project Goal
 
@@ -26,23 +26,27 @@ The website should allow it's users to automatically identify the reason for why
 - The overall projec will have a black background.
 - The two main contrasting colours for the project is blue green and blue with white texts.
 
+<br>
+
 ### Fonts 
 - Montserrat is the font used for the body, it looks clean and professional.
 - Roboto is the secondary font - used mainly for headings.
 
+<br>
+
 ### Opening the website: 
 
-![Hero-Image-Demo](assets/readMe/hero-img.png)
+[Click Here - Hero Image Wireframe](assets/readMe/hero-img.png)
 
 - The website should be consistent and objective. It should avoid straying away from promoting the candidate, this may create confusion. 
 
 - The website's main page must navigate to relevant information, either by scrolling up and down or using the navigation links in the navbar. 
-  
-- As a user or recruiter would like to know about the candidate, their personality/ their experience and skills. This should be on the website & users should be able to find this quickly and easily.
+
+<br>
 
 ### About Me:
 
-![About-Demo](assets/readMe/about-me.png)
+[Click Here - About me Wireframe](assets/readMe/about-me.png)
 
 - This section of the page will have a call to action buttons, mainly to project.html and contactme.html. 
   
@@ -50,13 +54,11 @@ The website should allow it's users to automatically identify the reason for why
 
 ### Work History Timeline: 
 
-![Timeline-Demo](assets/readMe/timeline.png) 
+[Click Here - Timeline Wireframe](assets/readMe/timeline.png) 
 
 <br>
 
 ### Transparent Sticky-Navbar: 
-
-- Navigation Bar Code mainly deriving from Bootstrap. 
 
 - If at any point the user should find themselves lost whilst navigating the website, they should be able to return to the home page or to the page they would like to view easily. 
 
@@ -64,7 +66,7 @@ The website should allow it's users to automatically identify the reason for why
 
 - At no point should the navbar distract the user from the information provided on the candidate's website. Hence, it should be transparent.
 
-![Sticky-Navbar-Demo](assets/readMe/sticky-navbar.png)
+[Click Here - Sticky Navbar Wireframe](assets/readMe/sticky-navbar.png)
 
 <br>
 
@@ -76,7 +78,7 @@ The website should allow it's users to automatically identify the reason for why
   
 - This will go into a separate html page.
 
-![Contact-me-Demo](assets/readMe/contact-me.png)
+[Click here - Contact Me Wireframe](assets/readMe/contact-me.png)
 
 <br>
 
@@ -84,11 +86,13 @@ The website should allow it's users to automatically identify the reason for why
 
 - This section of the website will be implemented through a separate html page.
   
-- It will display 5 projects. The projects will for the mean time link to external third-party websites however, in future I will link my other completed projects to this section.
+- It will display 4 projects. The projects will for the mean time link to external third-party websites however, in future I will link my other completed projects to this section.
 
-- It will consist of 5 projects supported by descriptive text at the side.
+- It will consist of 4 projects supported by descriptive text at the side.
 
-![Projects-Demo](assets/readMe/projects.png)
+[Click Here - Projects Wireframe](assets/readMe/projects.png)
+
+<br>
 
 ### Footer:
 
@@ -96,10 +100,10 @@ The website should allow it's users to automatically identify the reason for why
 
 - The footer should have the relevant social links and buttons. These can help users/recruiters to research candidate further to discover more about them. 
 
-- If users would like to read back over information in the previous sections. The footer should allow me to return to the relevant pages ie. Home page.
+[Click Here - Footer Wireframe](assets/readMe/footer.png)
 
-![Footer-Demo](assets/readMe/footer.png)
-
+- Buttons coded above the footer instead of within it
+  
 <br>
 
 ## Features
@@ -107,32 +111,23 @@ The website should allow it's users to automatically identify the reason for why
 ### Responsive: 
 
 - The website should be responsive and confirm all interactions. 
-
 - There should be some sort of indicator or animation that can confirm whenever the user is hovering over a button or clicking on it when using a computer or desktop.
-
 - It should shrink it's windows and align items correctly when the user is minimzing the window or using a mobile phone. 
+- The website should function accordingly in modern web browsers.
   
 <br>
 
 ### Interactive: 
 
 - The user should be able to interact with the website and function according to the given text
-- I.E. Clicking on 'Contact Me' should bring the user to 'contact.html'
+  i.e. Clicking on 'Contact Me' should bring the user to 'contact.html'.
+- Fade animations should be present on accordingly as the user scrolls down.
   
 <br>
+
+## Testing 
   
-## Changes 
-- (Banner Section) First I began to use the banner image of my profile picture however, I opted instead for the picture of the aurora borealis. 
-
-- (About Section) Originally there was a wireframe for a progresion bar feature in the 'About me' section. I decided to remove the progression bar feature.
-
-- This was the perfect blend of light blue, blue, white and dark which complimented each other to form a beautiful spectacle. I then used this overall theme for the website.
-
-- (testimonial.html) I initially wanted to create a 'testimonial.html' and place the projects.html inside the main body of index.html. The testimonials have instead moved to index.html above the footer.
-
-- I was planning to convey his via a carousel feature. I opted instead to create projects.html as a separate file, replacing the testimonial.html idea. I thought the projects would clutter the main page and make it too long.
-
-![testimonial-Demo](assets/readMe/testimonial.png)
+- I have added the testing onto a separate .md file, here is the [Testing link](TESTS.md)
 
 <br>
 
@@ -141,10 +136,14 @@ The website should allow it's users to automatically identify the reason for why
 ### Languages
 -  [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -  [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+<br>
   
 ### IDE
 - [VScode:](https://code.visualstudio.com/) - The IDE used to code the website. 
 - VSCode extension: [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+<br>
 
 ### Frameworks, Libraries, CDN's
 1. [AOS:](https://michalsnik.github.io/aos/) 
@@ -168,18 +167,102 @@ The website should allow it's users to automatically identify the reason for why
 
 ## Deployment
 
+### Github
 
-## Credits
-1. Using these website's content for project.html
-- https://blog.hubspot.com/marketing/best-website-designs-list
-## Content 
-(written content like wikipedia)
+1. Log into Github and Locate the relevant repository. In this case '[personal-portfolio-master](https://github.com/wyne-ybanez/personal-portfolio-master)'  
+2. Click on the settings buttons on the horizontal menu
+3. Scrolling down until you reach "Github pages" 
+4. There is a heading named "Source". There is a button underneath it. Click on that button and change it from "none" to "main". Then click "save"
+5. Once the page refreshes, you will have to scroll down to "Github Pages". The published [site](https://wyne-ybanez.github.io/personal-portfolio-master/) with the link should be there.   
+   
+<br>
+
+### Forking the Repository
+
+You can fork the repository through the following steps. Forking the repository means you will have a copy of the repository and any changes you make will not affect the original repository.
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu. Looking towards the right of the page. Locate the button "Fork" then click 
+3. You should now have a copy of the original repository in your GitHub account
+
+<br>
+
+### Local Clone
+
+1. Log in to GitHub and locate the relevant repository. In this case [personal-portfolio-master](https://github.com/wyne-ybanez/personal-portfolio-master)
+2. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link
+3. Open a new terminal on Git Bash
+4. Type `git clone`, and then paste the URL you copied in Step 2
+
+```
+$ git clone https://github.com/wyne-ybanez/personal-portfolio-master
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/wyne-ybanez/personal-portfolio-master
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+ Here is a link that can explain this process further. [Click Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop)
+
+<br>
+
+# Credits
+
+<br>
+
+## Code 
+
+### Some of this code may have been Editted and Modified for the purpose of the project.
+
+- Boostrap Library used for overall site reponsiveness: https://getbootstrap.com/
+- Animate on Scroll used throughout the entire website: https://michalsnik.github.io/aos/
+- Hover Animation for the Navbar: https://github.com/IanLunn/Hover/blob/master/css/hover.css
+- Transparent Navbar Code from Stack Overflow: https://stackoverflow.com/questions/16453537/bootstrap-transparent-navbar 
+- How to keep the navbar sticky: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+- Transparent Navbar with scroll effect when scrolling solution: https://stackoverflow.com/questions/29646622/set-bootstrap-navbar-transparency-on-scroll
+- Solution For Visible Navbar Toggler: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color
+- Background Image full page: https://css-tricks.com/perfect-full-page-background-image/
+- To darken the background image: https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css/36390220
+- About Me second border behind the main image: https://github.com/WebCifar/one-page-website-html-css-project-for-practice
+- Work History Timeline: https://www.w3schools.com/howto/howto_css_timeline.asp
+- Bootstrap Carousel for Testimonials: https://getbootstrap.com/docs/4.5/components/carousel/
+- Adam Sky's code solution to center icons for the footer: https://github.com/Adamsky94/milestone1/blob/master/index.html
+- Underlining the Heading with adjustable border: https://www.steckinsights.com/shorten-length-border-bottom-pure-css/
+- Debug solution for unconnected underline after icon. [Click Here](assets/tests/social-link-error.png) for image of the bug : https://stackoverflow.com/questions/33835756/after-including-bootstrap-icons-get-weird-underline
+- Styling from WebCifar for Options Section near the footer: https://github.com/WebCifar/one-page-website-html-css-project-for-practice/blob/master/style.css
+- WebCifar's code used for the Projects Section design: https://codepen.io/Web_Cifar/pen/dyXNVep
+  
+<br>
+
+## Content
+- Index.html content was created originally
+- Using [Hubspot's blog](https://blog.hubspot.com/marketing/best-website-designs-list) website's content for project.html projects
+
+<br>
+
 ## Media 
-(Where the photos were obtained from)
-### Acknowledgements
 
-I received Inspiration for the social icons within the Banner section from Code Insitute Student David O' Shea <<https://www.grahamsweeney.ie/>> 
-(I received inspiration of this project from)
+- Image for Banner/Hero Section obtained from [Unsplash](unsplash.com)
+- Image for About Me Section is original
+- Images for projects section obtained from [Hubspot's Blog](https://blog.hubspot.com/marketing/best-website-designs-list)
+- Timeline Ending image obtained from [Daily tuition](https://github.com/akashyap2013/PortFolio_Website)
+
+<br>
+
+## Acknowledgements
+
+- One page style website, About me section design, Project Section styling and Footer design inspired by WebCifar (Shaif Arfan).
+- I received Inspiration for the social icons within the Banner section from Code Insitute Student David O' Shea: https://www.grahamsweeney.ie/ 
+- Timeline Section inspired by Code Institute: https://codeinstitute.net/
+- My Mentor for continuous feedback
+- Tutors at Code Institute for their on-going support
+
 
 
 

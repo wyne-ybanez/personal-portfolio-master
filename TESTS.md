@@ -54,3 +54,7 @@ projects.html bug discovered. The page has 2 scroll bars which is inconvenient f
 
 - Forgot to type in closing section tag 
 - '/section'
+
+## Further Testing
+
+## Known Bugs
