@@ -177,11 +177,11 @@ a:hover {
 /*====== ABOUT ME ======*/
 
 #about-me {
-    padding-bottom: 11rem;
+    padding-bottom: 9rem;
 }
 
 #about-me .section-heading {
-    margin: 8rem 0 6rem 0;
+    margin: 8rem 0 4rem 0;
 
 }
 
@@ -196,7 +196,7 @@ a:hover {
 }
 
 #about-me h5 {
-    padding: 3rem 6rem 2.5rem 4rem;
+    padding: 1rem 6rem 2.5rem 4rem;
 }
 
 #about-me .aboutme-img-container {
@@ -207,9 +207,10 @@ a:hover {
 }
 
 #about-me .aboutme-img {
+    margin-top: 2rem;
     border: 10px solid #00DDB8;
     width: 98%;
-    height: 98%;
+    height: 70%;
     margin-right: 3rem;
 }
 
@@ -218,16 +219,15 @@ a:hover {
     content:'';
     position: absolute;
     left: -33px;
-    bottom: 30px;
-    height: 98%;
+    bottom: 70px;
+    height: 70%;
     width: 98%;
     border: 9px solid #1E90FF;
     z-index: -1;
 }
 
 .projects-cta {
-    display: flex;
-    padding: 10px 30px;
+    padding: 10px 20px;
     color: white;
     border-radius: 100px;
     font-size: 1rem;
@@ -248,8 +248,7 @@ a:hover {
 
 .contactme-cta {
     background-color: #00DDB8;
-    display: flex;
-    padding: 10px 30px;
+    padding: 10px 20px;
     color: white;
     border-radius: 100px;
     font-size: 1rem;
@@ -275,7 +274,7 @@ a:hover {
 /*====== TIMELINE  ======*/
 
 #history {
-    padding-bottom: 11rem;
+    padding-bottom: 9rem;
 }
 
 #history .section-heading:after{
@@ -473,15 +472,15 @@ a:hover {
 
 /*====== PROJECTS ======*/
 
-#projects {
-    padding-top: 9rem;
+.projects {
+    padding-top: 1.5rem;
 }
 
-#projects .section-heading {
-    padding-bottom: 3rem;
+.projects .section-heading {
+    padding-bottom: 6rem;
 }
 
-#projects .section-heading:after {
+.projects .section-heading:after {
     content: ""; 
     display: block; 
     margin: 0 auto; 
@@ -491,26 +490,56 @@ a:hover {
 }
 
 /* WebCifar's code - Modified: https://codepen.io/Web_Cifar/pen/dyXNVep */
-#projects .container {
+.projects .container {
     width: 90%;
     max-width: 1000px;
-    margin: 50px auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 5rem;
 }
 
-#projects .left {
-    width: 50%;
+.projects .left {
+    width: 70%;
     height: 30rem;
-    background: url(https://images.unsplash.com/photo-1559595500-e15296bdbb48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80)
+    background: url(https://blog.hubspot.com/hs-fs/hubfs/frans-hals-museum-best-website-design-2018.png?width=690&name=frans-hals-museum-best-website-design-2018.png)
     no-repeat center / cover;
     border-radius: 8px; 
     border: solid #fff;
     border-width: 3px;
 }
 
-#projects .right {
+.projects .left-2 {
+    width: 70%;
+    height: 30rem;
+    background: url(https://blog.hubspot.com/hs-fs/hubfs/00-Blog-Related_Images/blog/images/Screen_Shot_2015-08-04_at_5.16.53_PM.png?width=667&height=353&name=Screen_Shot_2015-08-04_at_5.16.53_PM.png)
+    no-repeat center / cover;
+    border-radius: 8px; 
+    border: solid #fff;
+    border-width: 3px;
+}
+
+.projects .left-3 {
+    width: 70%;
+    height: 30rem;
+    background: url(https://blog.hubspot.com/hs-fs/hubfs/rainforest-guardians-best-website-design-2016.jpg?width=690&name=rainforest-guardians-best-website-design-2016.jpg)
+    no-repeat center / cover;
+    border-radius: 8px; 
+    border: solid #fff;
+    border-width: 3px;
+}
+
+.projects .left-4 {
+    width: 70%;
+    height: 30rem;
+    background: url(https://blog.hubspot.com/hs-fs/hubfs/1917%20homepage.png?width=1395&name=1917%20homepage.png)
+    no-repeat center / cover;
+    border-radius: 8px; 
+    border: solid #fff;
+    border-width: 3px;
+}
+
+.projects .right {
     width: 50%;
     min-height: 400px;
     background-color:#00DDB8;
@@ -523,19 +552,19 @@ a:hover {
     margin-left: -150px;
 }
 
-#projects .right h1 {
+.projects .right h1 {
     font-size: 40px;
     font-weight: lighter;
 }
 
-#projects .right p {
+.projects .right p {
     margin: 20px 0;
     font-weight: 500;
     line-height: 25px;
 }
 
 /* Change media query for mobile phone use  */
-#projects .right a {
+.projects .right a {
     text-decoration: none;
     text-transform: uppercase;
     background-color: #1E90FF;
@@ -543,13 +572,13 @@ a:hover {
     padding: 15px 30px;
     display: inline-block;
     letter-spacing: 2px;
-    margin-left: 7.7rem;
+    margin-left: 9.2rem;
 }
 /* End of WebCifar Code */
 
-#projects .right a:hover {
-    background-color: #fff;
-    color: #000;
+.projects .right a:hover {
+    background-color:#fff;
+    color:#1E90FF;
 }
 
 /*====== FOOTER ======*/
