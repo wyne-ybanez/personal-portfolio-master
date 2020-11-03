@@ -210,7 +210,7 @@ a:hover {
     margin-top: 2rem;
     border: 10px solid #00DDB8;
     width: 98%;
-    height: 70%;
+    height: 98%;
     margin-right: 3rem;
 }
 
@@ -219,8 +219,8 @@ a:hover {
     content:'';
     position: absolute;
     left: -33px;
-    bottom: 70px;
-    height: 70%;
+    bottom: 18px;
+    height: 98%;
     width: 98%;
     border: 9px solid #1E90FF;
     z-index: -1;
@@ -382,7 +382,6 @@ a:hover {
   
 .timeline .content {
     padding: 20px 30px;
-    background-color: gray;
     position: relative;
     border-radius: 6px;
 }
@@ -433,9 +432,6 @@ a:hover {
 }
 /*====== OPTIONS ======*/
 /* Coding from WebCifar - Editted & Modified: https://github.com/WebCifar/one-page-website-html-css-project-for-practice/blob/master/style.css */
-.options{
-    color: #fff;
-}
 .options .options-selection {
     width: 100%;
     display: flex;
@@ -450,7 +446,7 @@ a:hover {
     justify-content: center;
     display: flex;
     padding: 10px 30px;
-    color: white;
+    color:#fff;
     border-radius: 100px;
     font-size: 1rem;
     text-transform: uppercase;
@@ -474,7 +470,12 @@ a:hover {
 #projects {
     padding-top: 1.5rem;
     /* background Image full page - https://css-tricks.com/perfect-full-page-background-image/ */
-    background: url('../img/background.jpeg') no-repeat center center fixed;
+    /* To darken the background image - https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css/36390220 */
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.9)
+        ), 
+    url('../img/background.jpeg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -592,7 +593,12 @@ a:hover {
 #contactme {
     padding-top: 1.5rem;
     /* background Image full page - https://css-tricks.com/perfect-full-page-background-image/ */
-    background: url('../img/background.jpeg') no-repeat center center fixed;
+    /* To darken the background image - https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css/36390220 */
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.9)
+        ), 
+    url('../img/background.jpeg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -615,20 +621,23 @@ a:hover {
 }
 
 #contactme .jumbotron {
-    width: 50%;
-    display: column;
+    width: 100%;
+    display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 4rem;
     margin-bottom: 5rem;
     border: 2px solid #fff;
     border-radius: 10px;
+    background: transparent;
 }
 
 #contactme .btn {
-    margin-top: 1rem;
+    margin-top: 1.5em;
     border-radius: 10px;
     background-color: #00DDB8;
+    color: #fff;
+    width: 100%;
 }
 
 #contactme .btn:hover {
