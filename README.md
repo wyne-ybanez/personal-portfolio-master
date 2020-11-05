@@ -6,17 +6,31 @@
 
 This project aims to portray a junior software developer in the best light personally, technically and professionally. It should show the personality of the person, what skills and experience they have obtained throughtout their professional life as a developer. The project ultimately intends to pitch the junior developer as an asset to hiring businesses/companies. 
 
+For the purpose of this project, the content used to portray the candidate's potential will be fictional. 
+
 ## UX 
 
-The website should allow it's users to automatically identify the reason for why the website was created. In this case, the website is created to appeal to users, recruiters and hiring managers.
+- ### User Stories:
 
-- As a recruiter I will have had worked through many resumes in order to find the right candidate. I would want a resume or website resume that can catch my attention from the get and maintain it. 
+- ### First Time Visitor Goals:
+
+  1. I would like to know the purpose for the creation of the website from the first instance of opening it.
+  2. I would greatly appreciate it if the website were easy to navigate.
+  3. I expect the website to display relevant content and stay consistently relevant as I explore the site.
+  4. I would appreciate it if my interactions with the site were acknowledged so that I know what I am doing and where I am going. 
+  5. I would like the content to be structured and easy to follow.
   
-- As a user I would appreciate a website that would be easy to navigate. 
+- ### Returning Visitor Goals:
+  
+  1. I would like to see in-depth information to the website with regards to how the candidate is improving in his ability to code. 
+  2. I would like to see if the candidate has completed any coding experience with other businesses.
+  3. I would like to it if there were a way to contact the candidate and find out more information.
 
-- As a user I would also prefer if the website can communicate the reasoning for its creation from the first instance of perceiving it.
-
-- All interactions and buttons should be responsive, whether I am viewing the website from a mobile phone or hovering over the buttons with a cursor. There should be a indication to confirm what I am doing.
+- ### Frequent Visitor Goals: 
+  
+  1. I would like to check if the candidate is working on any projects.
+  2. I want to be able to contact the candidate quickly.
+  3. I want to be able to navigate to any section of the website in order to read it in more detail.
 
 <br>
 
@@ -31,13 +45,18 @@ The website should allow it's users to automatically identify the reason for why
 - Roboto is the secondary font - used mainly for headings.
 - Sans serif is the fallback font should the fonts be imported incorrectly.
 
+### Separated pages 
+- Separate pages such as contactme.html and projects.html will have a background with a dark linear gradiet. This avoids distraction.
+- Making it darker like index.html but also having a unique image in the back to make the page interesting rather than have it all black.
+  
+
 ### Opening the website: 
 
 [Click Here - Hero Image Wireframe](assets/readMe/hero-img.png)
 
 - The website should be consistent and objective. It should avoid straying away from promoting the candidate, this may create confusion. 
 
-- The website's main page must navigate to relevant information, either by scrolling up and down or using the navigation links in the navbar. 
+![Screenshot-Hero](assets/readMe/hero-sc.png)
 
 ### About Me:
 
@@ -46,50 +65,58 @@ The website should allow it's users to automatically identify the reason for why
 - This section of the page will have a call to action buttons, mainly to project.html and contactme.html. 
   
 - Should at any point the user feels that they would like to see my projects or contact me. This shortcut shall be provided. 
+  
+![Screenshot-Aboutme](assets/readMe/aboutme-sc.png)
 
 ### Work History Timeline: 
 
 [Click Here - Timeline Wireframe](assets/readMe/timeline.png) 
 
+- Time line of past work experience.
+  
+![Screenshot-Timeline](assets/readMe/timeline-sc.png)
+
 ### Transparent Sticky-Navbar: 
+
+[Click Here - Sticky Navbar Wireframe](assets/readMe/sticky-navbar.png)
 
 - If at any point the user should find themselves lost whilst navigating the website, they should be able to return to the home page or to the page they would like to view easily. 
 
 - Users should be able to traverse to any section of the website at any point in time.
 
-- At no point should the navbar distract the user from the information provided on the candidate's website. Hence, it should be transparent.
-
-[Click Here - Sticky Navbar Wireframe](assets/readMe/sticky-navbar.png)
-
 ### Contact Form: 
-
-- It would be efficient if there was a way for users to contact the candidate at any point of whilst traversing their website.
-
-- This feature will require the user to input their contact details. Namely, the email address and name. If the candidate should ever respond, he/she will then know where/who the response is going to. 
-  
-- This will go into a separate html page.
 
 [Click here - Contact Me Wireframe](assets/readMe/contact-me.png)
 
+- It would be efficient if there was a way for users to contact the candidate at any point of whilst traversing their website. There is a button placed on the navbar to help with this.
+- This feature will require the user to input their contact details via a contact form. 
+- Name and the email address is required. 
+- If the candidate should ever respond, he/she will then know where/who the response is going to. 
+
+![Screenshot - Contact Me](assets/readMe/contactme-sc.png)
+
 ### Projects: 
 
-- This section of the website will be implemented through a separate html page.
+[Click Here - Projects Wireframe](assets/readMe/projects.png)
   
 - It will display 4 projects. The projects will for the mean time link to external third-party websites however, in future I will link my other completed projects to this section.
 
 - It will consist of 4 projects supported by descriptive text at the side.
 
-[Click Here - Projects Wireframe](assets/readMe/projects.png)
+![Screenshot - Projects](assets/readMe/projects-sc.png)
 
 ### Footer:
 
-- When reaching the end point of the website, there may be a further queries users would like to ask the candidate. The 'contact me' feature should be present in preparation for this.
-
-- The footer should have the relevant social links and buttons. These can help users/recruiters to research candidate further to discover more about them. 
-
 [Click Here - Footer Wireframe](assets/readMe/footer.png)
+- 3 buttons, to return to the top of the page, to check candidates projects, to contact the candidate.
+  
+- When reaching the end point of the website, there may be a further queries users would like to ask the candidate or know more about. 
+  
+- The 'contact me' and 'projects' buttons are present in preparation for this.
 
-- Buttons coded above the footer instead of within it
+- The footer should have the relevant social links and buttons. These can help users/recruiters to research candidate further. 
+
+![Screenshot - Footer](assets/readMe/footer-sc.png)
 
 <br>
 
@@ -107,6 +134,13 @@ The website should allow it's users to automatically identify the reason for why
 - The user should be able to interact with the website and function according to the given text
   i.e. Clicking on 'Contact Me' should bring the user to 'contact.html'.
 - Fade animations should be present on accordingly as the user scrolls down.
+  
+### Convenient: 
+
+- The user should be able to navigate the website at any point in time.
+- The content of the website should stay relevant and appropriate. 
+- The buttons leading to separate pages should appear in good time in preparation for the user's desire to know more about the candidate.
+- The content should be clear and presented without any distractions. The user should know where and what part of the website they are reading/exploring.
   
 <br>
 
@@ -219,7 +253,7 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 
 ### Media 
 
-- Image for Banner/Hero Section obtained from [Unsplash](unsplash.com)
+- Image for Banner Section obtained from [Unsplash](unsplash.com)
 - Image for About Me Section is original
 - Images for projects section obtained from [Hubspot's Blog](https://blog.hubspot.com/marketing/best-website-designs-list)
 - Timeline Ending image obtained from [Daily tuition](https://github.com/akashyap2013/PortFolio_Website)
@@ -229,7 +263,7 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 - One page style website, About me section design, Project Section styling and Footer design inspired by WebCifar (Shaif Arfan).
 - I received Inspiration for the social icons within the Banner section from Code Insitute Student David O' Shea: https://www.grahamsweeney.ie/ 
 - Timeline Section inspired by Code Institute: https://codeinstitute.net/
-- My Mentor for continuous feedback
+- My Mentor Dick Vlaanderen for his continuous feedback
 - Tutors at Code Institute for their on-going support
 
 
