@@ -1,13 +1,9 @@
-<!------------------------ CITATIONS --------------------------->
-<!-- Google Fonts: https://fonts.google.com/specimen/Montserrat?sidebar.open=true&selection.family=Montserrat:wght@300;400;700|Roboto:wght@300;400;700&query=Monts -->
-<!-- Animate on Scroll: https://michalsnik.github.io/aos/ -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>Wyne's Personal Website</title>
         <!-- Boostrap CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -20,7 +16,7 @@
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
-    <!------- Navbar ------->
+    <!-- Navbar -->
         <!-- Transparent Navbar: https://stackoverflow.com/questions/16453537/bootstrap-transparent-navbar -->
     <section class="header container-fluid">
                 <nav class="navbar navbar-expand-lg sticky-top">
@@ -57,9 +53,9 @@
                         </ul>
                     </div>
                 </nav>
-    <!------- End of Navbar ------->
+    <!-- End of Navbar -->
 
-    <!------- Banner Section ------->
+    <!-- Banner Section -->
     <div class="bg-container">
         <div id="hero">
             <h1 class="hero-h1" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1200">
@@ -89,9 +85,9 @@
             </div>
         </div>
     </section>
-    <!------- End of Banner Section ------->
+    <!-- End of Banner Section -->
 
-    <!------- About Me  ------->
+    <!-- About Me  -->
     <!-- Edit Media Query for mobile -->
     <section class="container-fluid about-me"> 
         <div id="about-me">
@@ -99,6 +95,7 @@
             <div class="col-12">
                 <h1 class="section-heading text-uppercase text-light">About me</h1>
             </div>
+
             <div class="row no-gutters">
                 <div class="col-md-4 col-sm-12 aboutme-img-container" data-aos="fade-right">
                     <img src="assets/img/aboutme.jpg" class="aboutme-img img-fluid" alt="About Me Image">
@@ -108,24 +105,53 @@
                             I've recently graduated from University. I have worked in 
                             retail and hospitality for a number of years. Ever since I started on Software Development, 
                             I have not looked back.
-                        <p></p>
-                            I am currently learning new technologies in relation to Full-Stack Developement. These will
-                            include languages such as HTML, CSS, Bootstrap, JavaScript, Python, Jquery, Django, SQL, Flask. 
+                        <br><br>
+                            Along with HTML, CSS and Bootstrap. I am currently learning new technologies in relation to Full-Stack Developement. These will
+                            include JavaScript, Python, Jquery, Django, SQL, Flask. 
                             I am an ambitious candidate and I hope to develop my skills even further.
                             I am currently attending Code Institute.
                             I believe I can be of benefit to you and your organization. 
-                        <p></p>
-                            <a href="projects.html" target="_blank" type="button" class="projects-cta btn btn-primary">Projects</a> 
-                            <a href="contactme.html" target="_blank" type="button" class="contactme-cta btn">Contact Me</a>
+                        <br>
+                            <a href="projects.html" target="_blank" class="projects-cta btn btn-primary">Projects</a> 
+                            <a href="contactme.html" target="_blank" class="contactme-cta btn">Contact Me</a>
                         </h5>
+                </div>
+
+                <div class="col-10 offset-2">
+                    <div class="progress-section">
+                        <div class="progress">
+                            <h5 style="width: 12%;">HTML5</h5>
+                            <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                <span class="sr-only">75% complete</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <h5 style="width: 12%;">CSS3</h5>
+                            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                <span class="sr-only">80% complete</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <h5 style="width: 12%;">Bootstrap</h5>
+                            <div class="progress-bar" role="progressbar" style="width: 45%;"  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <span class="sr-only">55% complete</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <h5 style="width: 12%;">JavaScript</h5>
+                            <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                <span class="sr-only">65% complete</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         </div>
     </section>
-    <!------- End of About Me ------->
+    <!-- End of About Me -->
     
-    <!------- Work History Timeline ------->
+    <!-- Work History Timeline -->
     <section class="container-fluid history">
         <div id="history">
         <div class="row no-gutters">
@@ -179,9 +205,9 @@
         </div>
         </div>
     </section>
-    <!------- End of Timeline  ------->
+    <!-- End of Timeline  -->
 
-    <!------- Testimonials  ------->
+    <!-- Testimonials  -->
     <!-- Bootstrap Carousel Code - Modified: https://getbootstrap.com/docs/4.5/components/carousel/ -->
     <section class="container-fluid testimonials">
         <div id="testimonials">
@@ -205,7 +231,7 @@
                             He was actively communicating through the entire project and was super flexible
                             with the fetures we wanted to add to the site. We cannot 
                             wait to work with him again. " 
-                            <hr>
+                            <br><br>
                             <i> - Jennifer O'Reilly, Triskel Arts Center</i>
                         </h5>
                     </div>
@@ -215,7 +241,7 @@
                             our business would continue to thrive. Wyne helped us establish an online presence through a website
                             where our customers could order from. He aligned it with our restaurant's overall theme. The website 
                             has drawn in new customers. It has given us so much hope. I would highly recommend his service to anyone. " 
-                            <hr>
+                            <br><br>
                             <i> - Lisa Powell, Pico De Gras Restaurant</i>
                         </h5> 
                 </div>
@@ -225,7 +251,7 @@
                             He assisted with our blog by analysing our website's goals, mainly 
                             of health and lifestyle guides. He refined our website completely.
                             Our blog has had significant traction since. We would like to work with him more in the future! " 
-                            <hr>
+                            <br><br>
                             <i> - Paulius Brady, Chubby Ninja Inc.</i>
                         </h5> 
                 </div>
@@ -241,29 +267,29 @@
             </div>
         </div>
     </section>
-    <!------- End of Testimonials  ------->
+    <!-- End of Testimonials  -->
 
-    <!------- Options ------->
+    <!-- Options -->
     <section class="container-fluid options">
         <div class="row">
             <div class="col-md-12 col-sm-12">
                 <div class="options-selection">
-                    <a type="button" class="options-item" href="#banner" data-after="Home" data-aos="fade-right">
+                    <a class="options-item btn" href="#banner" data-after="Home" data-aos="fade-right">
                         Home
                     </a>
-                    <a type="button" class="options-item" href="projects.html" target="_blank" data-aos="fade-right" data-aos-delay="300">
+                    <a class="options-item btn" href="projects.html" target="_blank" data-aos="fade-right" data-aos-delay="300">
                         Projects
                     </a>
-                    <a type="button" class="options-item" href="contactme.html" target="_blank" data-aos="fade-right" data-aos-delay="600">
+                    <a class="options-item btn" href="contactme.html" target="_blank" data-aos="fade-right" data-aos-delay="600">
                         Contact Me
                     </a>
                 </div>
             </div>
         </div>
     </section>
-    <!------- End of Options ------->
+    <!-- End of Options -->
 
-    <!------- Footer ------->
+    <!-- Footer --->
     <section class="container-fluid footer">
             <div class="row">
                 <div class="col-md-12">
@@ -296,9 +322,9 @@
             <br>
             <i class="fa fa-copyright text-dark">2020 Wyne Ybanez</i>
     </section>
-    <!------- End of Footer ------->
+    <!-- End of Footer -->
 
-    <!------- JS Scripts ------->
+    <!-- JS Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -306,7 +332,6 @@
     <script>
         AOS.init();
     </script>
-    <!------- End of JS Scripts ------->
+    <!-- End of JS Scripts -->
 </body>
 </html> 
-
