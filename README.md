@@ -42,12 +42,10 @@ For the purpose of this project, the content used to portray the candidate's pot
   <br>
   c. I want to be able to navigate to any section of the website in order to read it in more detail.
 
-<br>
-
 ## Design
 
 ### Colour Scheme 
-- The overall projec will have a black background.
+- The overall project will have a black background.
 - The two main contrasting colours for the project is blue green and blue with white texts.
 
 ### Fonts 
@@ -58,8 +56,6 @@ For the purpose of this project, the content used to portray the candidate's pot
 ### Separated pages 
 - Separate pages such as contactme.html and projects.html will have a background with a dark linear gradiet. This avoids distraction.
 - Making it darker like index.html but also having a unique image in the back to make the page interesting rather than have it all black.
-
-<br>
 
 ## Wireframes
 
@@ -132,8 +128,6 @@ For the purpose of this project, the content used to portray the candidate's pot
 
 [Screenshot](assets/readMe/footer-sc.png)
 
-<br>
-
 ## Features
 
 ### Responsive: 
@@ -162,14 +156,10 @@ For the purpose of this project, the content used to portray the candidate's pot
   The buttons leading to separate pages should appear in good time in preparation for the user's desire to know more about the candidate.
 
   The content should be clear and presented without any distractions. Ideally the user should know where and what part of the website they are reading/exploring.
-  
-<br>
 
 ## Testing 
   
 I have added the testing onto a separate .md file, here is the [link](TESTING.md)
-
-<br>
 
 ## Technologies used:
 
@@ -198,8 +188,6 @@ I have added the testing onto a separate .md file, here is the [link](TESTING.md
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 8. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import 'Roboto' and 'Montserrat' as the chosen styled fonts for the site.
-  
-<br>
 
 ## Deployment
 
@@ -231,8 +219,6 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 
  Here is a link that can explain this process further. [Click Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop)
 
-<br>
-
 ## Credits
 
 ### Code 
@@ -257,7 +243,7 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 
 ## Git Bash Code
 
-- I had initially started the project with a local IDE and a local username. My contributions were not counted by git because of this. The soluiton as to how to change the author/committer email and user name is found [here](https://stackoverflow.com/questions/750172/how-to-change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-gi)
+- I had initially started the project with a local IDE and a local username. My contributions were not counted by github because of this. The solution as to how to change the author/committer email and user name is found [here](https://stackoverflow.com/questions/750172/how-to-change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-gi)
   
 
 ### Content
