@@ -664,6 +664,13 @@ a:hover {
     background: transparent;
 }
 
+#contactme h2 {
+    text-decoration: underline;
+    text-align: center;
+    visibility: hidden;
+    padding-top: 0;
+}
+
 #contactme .btn {
     margin-top: 1.5em;
     border-radius: 10px;
@@ -717,6 +724,7 @@ a:hover {
 }
 
 /*====== Media queries - Mobile Phones ======*/
+
 @media screen and (max-width: 600px) { 
     
     .navbar {
@@ -843,18 +851,18 @@ a:hover {
     }
 
     #testimonials .carousel-item {
-        padding:0;
+        padding:0 1rem;
     }
 
     #testimonials .carousel-control-next-icon, 
     #testimonials .carousel-control-prev-icon {
         position: relative;
-        top: 12rem;
+        top: 13rem;
     }
 
     #testimonials .carousel-indicators li {
         position: relative;
-        top: 6rem;
+        top: 8rem;
     }
 
 /*====== OPTIONS ======*/
@@ -867,13 +875,94 @@ a:hover {
     .options .options-item {
         margin: 1rem 4rem 2rem 3rem;
     }
-}
+
+/*====== PROJECTS ======*/
+
+    #projects .section-heading {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    /* WebCifar's code for Project Section Media Query - Modified - https://codepen.io/Web_Cifar/pen/dyXNVep */
+    #projects .container {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    #projects .left {
+        margin-right: 2.5rem;
+        width: 100%;
+        height: 400px;
+    }
+
+    #projects .left-2 {
+        margin-right: 2.5rem;
+        width: 100%;
+        height: 400px;
+    }
+
+    #projects .left-3 {
+        margin-right: 2.5rem;
+        width: 100%;
+        height: 400px;
+    }
+
+    #projects .left-4 {
+        margin-right: 2.5rem;
+        width: 100%;
+        height: 400px;
+    }
+
+    #projects .right {
+        width: 90%;
+        margin: -6rem 2.5rem 0 0;
+    }
+
+    #projects .right a {
+        margin-left: 4.1rem;
+    }
+
+/*====== CONTACT ME ======*/
+
+    #contactme .section-heading {
+        padding-top: 3rem;
+        padding-bottom: 0;
+    }
+
+    #contactme .jumbotron {
+        display: flex;
+        flex-direction: column;
+        border: 0;
+        padding-bottom: 0;
+        margin-bottom: 2rem;
+    }
+
+    #contactme h2 {
+        visibility: visible;
+    }
+
+    #contactme .contactme-left {
+        margin-left: .75rem;
+    }
+
+    #contactme .contact-phone,
+    #contactme .contact-email,
+    #contactme .contact-address {
+        text-align: center;
+    }
+
+    #contactme .contact-address {
+        padding-bottom: 1.5rem;
+    }
+}   
+
 
 /*====== Media Queries for Desktops ======*/
 /* @media only screen and (min-width: 768px) */
-/* WebCifar's code for Project Section - https://codepen.io/Web_Cifar/pen/dyXNVep */
 
-@media only screen and (min-width: 768px) {
+
+@media only screen and (min-width: 768px) { 
 
 #projects .container {
       flex-direction: column;
