@@ -49,6 +49,7 @@ a:hover {
     background-position: bottom;
     border-bottom: 100px;
 }
+/* End of Background Image Code */
 
 /*====== NAVBAR =======*/
 /* Transparent Navbar with scroll effect from: https://stackoverflow.com/questions/29646622/set-bootstrap-navbar-transparency-on-scroll */
@@ -62,7 +63,6 @@ a:hover {
 }
 
 .navbar.scrolled {
-    background: rgb(68, 68, 68); 
     background: rgba(0, 0, 0, 0.2); 
 }
 
@@ -81,11 +81,14 @@ a:hover {
     padding-left: 15px;
 }
 
+.navbar-brand h1 {
+    font-size: 1.5rem;
+}
+
 .nav-item {
     font-size: 20px;
     color: #fff;
 }
-
 
 /* Hover Animation Code from: https://github.com/IanLunn/Hover/blob/master/css/hover.css */
 
@@ -451,6 +454,11 @@ a:hover {
     width: 30%;
 }
 /*====== OPTIONS ======*/
+
+.options {
+    background-color: #03070A
+}
+
 /* Coding from WebCifar - Editted & Modified: https://github.com/WebCifar/one-page-website-html-css-project-for-practice/blob/master/style.css */
 .options .options-selection {
     width: 100%;
@@ -709,113 +717,157 @@ a:hover {
 }
 
 /*====== Media queries - Mobile Phones ======*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) { 
+    
+    .navbar {
+        margin-left: 0;
+    }
 
-.header {
-    height: 100vh;
+    .navbar.scrolled {
+        background: rgba(0, 0, 0, 1);
+    }
+
+    .header {
+        height: 100vh;
     }
 /*====== HERO SECTION ======*/
 
-#hero .hero-h1 {
-    padding-top: 8rem;
-    font-size: 50px;
+    #hero .hero-h1 {
+        padding-top: 8rem;
+        font-size: 50px;
     }
 
-#hero .hero-h2 {
-    font-size: 45px;
+    #hero .hero-h2 {
+        font-size: 45px;
     }
 
 /*====== ABOUT ME ======*/
 
-#about-me .aboutme-img {
-    position: relative;
-    right: 5rem;
-    margin-top: 0;
-    height: 100%;
+    #about-me .aboutme-img {
+        position: relative;
+        right: 5rem;
+        margin-top: 0;
+        height: 100%;
     }
 
-#about-me .aboutme-img-container::after {
-    visibility: hidden;
+    #about-me .aboutme-img-container::after {
+        visibility: hidden;
     }
 
-#about-me h5 {
-    padding: 1rem 2rem 2rem 2rem;
-    text-align: center;
+    #about-me h5 {
+        padding: 1rem 1rem 2rem 1rem;
+        text-align: center;
     }
 
-#about-me .projects-cta {
-    position: relative;
-    left: 4.8rem;
+    #about-me .projects-cta {
+        margin-left: 6.5rem; 
+    }   
+
+    #about-me .contactme-cta {
+        margin-left: 5.8rem;
     }
 
-#about-me .contactme-cta {
-    position: relative;
-    left: 4rem;
+    #about-me .progress h5 {
+        margin-right: 5rem;
     }
 
-#about-me .progress h5 {
-    margin-right: 5rem;
-    }
-
-#about-me {
-    padding-bottom: 4rem;
+    #about-me {
+        padding-bottom: 4rem;
     }
 /*====== TIMELINE ======*/
-/* W3Schools Timeline Media Query Modified: https://www.w3schools.com/howto/howto_css_timeline.asp */
+/* W3Schools Timeline Media Query - Modified: https://www.w3schools.com/howto/howto_css_timeline.asp */
 
-#history .timeline::after {
-    left: 7%;
-    bottom: 33rem;
+    #history {
+        padding-bottom: 4rem;
+    }
+
+    #history .timeline::after {
+        left: 13px;
+        bottom: 33rem;
     }
   
-#history .timeline .container {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
+    #history .timeline .container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
     }
 
-#history .timeline .left,
-#history .timeline .right,
-#history .timeline .bottom {
-    left: -1px;
+    #history .timeline .left,
+    #history .timeline .right,
+    #history .timeline .bottom {
+        left: -15px;
     }
 
-#history .timeline .bottom {
-    padding-top: 0;
+    #history .timeline .bottom {
+        padding-top: 0;
     }
   
-#history .timeline .container::before {
-    left: 60px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    #history .timeline .container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
     }
   
-#history .timeline .left::after, 
-#history .timeline .right::after,
-#history .timeline .bottom::after {
-    left: 15px;
+    #history .timeline .left::after, 
+    #history .timeline .right::after,
+    #history .timeline .bottom::after {
+        left: 15px;
     }
 
-#history .timeline img {
-    max-width: 50%;
+    #history .timeline img {
+        max-width: 50%;
     }
 
-#history .timeline .image {
-    left: 25%;
+    #history .timeline .image {
+        left: 25%;
     }
 
-#history .timeline .bottom-heading {
-    padding-top:0;
-    position: relative;
-    top: 0px;
+    #history .timeline .bottom-heading {
+        padding-top:0;
+        position: relative;
+        top: 0px;
     }
 
-#history .timeline .bottom-text {
-    padding: 0 1rem;
+    #history .timeline .bottom-text {
+        padding: 0 1rem;
+    }
+/*====== TESTIMONIALS ======*/
+
+    #testimonials {
+        padding-bottom: 7rem;
+    }
+
+    #testimonials .section-heading {
+        margin-bottom: 4rem;
+    }
+
+    #testimonials .carousel-item {
+        padding:0;
+    }
+
+    #testimonials .carousel-control-next-icon, 
+    #testimonials .carousel-control-prev-icon {
+        position: relative;
+        top: 12rem;
+    }
+
+    #testimonials .carousel-indicators li {
+        position: relative;
+        top: 6rem;
+    }
+
+/*====== OPTIONS ======*/
+
+    .options .options-selection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .options .options-item {
+        margin: 1rem 4rem 2rem 3rem;
     }
 }
-/* End of W3schools timelime code  */
 
 /*====== Media Queries for Desktops ======*/
 /* @media only screen and (min-width: 768px) */
