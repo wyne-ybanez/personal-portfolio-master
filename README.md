@@ -190,6 +190,8 @@ I have added the testing onto a separate .md file, here is the [link](TESTING.md
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 9.  [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import 'Roboto' and 'Montserrat' as the chosen styled fonts for the site.
+10. [Chrome Developer Tools:](https://developers.google.com/web/tools/chrome-devtools)
+    - Used to debug and style with css for the whole project.
 
 ## Deployment
 
@@ -242,6 +244,7 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 - Debug solution for unconnected underline after icon. [Click Here to see bug](assets/tests/social-link-error.png). This link will lead you to the [solution](https://stackoverflow.com/questions/33835756/after-including-bootstrap-icons-get-weird-underline)
 - Styling from WebCifar for Options Section near the footer. Here is his Github [repo](https://github.com/WebCifar/one-page-website-html-css-project-for-practice/blob/master/style.css)
 - WebCifar's code used for the Projects Section design. Here's the [link](https://codepen.io/Web_Cifar/pen/dyXNVep)
+- CSS Tricks' Media Queries used on the website. Here's the [link](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 
 ### Git Bash Code
 

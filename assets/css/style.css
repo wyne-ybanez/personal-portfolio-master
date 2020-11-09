@@ -1059,7 +1059,28 @@ a:hover {
         width: 20%;
     }
 
+/*====== CONTACT ME ======*/
+
+    #contactme .section-heading {
+        padding-top: 2rem;
+    }
+
+    #contactme .contactme-left {
+        position: relative;
+        right: 1rem;
+    }
+
+    #contactme form {
+        position: relative;
+        left: 1rem;
+    }
+
 /*====== PROJECTS ======*/
+
+    #projects .section-heading {
+        padding-top: 2rem;
+    }
+
     #projects .container {
         flex-direction: column;
         width: 100%;
@@ -1094,6 +1115,11 @@ a:hover {
 
     #projects .right a {
         margin: 0 22rem;
+    }
+
+    #projects .right p {
+        padding: 0 7rem;
+        text-align: center;
     }
 } 
 
