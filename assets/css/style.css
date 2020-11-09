@@ -460,12 +460,14 @@ a:hover {
 }
 
 /* Coding from WebCifar - Editted & Modified: https://github.com/WebCifar/one-page-website-html-css-project-for-practice/blob/master/style.css */
-.options .options-selection {
+.options .options-selection,
+.options-contactme .options-selection,
+.options-projects .options-selection {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 0 3rem 3rem 3rem;
+    margin: 0 3rem 3rem 0rem;
 }
 
 .options-item {
@@ -478,7 +480,7 @@ a:hover {
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    margin-right: 4rem;
+    margin: 0 auto;
     float: left;
     background-color: #00DDB8;
     border: solid #fff;
@@ -611,7 +613,7 @@ a:hover {
     padding: 15px 30px;
     display: inline-block;
     letter-spacing: 2px;
-    margin-left: 9.2rem;
+    margin-left: 4.1rem;
 }
 /* End of WebCifar Code */
 
@@ -857,7 +859,7 @@ a:hover {
     #testimonials .carousel-control-next-icon, 
     #testimonials .carousel-control-prev-icon {
         position: relative;
-        top: 13rem;
+        top: 13.5rem;
     }
 
     #testimonials .carousel-indicators li {
@@ -867,13 +869,18 @@ a:hover {
 
 /*====== OPTIONS ======*/
 
-    .options .options-selection {
+    .options .options-selection,
+    .options-contactme .options-selection,
+    .options-projects .options-selection  {
         display: flex;
         flex-direction: column;
     }
 
-    .options .options-item {
-        margin: 1rem 4rem 2rem 3rem;
+    .options .options-item,
+    .options-contactme .options-item,
+    .options-projects .options-item
+     {
+        margin: 1rem 0 1rem 5.5rem;
     }
 
 /*====== PROJECTS ======*/
@@ -887,40 +894,33 @@ a:hover {
     #projects .container {
         flex-direction: column;
         width: 100%;
-        margin: 0 20px;
+        margin: 0 auto;
+        padding-bottom: 2rem;
     }
 
     #projects .left {
-        margin-right: 2.5rem;
         width: 100%;
         height: 400px;
     }
 
     #projects .left-2 {
-        margin-right: 2.5rem;
         width: 100%;
         height: 400px;
     }
 
     #projects .left-3 {
-        margin-right: 2.5rem;
         width: 100%;
         height: 400px;
     }
 
     #projects .left-4 {
-        margin-right: 2.5rem;
         width: 100%;
         height: 400px;
     }
 
     #projects .right {
         width: 90%;
-        margin: -6rem 2.5rem 0 0;
-    }
-
-    #projects .right a {
-        margin-left: 4.1rem;
+        margin: -6rem 2.5rem 0 2.5rem;
     }
 
 /*====== CONTACT ME ======*/
@@ -957,30 +957,47 @@ a:hover {
     }
 }   
 
-
-/*====== Media Queries for Desktops ======*/
-/* @media only screen and (min-width: 768px) */
-
+/*====== Media Queries for Desktops and Laptops ======*/
 
 @media only screen and (min-width: 768px) { 
 
-#projects .container {
-      flex-direction: column;
-      width: 100%;
-      margin: 0 20px;
+    #projects .container {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
     }
 
-#projects .left {
-      width: 100%;
-      height: 400px;
+    #projects .left {
+        width: 100%;
+        height: 400px;
     }
 
-#projects .right {
-      width: 90%;
-      margin: 0;
-      margin-top: -100px;
+    #projects .left-2 {
+        width: 100%;
+        height: 400px;
+    }
+
+    #projects .left-3 {
+        width: 100%;
+        height: 400px;
+    }
+
+    #projects .left-4 {
+        width: 100%;
+        height: 400px;
+    }
+
+    #projects .right {
+        width: 90%;
+        margin: 0;
+        margin-top: -100px;
+    }
+
+    #projects .right a {
+        margin: 0 22rem;
     }
 }
+
 
   
   

@@ -177,16 +177,18 @@ I have added the testing onto a separate .md file, here is the [link](TESTING.md
 2. [HVR:](https://github.com/IanLunn/Hover/blob/master/css/hover.css)
     - This library was used for the hover effects of the navbar items.
 3. [Bootstrapv4.5.3:](https://getbootstrap.com/) 
-    - Bootstrap was used for the overall design and responsiveness of the website.
-4. [Balsamiq:](https://balsamiq.com/)
+    - Bootstrap was used for the overall components documentation and responsiveness of the website.
+4. [W3Schools](https://www.w3schools.com/)
+    - Documentation for Media Queries and CSS when I encountered bugs.
+5. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
-5. [GitHub:](https://github.com/)
+6. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-6. [Git](https://git-scm.com/)
+7. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-7. [Font Awesome:](https://fontawesome.com/)
+8. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-8. [Google Fonts:](https://fonts.google.com/)
+9.  [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import 'Roboto' and 'Montserrat' as the chosen styled fonts for the site.
 
 ## Deployment
@@ -266,6 +268,7 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 - My Mentor Dick Vlaanderen for his continuous feedback
 - Tutors at Code Institute for their on-going support
 - Jim Lynx a Code Institute lead who provided me invaluable insight 
+- Code Institute's Slack community which provided me with ideas as to how to approach the project
 
 
 
