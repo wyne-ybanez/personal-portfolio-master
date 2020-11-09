@@ -12,7 +12,7 @@ For the purpose of this project, the content used to portray the candidate's pot
 
 ## UX 
 
-- ### User Stories:
+### User Stories:
 
 - ### First Time Visitor Goals:
 
@@ -243,7 +243,7 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 - Styling from WebCifar for Options Section near the footer. Here is his Github [repo](https://github.com/WebCifar/one-page-website-html-css-project-for-practice/blob/master/style.css)
 - WebCifar's code used for the Projects Section design. Here's the [link](https://codepen.io/Web_Cifar/pen/dyXNVep)
 
-## Git Bash Code
+### Git Bash Code
 
 - I had initially started the project with a local IDE and a local username. My contributions were not counted by github because of this. The solution as to how to change the author/committer email and user name is found [here](https://stackoverflow.com/questions/750172/how-to-change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-gi)
   

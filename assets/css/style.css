@@ -957,10 +957,109 @@ a:hover {
     }
 }   
 
-/*====== Media Queries for Desktops and Laptops ======*/
+/*====== Media Queries for tablets ======*/
+/* Media Query for iPad: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
 
-@media only screen and (min-width: 768px) { 
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
 
+/*====== NAVBAR ======*/
+
+    .navbar {
+        margin-left: 0;
+    }
+
+    .navbar.scrolled {
+        background: rgba(0, 0, 0, 1);
+    }
+
+    .header {
+        height: 100vh;
+    }
+/*====== HERO SECTION ======*/
+
+    #hero .hero-h1 {
+        padding-top: 20rem;
+        font-size: 50px;
+    }
+
+    #hero .hero-h2 {
+        font-size: 45px;
+    }
+
+/*====== ABOUT ME ======*/
+
+    #about-me .aboutme-img {
+        height: auto;
+        margin: 2rem 0 0 7rem; 
+    } 
+
+    #about-me .aboutme-img-container::after {
+        height: 90%;
+        bottom: 18px;
+        margin: 2rem 0 0 7rem; 
+    } 
+
+    #about-me h5 {
+        padding: 1rem 0rem 2.5rem 0rem;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        left: 12rem;
+    }
+
+    #about-me .contactme-cta {
+        position: relative;
+        left: 6.3rem;
+    }
+
+    #about-me .projects-cta {
+        position: relative;
+        left: 7rem;
+    }
+
+    #about-me .progress h5 {
+        position: absolute;
+        left: 0rem;
+    }
+
+    #about-me .progress-bar {
+        margin-left: 6rem;
+    }
+
+/*====== TIMELINE ======*/
+
+    #history .timeline::after {
+        bottom: 38rem;
+    }
+
+    #history .timeline .container::after {
+        right: -15px;
+    }
+
+    #history .timeline .right::after {
+        left: -14px;
+    }
+
+/*====== TESTIMONIALS ======*/
+
+    #testimonials .carousel-indicators {
+        top: 17rem;
+    }
+
+    #testimonials .carousel-item {
+        margin-left: 0;
+        padding: 0 10rem;
+    }
+
+    #testimonials .carousel-control-next, 
+    #testimonials .carousel-control-prev {
+        width: 20%;
+    }
+
+/*====== PROJECTS ======*/
     #projects .container {
         flex-direction: column;
         width: 100%;
@@ -996,6 +1095,12 @@ a:hover {
     #projects .right a {
         margin: 0 22rem;
     }
+} 
+
+/*====== Media Queries for Desktops and Laptops ======*/
+
+@media only screen and (min-width: 992px) {
+
 }
 
 
