@@ -4,9 +4,6 @@ Tests are carried out first on the largest screen size and then updated regularl
 
 The W3CSchools and W3C CSS validator sevices were used to test for the overall syntax of the html and css pages.
 
-### Post results
-### Post results
-
 ## Main Bugs Previously Found: 
 
 ## Navigation Bar: 

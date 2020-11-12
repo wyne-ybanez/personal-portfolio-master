@@ -210,12 +210,9 @@ a:hover {
 }
 
 #about-me .aboutme-img {
-    margin-top: 2rem;
     border: 10px solid #00DDB8;
     width: 98%;
-    height: 75%;
-    /* height: 98%; */
-    margin-right: 3rem;
+    margin-top: 2rem;
 }
 
 #about-me .progress h5 {
@@ -239,10 +236,8 @@ a:hover {
     content:'';
     position: absolute;
     left: -33px;
-    bottom: 118px;
-    /* bottom: 18px; */
-    height: 75%;
-    /* height: 98%; */
+    bottom: 130px;
+    height: 70%;
     width: 98%;
     border: 9px solid #1E90FF;
     z-index: -1;
@@ -724,10 +719,13 @@ a:hover {
 .footer .footer-social-item:hover i{
     filter: invert(1);
 }
+/*====== Media queries - Mobile Phones - iPhone 6,7,8, X ======*/
 
-/*====== Media queries - Mobile Phones ======*/
+/* @media only screen and (max-width: 600px) */
 
-@media screen and (max-width: 600px) { 
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
     
     .navbar {
         margin-left: 0;
@@ -880,7 +878,7 @@ a:hover {
     .options-contactme .options-item,
     .options-projects .options-item
      {
-        margin: 1rem 0 1rem 5.5rem;
+        margin: 1rem 0rem 1rem 5.7rem;
     }
 
 /*====== PROJECTS ======*/
@@ -942,10 +940,6 @@ a:hover {
         visibility: visible;
     }
 
-    #contactme .contactme-left {
-        margin-left: .75rem;
-    }
-
     #contactme .contact-phone,
     #contactme .contact-email,
     #contactme .contact-address {
@@ -957,13 +951,12 @@ a:hover {
     }
 }   
 
-/*====== Media Queries for tablets ======*/
+/*====== Media Queries for tablets/iPad ======*/
 /* Media Query for iPad: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
 
 @media only screen 
   and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+  and (max-device-width: 1024px) {
 
 /*====== NAVBAR ======*/
 
@@ -1123,12 +1116,23 @@ a:hover {
     }
 } 
 
-/*====== Media Queries for Desktops and Laptops ======*/
+/*====== Media Queries for Desktops ======*/
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1300px) {
+    #about-me .aboutme-img {
+        height: auto;
+        margin: 3rem 0;
+    }
 
+    #about-me .aboutme-img-container::after { 
+        height: 80%;
+        bottom: 5rem;
+    }
+
+    #about-me h5 {
+        padding-top: 4rem;
+    }
 }
-
 
   
   
