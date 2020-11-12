@@ -140,6 +140,8 @@ For the purpose of this project, the content used to portray the candidate's pot
 
   The website should function accordingly in modern web browsers.
 
+  The website should be responsive when viewed on modern devices. The Website will be tested on the devices: Desktop, laptop, iPad (Tablet), iPhone 6,7,8 and iPhoneX.
+
 ### Interactive: 
 
   The user should be able to interact with the website and function according to the given text
@@ -262,6 +264,13 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 - Image for About Me Section is original
 - Images for projects section obtained from [Hubspot's Blog](https://blog.hubspot.com/marketing/best-website-designs-list)
 - Timeline Ending image obtained from [Daily tuition](https://github.com/akashyap2013/PortFolio_Website)
+
+### Future Implementations 
+
+- I would like to style further media queries for the website
+- I would like to update the projects.html with real projects
+- I would like to update the content to show real work experience
+- I would like to add a download cv button in the options menu or the footer
 
 ### Acknowledgements
 

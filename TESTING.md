@@ -78,7 +78,8 @@ projects.html bug discovered. The page has 2 scroll bars which is inconvenient f
 - These classes directly helped influence the styling of the options section
 - Removed dark background by styling the div of these classes 
 - background now inherits the main section background
-- margins added to center the option buttons 
+- margins styled to center the option buttons 
+- "btn" class and "button" type removed from options styling to fix appearance during external testing on my personal iPhone XR.
 
 ## Testing User Stories from UX 
 
@@ -131,7 +132,7 @@ c. I want to be able to navigate to any section of the website in order to read 
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Firefox, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8, iPhone X, iPhone XR.
+-   The Website was viewed on the specified testing devices such as Desktop, Laptop, iPad, iPhone7, iPhone 8, iPhone X using Chrome Developer Tools.
 -   Links were tested repeatedly.
 -   Friends and family members were asked to review the website, its content and the user experience overall.
 -   Code Institute students were asked to review the website and any coding errors.
