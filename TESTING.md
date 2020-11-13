@@ -86,13 +86,14 @@ projects.html bug discovered. The page has 2 scroll bars which is inconvenient f
 ### First Time Visitors: 
 
 a. I would like to know the purpose for the creation of the website from the first instance of opening it. 
-  - When the user opens the website there is an animation that shows what the website is about, which gives a caption of the candidate's name and his occupation.
+  - When the recruiter opens the website there is an animation that shows what the website is about, which gives a caption of the candidate's name and his occupation.
+  - [Screenshot](assets/readMe/hero-sc.png)
   
 b. I would greatly appreciate it if the website were easy to navigate.
   - The navigation bar is sticky so no matter where the user scrolls it will always be present to help them navigate to their desired content.
 
 c. I expect the website to display relevant content and stay consistently relevant as I explore the site.
-  - The website aims to display the necessary content that the user will expect to know and will continue to add relevant content to what has already been shared. e.g. At first the user will encounter the caption showing this website was created by a junior developer and next it shows them the 'about me' section outlining the technologies the candidate is using.
+  - The website aims to display the necessary content that the recruiter will expect to know and will continue to add relevant content to what has already been shared. e.g. At first the recruiter/users will encounter the caption showing this website was created by a junior developer and next it shows them the 'about me' section outlining the technologies the candidate is using.
   
 d. I would appreciate it if my interactions with the site were acknowledged so that I know what I am doing and where I am going.
   - There are hover animations and animations on scrolling throughout the website, these are used to help the user locate their position in the website and where their cursor is pointed 
@@ -129,13 +130,35 @@ c. I want to be able to navigate to any section of the website in order to read 
   - The navigation bar is sticky, the user will be able to access this and press the appropriate button to travel to the desired section/page.
   - There are additional buttons at the end of every page which gives the user the option to return to the top of the page or check the candidate's projects or to contact the candidate. These pages were created to help the user discover more about the candidate.
 
-### Further Testing
+## Validators 
+
+### W3Schools HTML Validator 
+
+The results of the validator are as shows: 
+
+- 2 warnings 
+- 0 errors. 
+  
+Here is the [link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwyne-ybanez.github.io%2Fpersonal-portfolio-master%2F)
+
+### W3Schools CSS Validator 
+
+The results of the CSS validator are as shows:
+
+- 66 errors (Bootstrap CDN, AOS, 4 CSS errors relating to Media Queries) 
+- 791 warnings (All due to CDN's used, mainly Bootstrap)
+- Majority is validated CSS
+
+Here is the [link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwyne-ybanez.github.io%2Fpersonal-portfolio-master%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## Further Testing
 
 -   The Website was tested on Google Chrome, Firefox, Microsoft Edge and Safari browsers.
--   The Website was viewed on the specified testing devices such as Desktop, Laptop, iPad, iPhone7, iPhone 8, iPhone X using Chrome Developer Tools.
+-   The Website was viewed on the specified testing devices such as Desktop, Laptop, iPad, iPhone 5, SE, 6, 7, 8 and iPhone X using Chrome Developer Tools.
 -   Links were tested repeatedly.
 -   Friends and family members were asked to review the website, its content and the user experience overall.
 -   Code Institute students were asked to review the website and any coding errors.
+
 
 
 

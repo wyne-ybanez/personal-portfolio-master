@@ -1,10 +1,14 @@
 # Code Institute MS1: Personal Portfolio Project
 
-[View the live project here.](https://wyne-ybanez.github.io/personal-portfolio-master/)
+![Website-Opening](assets/readMe/banner.png)
+
+View the live project here: https://wyne-ybanez.github.io/personal-portfolio-master/
 
 ## Project Goal
 
 This project aims to portray a junior software developer in the best light personally, technically and professionally. It should show the personality of the person, what skills and experience they have obtained throughtout their journey as a developer. The project ultimately intends to pitch the junior developer as an asset to hiring businesses/companies. 
+
+Hence the target audience for this project are recruiters (mainly) and curious users.
 
 ## Disclaimer
 
@@ -136,11 +140,11 @@ For the purpose of this project, the content used to portray the candidate's pot
 
   There should be some sort of indicator or animation that can confirm whenever the user is hovering over a button or clicking on it when using a computer or desktop.
 
-  It should shrink it's windows and align items correctly when the user is minimzing the window or using a mobile phone. 
+  It should shrink it's windows and align items correctly when the user is minimzing the window or using a mobile phone. The website should be responsive when viewed on modern devices.
 
   The website should function accordingly in modern web browsers.
 
-  The website should be responsive when viewed on modern devices. The Website will be tested on the devices: Desktop, laptop, iPad (Tablet), iPhone 6,7,8 and iPhoneX.
+ 
 
 ### Interactive: 
 
@@ -168,6 +172,7 @@ I have added the testing onto a separate .md file, here is the [link](TESTING.md
 ### Languages
 -  [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -  [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-  [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
   
 ### IDE
 - [VScode:](https://code.visualstudio.com/) - The IDE used to code the website. 
@@ -260,7 +265,7 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 
 ### Media 
 
-- Image for Banner Section obtained from [Unsplash](unsplash.com)
+- Image for Banner Section obtained from [Unsplash](https://unsplash.com/photos/3l3RwQdHRHg)
 - Image for About Me Section is original
 - Images for projects section obtained from [Hubspot's Blog](https://blog.hubspot.com/marketing/best-website-designs-list)
 - Timeline Ending image obtained from [Daily tuition](https://github.com/akashyap2013/PortFolio_Website)
@@ -271,6 +276,7 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 - I would like to update the projects.html with real projects
 - I would like to update the content to show real work experience
 - I would like to add a download cv button in the options menu or the footer
+- I would like to code additional Javascript animations on the website in future
 
 ### Acknowledgements
 
