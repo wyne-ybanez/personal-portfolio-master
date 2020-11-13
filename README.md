@@ -6,9 +6,9 @@ View the live project here: https://wyne-ybanez.github.io/personal-portfolio-mas
 
 ## Project Goal
 
-This project aims to portray a junior software developer in the best light personally, technically and professionally. It should show the personality of the person, what skills and experience they have obtained throughtout their journey as a developer. The project ultimately intends to pitch the junior developer as an asset to hiring businesses/companies. 
+This project aims to portray a junior software developer in the best light personally, technically and professionally. It should show the personality of the person, what skills and experience they have obtained throughout their journey as a developer. The project ultimately intends to pitch the junior developer as an asset to hiring businesses/companies. 
 
-Hence the target audience for this project are recruiters (mainly) and curious users.
+Hence the target audience for this project are recruiters (mainly) and users who wish to collabroate with the candidate.
 
 ## Disclaimer
 
@@ -58,7 +58,7 @@ For the purpose of this project, the content used to portray the candidate's pot
 - Sans serif is the fallback font should the fonts be imported incorrectly.
 
 ### Separated pages 
-- Separate pages such as contactme.html and projects.html will have a background with a dark linear gradiet. This avoids distraction.
+- Separate pages such as contactme.html and projects.html will have a background with a dark linear gradient. This avoids distraction.
 - Making it darker like index.html but also having a unique image in the back to make the page interesting rather than have it all black.
 
 ## Wireframes
@@ -105,7 +105,7 @@ For the purpose of this project, the content used to portray the candidate's pot
 
 ### Contact Form: 
 
-- It would be efficient if there was a way for users to contact the candidate at any point of whilst traversing their website. There is a button placed on the navbar to help with this.
+- It would be efficient if there was a way for users to contact the candidate at any point of whilst traversing their website. There is a button 'contact me' on the navigation bar to help with this.
 - This feature will require the user to input their contact details via a contact form. 
 - Name and the email address is required. 
 - If the candidate should ever respond, he/she will then know where/who the response is going to. 
@@ -140,11 +140,9 @@ For the purpose of this project, the content used to portray the candidate's pot
 
   There should be some sort of indicator or animation that can confirm whenever the user is hovering over a button or clicking on it when using a computer or desktop.
 
-  It should shrink it's windows and align items correctly when the user is minimzing the window or using a mobile phone. The website should be responsive when viewed on modern devices.
+  It should shrink it's windows and align items correctly when the user is minimizing the window or using a mobile phone. The website should be responsive when viewed on modern devices.
 
   The website should function accordingly in modern web browsers.
-
- 
 
 ### Interactive: 
 
@@ -165,7 +163,7 @@ For the purpose of this project, the content used to portray the candidate's pot
 
 ## Testing 
   
-I have added the testing onto a separate .md file, here is the [link](TESTING.md)
+I have added the testing onto a separate .md file, here is the [link](https://github.com/wyne-ybanez/personal-portfolio-master/blob/main/TESTING.md)
 
 ## Technologies used:
 
@@ -178,7 +176,7 @@ I have added the testing onto a separate .md file, here is the [link](TESTING.md
 - [VScode:](https://code.visualstudio.com/) - The IDE used to code the website. 
 - VSCode extension: [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-### Frameworks, Libraries, CDN's
+### Frameworks, Libraries, CDN's, Resources etc.
 1. [AOS:](https://michalsnik.github.io/aos/) 
     - This JS library was used for the animations on scroll.
 2. [HVR:](https://github.com/IanLunn/Hover/blob/master/css/hover.css)
@@ -199,6 +197,9 @@ I have added the testing onto a separate .md file, here is the [link](TESTING.md
     - Google fonts were used to import 'Roboto' and 'Montserrat' as the chosen styled fonts for the site.
 10. [Chrome Developer Tools:](https://developers.google.com/web/tools/chrome-devtools)
     - Used to debug and style with css for the whole project.
+    - Used for media queries
+11. [Ami Responsive](http://ami.responsivedesign.is/#)
+    - Used to test for website reponsiveness 
 
 ## Deployment
 
@@ -251,7 +252,6 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 - Debug solution for unconnected underline after icon. [Click Here to see bug](assets/tests/social-link-error.png). This link will lead you to the [solution](https://stackoverflow.com/questions/33835756/after-including-bootstrap-icons-get-weird-underline)
 - Styling from WebCifar for Options Section near the footer. Here is his Github [repo](https://github.com/WebCifar/one-page-website-html-css-project-for-practice/blob/master/style.css)
 - WebCifar's code used for the Projects Section design. Here's the [link](https://codepen.io/Web_Cifar/pen/dyXNVep)
-- CSS Tricks' Media Queries used on the website. Here's the [link](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 
 ### Git Bash Code
 

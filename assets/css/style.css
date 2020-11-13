@@ -740,7 +740,7 @@ a:hover {
     /*====== HERO SECTION - iPhone 5/SE ======*/
 
     .hero-h1 {
-        padding-top: 5rem;
+        padding-top: 4rem;
     }
 
     .hero-h1, 
@@ -1191,12 +1191,11 @@ and (max-width: 667px) {
     }
 }   
 
-    /*====== Media Queries for tablets/iPad ======*/
-    /* Media Query for iPad: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
+/*====== Media Queries for tablets/iPad ======*/
 
 @media only screen 
-  and (min-width: 768px) 
-  and (max-width: 1024px) {
+and (min-width: 768px) 
+and (max-width: 1024px) {
 
     /*====== NAVBAR - iPad ======*/
 
