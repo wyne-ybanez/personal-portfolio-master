@@ -199,7 +199,7 @@ I have added the testing onto a separate .md file, here is the [link](https://gi
     - Used to debug and style with css for the whole project.
     - Used for media queries
 11. [Ami Responsive](http://ami.responsivedesign.is/#)
-    - Used to test for website reponsiveness 
+    - Used to test for website responsiveness 
 
 ## Deployment
 
@@ -235,7 +235,7 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 
 ### Code 
 
-- Boostrap v4.5.3 Library used for overall site reponsiveness - Here's the [link](https://getbootstrap.com/)
+- Bootstrap v4.5.3 Library used for overall site responsiveness - Here's the [link](https://getbootstrap.com/)
 - Animate on Scroll used throughout the entire website. Check it out [here](https://michalsnik.github.io/aos/)
 - Hover Animation for the [Navbar](https://github.com/IanLunn/Hover/blob/master/css/hover.css)
 - Transparent Navbar Code from Stack Overflow - Here's the [link](https://stackoverflow.com/questions/16453537/bootstrap-transparent-navbar) 
@@ -255,7 +255,7 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 
 ### Git Bash Code
 
-- I had initially started the project with a local IDE and a local username. My contributions were not counted by github because of this. The solution as to how to change the author/committer email and user name is found [here](https://stackoverflow.com/questions/750172/how-to-change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-gi)
+- I had initially started the project with a local IDE and a local username. My contributions were not counted by Github because of this. The solution as to how to change the author/committer email and user name is found [here](https://stackoverflow.com/questions/750172/how-to-change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-gi)
   
 
 ### Content
@@ -273,15 +273,16 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 ### Future Implementations 
 
 - I would like to style further media queries for the website
-- I would like to update the projects.html with real projects
-- I would like to update the content to show real work experience
-- I would like to add a download cv button in the options menu or the footer
-- I would like to code additional Javascript animations on the website in future
+- To update the projects.html with real projects
+- To update the content to show real work experience
+- To add a download cv button in the options menu or the footer
+- To code additional Javascript animations on the website in future
+- I would like for the contactme.html to send any contacts to my professional email address
 
 ### Acknowledgements
 
 - One page style website, About me section design, Project Section styling and Footer design inspired by WebCifar (Shaif Arfan).
-- I received Inspiration for the social icons within the Banner section from Code Insitute Student David O' Shea, his MS1 [Project](https://www.grahamsweeney.ie/)
+- I received Inspiration for the social icons within the Banner section from Code Institute Student David O' Shea, his MS1 [Project](https://www.grahamsweeney.ie/)
 - Timeline Section inspired by [Code Institute](https://codeinstitute.net/)
 - My Mentor Dick Vlaanderen for his continuous feedback
 - Tutors at Code Institute for their on-going support

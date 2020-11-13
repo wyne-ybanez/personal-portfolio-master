@@ -4,9 +4,9 @@ Tests are carried out first on the largest screen size and then updated regularl
 
 The W3CSchools and W3C CSS validator services were used to test for the overall syntax of the html and css pages.
 
-## Main Bugs Previously Found: 
+## Main Page - Bugs previously found: 
 
-## Navigation Bar: 
+## Navigation Bar
   1. Hover over navigation bar with cursor
   2. Check to see if the toggler works on mobile screens
   3. Ensure that the navbar is semi-transparent at the start of the main page and becomes transparent as you scroll down 
@@ -14,17 +14,18 @@ The W3CSchools and W3C CSS validator services were used to test for the overall 
   5. Check to see if the links work and bring you to the right sections/html files
   6. Check to see if the navbar toggler/hamburger is visible
    
-### Navbar Comments:
+### Navbar Comments
 
 - Instead of coloring the navbar toggler to become visible. Instead, I initially used an icon from font awesome to show represent it and colored it.
 - This has now been changed to a Font-Awesome Icon.
 - Bug encountered where Navbar would stay sticky only until the header section has finished.
 
-### Navbar Debug: 
+### Navbar Debug
 
 - Fixed non-sticky bug using W3schools code: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp 
+- Fixed Hamburger icon by changing it to 'fa fa-bars' instead of 'fab fa-bars'
 
-## Hero Section: 
+## Hero Section
 
 1. Check to see if AOS animations are working
 2. Check to see if social links work 
@@ -60,27 +61,64 @@ projects.html bug discovered. The page has 2 scroll bars which is inconvenient f
 - Forgot to type in closing section tag 
 - '/section'
 
-## Options Section:
+## Options Section
 
 1. Check if the same styles apply to the options in all index.html, contactme.html and projects.html
 2. Check if the option buttons are evenly spaced and aligned
 3. Check if options flex in a column when on mobile
 4. Check if AOS animation functions properly 
 
-### Options Section Comments: 
+### Options Section Comments
 
 - Bug found where the options buttons were not styled correctly on mobile phone
 - They appeared differently on chrome developer tools and on my personal mobile phone (iPhone xr)
 - Bug found in contactme.html and projects.html where the background of the options section was dark and not inheriting the background of the section
 
-### Options Section Debug: 
+### Options Section Debug
 
 - Options section classes created specifically for projects.html and contactme.html
 - These classes directly helped influence the styling of the options section
 - Removed dark background by styling the div of these classes 
-- background now inherits the main section background
-- margins styled to center the option buttons 
+- Background now inherits the main section background
+- Margins styled to center the option buttons 
 - "btn" class and "button" type removed from options styling to fix appearance during external testing on my personal iPhone XR.
+
+## Projects Page
+
+1. Click on the project links via the 'view' buttons
+2. Check if clicking on the links opens a new page for the project
+3. Check if the links lead to the correct page
+4. Check if the buttons are centered
+5. Test if the 'option' buttons near the footer function correctly and link to the correct pages
+
+## Project Page results
+
+- The project 'view' buttons are centered in the specified view ports tested with Chrome Developer tools (Desktop, Laptop, iPhone 5/SE, 6, 7, 8, X)
+- The buttons are linked to the correct pages 
+- The links open a separate page
+- 'Back' Option button brings the user back to the top of the page
+- 'Home' opens a new page which leads back to index.html page
+- 'Contact Me' opens a new page which leads to the contactme.html page
+
+## Contact Me Page
+
+1. Place contact information into the input spaces
+2. Click submit to check if it submits or stops the submission
+3. Place the contact information but this time only partially and submit. e.g. missing information
+4. Place contact information without name
+5. Place contact information without email address
+6. Place contact information without comments
+7. Test if the 'option' buttons near the footer function correctly and link to the correct pages
+
+## Contact Me Page results
+
+- The Contact Me page submits the page when all the required input fields are submitted
+- Will not submit without the first name of the user
+- Will not submit without email address or any input that does not have an '@'
+- Will not submit without any comments on the contact form
+- 'Back' option button brings the user back to the top of the page
+- 'Home' opens a new page which leads back to index.html page
+- 'Projects' opens a new page which leads to the projects.html page
 
 ## Viewport Responsiveness
 
@@ -91,7 +129,8 @@ projects.html bug discovered. The page has 2 scroll bars which is inconvenient f
 
 ### Viewport Responsiveness comments: 
 
-- The Website is fully responsive on 'ami.responsivedesign.is'
+- The Website is fully responsive on 'ami.responsivedesign.is.' Here is the screenshot: 
+  ![screenshot](assets/readMe/banner.png)
 - The Website is responsive on when checking on Chrome developer tools.
 - The Website was tested physically through Desktop, Laptop, iPad, iPhone XR and iPhone 11. The results showed that the website was responsive.
 
