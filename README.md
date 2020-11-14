@@ -49,8 +49,8 @@ For the purpose of this project, the content used to portray the candidate's pot
 ## Design
 
 ### Colour Scheme 
-- The overall project will have a black background.
-- The two main contrasting colours for the project is blue green and blue with white texts.
+- The overall project will use the colors turquoise, sky-blue, dark gray and white. 
+- The two main contrasting colours for the project are turquoise and blue. This will be complimented with dark and white background/texts.
 
 ### Fonts 
 - Montserrat is the font used for the body, it looks clean and professional.
@@ -117,14 +117,12 @@ For the purpose of this project, the content used to portray the candidate's pot
 [Screenshot](assets/readMe/projects-sc.png)
 
 ### Footer:
-
-- 3 buttons, to return to the top of the page, to check candidates projects, to contact the candidate.
   
-- When reaching the end point of the website, there may be a further queries users would like to ask the candidate or know more about. 
+- When reaching the end point of the website, there may be a further queries users would like to ask the candidate.
   
-- The 'contact me' and 'projects' buttons are present in preparation for this.
-
-- The footer should have the relevant social links and buttons. These can help users/recruiters to research candidate further. 
+- Perhaps the user would like to read back over to the previous content. 
+  
+- The footer should have the relevant social links and navigation links. These can help users/recruiters to research candidate further or go back over specific content. 
 
 [Screenshot](assets/readMe/footer-sc.png)
 
@@ -248,6 +246,8 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 - Debug solution for unconnected underline after icon. [Click Here to see bug](assets/tests/social-link-error.png). This link will lead you to the [solution](https://stackoverflow.com/questions/33835756/after-including-bootstrap-icons-get-weird-underline)
 - Styling from WebCifar for Options Section near the footer. Here is his Github [repo](https://github.com/WebCifar/one-page-website-html-css-project-for-practice/blob/master/style.css)
 - WebCifar's code used for the Projects Section design. Here's the [link](https://codepen.io/Web_Cifar/pen/dyXNVep)
+- MDBootstrap.com - Footer guide used for footer. [Check it out](https://mdbootstrap.com/docs/jquery/navigation/footer/)
+- Icons Hover Effects - Here is the [link](https://codepen.io/nxworld/pen/ZYNOBZ?fbclid=IwAR1C0Fp-oCTJS1KfeV7TDmL_3KJNneOL146xKX0Y1Bl6UbP6X6TSF_SKV-k)
 
 ### Git Bash Code
 
@@ -269,6 +269,14 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 ### Known Bugs
 
 The Navigation bar is clear upon opening the page. This is perfect on laptops and desktops. However, it leads to poor UX for smaller devices/viewports. I do not yet have extensive knowledge to code my own JavaScript and change the navigation bar background to be static when viewing on smaller devices.
+
+### Design Changes 
+
+- The website used to incorporate a black background, this has been changed to a white background. Text colors and section backgrounds have been changed accordingly
+
+- Previously the website would link externally to projects.html and contactme.html. These files have been deleted and instead the site incorporates a one page for all content regiment.
+
+- Previously it was planned that the Footer would have 3 navigation buttons as specified in the Wireframes. This has been altered and now the footer will now contain navigation links, social icons as well as contact information.
 
 ### Future Implementations 
 

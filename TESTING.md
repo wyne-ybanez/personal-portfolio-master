@@ -4,9 +4,9 @@ Tests are carried out first on the largest screen size and then updated regularl
 
 The W3CSchools and W3C CSS validator services were used to test for the overall syntax of the html and css pages.
 
-## Main Page - Bugs previously found: 
+## Bugs previously found: 
 
-## Navigation Bar
+### Navigation Bar
   1. Hover over navigation bar with cursor
   2. Check to see if the toggler works on mobile screens
   3. Ensure that the navbar is semi-transparent at the start of the main page and becomes transparent as you scroll down 
@@ -26,7 +26,7 @@ The W3CSchools and W3C CSS validator services were used to test for the overall 
 - Fixed non-sticky bug using W3schools code: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp 
 - Fixed Hamburger icon by changing it to 'fa fa-bars' instead of 'fab fa-bars'
 
-## Hero Section
+### Hero Section
 
 1. Check to see if AOS animations are working
 2. Check to see if social links work 
@@ -47,7 +47,7 @@ The W3CSchools and W3C CSS validator services were used to test for the overall 
 
 - The Captions are positioned awkwardly on smaller screens - media queries have been created to style them accordingly.
 
-## Double Scroll Bar Bug 
+### Double Scroll Bar Bug 
 
 projects.html bug discovered. The page has 2 scroll bars which is inconvenient for the user and overall looks unprofessional. 
 
@@ -62,7 +62,9 @@ projects.html bug discovered. The page has 2 scroll bars which is inconvenient f
 - Forgot to type in closing section tag 
 - '/section'
 
-## About Me Section
+## Website Testing:
+
+### About Me Section
 
 1. Check if 'About me' Section image floats left and the text floats to the right on Laptop and Desktop
 2. Check if the 'About me" Section image is centered when viewed on mobile
@@ -82,28 +84,6 @@ projects.html bug discovered. The page has 2 scroll bars which is inconvenient f
 ## Testimonials Section
 
 ## Testimonials Section results
-
-## Options Section
-
-1. Check if options lead to the appropriate section headings
-2. Check if the option buttons are evenly spaced and aligned
-3. Check if options flex in a column when on mobile
-4. Check if AOS animation functions properly 
-
-### Options Section Comments
-
-- Bug found where the options buttons were not styled correctly on mobile phone
-- They appeared differently on chrome developer tools and on my personal mobile phone (iPhone xr)
-- Bug found in contactme.html and projects.html where the background of the options section was dark and not inheriting the background of the section
-
-### Options Section Debug
-
-- Options section classes created specifically for projects.html and contactme.html
-- These classes directly helped influence the styling of the options section
-- Removed dark background by styling the div of these classes 
-- Background now inherits the main section background
-- Margins styled to center the option buttons 
-- "btn" class and "button" type removed from options styling to fix appearance during external testing on my personal iPhone XR.
 
 ## Projects Page
 
@@ -141,6 +121,10 @@ projects.html bug discovered. The page has 2 scroll bars which is inconvenient f
 - 'Back' option button brings the user back to the top of the page
 - 'Home' opens a new page which leads back to index.html page
 - 'Projects' opens a new page which leads to the projects.html page
+
+## Footer 
+
+## Footer Results
 
 ## Viewport Responsiveness
 

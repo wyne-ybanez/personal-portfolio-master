@@ -418,7 +418,7 @@ a:hover {
 
 .bottom-heading,
 #history .timeline .content h2 {
-    text-shadow: 0 1rem 1rem rgba(0, 0, 0, .3);
+    text-shadow: 0 1rem 1rem rgba(0, 0, 0, .5);
 }
 
 #history .timeline .image {
@@ -478,49 +478,6 @@ a:hover {
 #testimonials .carousel-control-next, 
 #testimonials .carousel-control-prev {
     width: 30%;
-}
-/*====== OPTIONS ======*/
-
-.options {
-    background:inherit;
-}
-
-/* Coding from WebCifar - Editted & Modified: https://github.com/WebCifar/one-page-website-html-css-project-for-practice/blob/master/style.css */
-.options .options-selection,
-.options-contactme .options-selection,
-.options-projects .options-selection {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 0 3rem 3rem 0rem;
-}
-
-.options-item {
-    width: 12rem;
-    justify-content: center;
-    display: flex;
-    padding: 10px 30px;
-    color:#fff;
-    border-radius: 100px;
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    margin: 0 auto;
-    float: left;
-    background-color: #00DDB8;
-}
-
-.options-item h6 {
-    padding-top: 6px;
-    font-size: 15px;
-}
-
-.options-item:hover {
-    color: #00DDB8;
-    background-color: transparent;
-    background: #fff;
-    text-decoration: none;
 }
 
 /*====== PROJECTS ======*/
@@ -706,13 +663,19 @@ a:hover {
 
 /*====== FOOTER ======*/
 .footer {
-    background-color: #00DDB8;
-    padding-top: 1.2rem;
     text-align: center;
 }
 
-.footer h2 {
+.footer h3 {
     font-family: 'Roboto', sans-serif;
+}
+
+.footer a{
+    color: #fff;
+}
+
+.footer a:hover {
+    color:#00DDB8;
 }
 
 .footer .footer-social-icons {
@@ -728,10 +691,18 @@ a:hover {
     padding: 0 1rem;
     align-items: center;
     justify-content: center;
-}
+} 
 
-.footer .footer-social-item:hover i{
-    filter: invert(1);
+/* Hover Code from: https://codepen.io/nxworld/pen/ZYNOBZ?fbclid=IwAR1C0Fp-oCTJS1KfeV7TDmL_3KJNneOL146xKX0Y1Bl6UbP6X6TSF_SKV-k */
+
+.footer .footer-social-icons .footer-social-item i:hover{
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    color: rgb(80, 209, 198); 
 }
 
 /*====== Media queries - Mobile Phones - iPhone 5/SE ======*/
@@ -883,21 +854,6 @@ a:hover {
         top: 9.2rem;
     }
 
-/*====== OPTIONS - iPhone 5/SE ======*/
-
-    .options .options-selection,
-    .options-contactme .options-selection,
-    .options-projects .options-selection  {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .options .options-item,
-    .options-contactme .options-item,
-    .options-projects .options-item {
-        margin: 1rem 1rem 1rem 4.2rem;
-    }
-
     /*====== PROJECTS - iPhone 5/SE ======*/
 
     #projects .section-heading {
@@ -953,7 +909,7 @@ a:hover {
         display: flex;
         flex-direction: column;
         border: 0;
-        padding-bottom: 0;
+        padding-bottom: 2rem;
         margin-bottom: 2rem;
     }
 
@@ -1118,22 +1074,6 @@ and (max-width: 667px) {
     #testimonials .carousel-indicators li {
         position: relative;
         top: 8rem;
-    }
-
-/*====== OPTIONS - iPhone 6,7,8,X ======*/
-
-    .options .options-selection,
-    .options-contactme .options-selection,
-    .options-projects .options-selection  {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .options .options-item,
-    .options-contactme .options-item,
-    .options-projects .options-item
-     {
-        margin: 1rem 0rem 1rem 5.7rem;
     }
 
     /*====== PROJECTS - iPhone 6,7,8,X ======*/
