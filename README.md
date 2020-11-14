@@ -57,10 +57,6 @@ For the purpose of this project, the content used to portray the candidate's pot
 - Roboto is the secondary font - used mainly for headings.
 - Sans serif is the fallback font should the fonts be imported incorrectly.
 
-### Separated pages 
-- Separate pages such as contactme.html and projects.html will have a background with a dark linear gradient. This avoids distraction.
-- Making it darker like index.html but also having a unique image in the back to make the page interesting rather than have it all black.
-
 ## Wireframes
 
   [Hero Image](wireframes/hero-img.png)
@@ -269,6 +265,10 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 - Image for About Me Section is original
 - Images for projects section obtained from [Hubspot's Blog](https://blog.hubspot.com/marketing/best-website-designs-list)
 - Timeline Ending image obtained from [Daily tuition](https://github.com/akashyap2013/PortFolio_Website)
+
+### Known Bugs
+
+The Navigation bar is clear upon opening the page. This is perfect on laptops and desktops. However, it leads to poor UX for smaller devices/viewports. I do not yet have extensive knowledge to code my own JavaScript and change the navigation bar background to be static when viewing on smaller devices.
 
 ### Future Implementations 
 

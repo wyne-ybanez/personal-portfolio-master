@@ -16,12 +16,11 @@ h1 {
 }
 
 section {
-    background-color: #03070A;
-    color: #fff;
+    color:#fff;
 }
 
 a {
-    margin: 0 .5rem;
+    margin: 0.5rem;
 }
 
 a:hover {
@@ -38,8 +37,8 @@ a:hover {
     width: 100%;
     height: 120vh;
     background: linear-gradient(
-        rgba(0, 0, 0, 0.1), 
-        rgba(0, 0, 0, 0.3)
+        rgba(0, 0, 0, .1), 
+        rgba(0, 0, 0, .5)
         ), 
     url('../img/background.jpeg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -47,7 +46,6 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     background-position: bottom;
-    border-bottom: 100px;
 }
 /* End of Background Image Code */
 
@@ -59,7 +57,7 @@ a:hover {
     -o-transition: all 0.6s ease-out;
     -ms-transition: all 0.6s ease-out;
     transition: all 0.6s ease-out;
-    margin-left: -13px;
+    padding: 0 1rem;
 }
 
 .navbar.scrolled {
@@ -180,7 +178,17 @@ a:hover {
 /*====== ABOUT ME ======*/
 
 #about-me {
-    padding-bottom: 6rem;
+    padding: 5rem 0;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 1)
+        ), 
+    url('../img/background.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: bottom;
 }
 
 #about-me .section-heading {
@@ -220,7 +228,7 @@ a:hover {
 }
 
 #about-me .progress {
-   background-color:#03070A; 
+   background-color: inherit; 
    margin: 20px;
    height: 25px;
 }
@@ -268,6 +276,8 @@ a:hover {
     padding: 10px 20px;
     color: white;
     border-radius: 100px;
+    border-color: #00DDB8;
+    border-width: 1px;
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -291,7 +301,7 @@ a:hover {
 /*====== TIMELINE  ======*/
 
 #history {
-    padding-bottom: 6rem;
+    padding: 5rem 0;
 }
 
 #history .section-heading:after{
@@ -336,8 +346,12 @@ a:hover {
 #history .timeline .container {
     padding: 10px 40px;
     position: relative;
-    background-color: inherit;
     width: 50%;
+}
+
+#history .timeline .container .left {
+    border-width: 5px;
+    border-color: #000;
 }
 
 #history .timeline .container::after {
@@ -345,7 +359,7 @@ a:hover {
     position: absolute;
     width: 25px;
     height: 25px;
-    right: -17px;
+    right: -16px;
     background-color:white;
     border: 4px solid#00DDB8;
     top: 15px;
@@ -370,26 +384,26 @@ a:hover {
     content: " ";
     height: 0;
     position: absolute;
-    top: 22px;
+    top: 18px;
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid white;
+    border: medium solid black;
     border-width: 10px 0px 10px 10px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent transparent transparent black;
 }
   
 #history .timeline .right::before {
     content: " ";
     height: 0;
     position: absolute;
-    top: 22px;
+    top: 18px;
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid white;
+    border: medium solid black;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent black transparent transparent;
 }
   
 #history .timeline .right::after {
@@ -397,9 +411,14 @@ a:hover {
 }
   
 #history .timeline .content {
-    padding: 20px 30px;
+    padding: 5px 30px;
     position: relative;
     border-radius: 6px;
+}
+
+.bottom-heading,
+#history .timeline .content h2 {
+    text-shadow: 0 1rem 1rem rgba(0, 0, 0, .3);
 }
 
 #history .timeline .image {
@@ -418,8 +437,20 @@ a:hover {
 
 /*====== TESTIMONIALS ======*/
 #testimonials {
-    background-color: #03070A;
-    padding-bottom: 13rem;
+    padding-top: 6rem;
+    padding-bottom: 12rem;
+    /* background Image full page - https://css-tricks.com/perfect-full-page-background-image/ */
+    /* To darken the background image - https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css/36390220 */
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.9)
+        ), 
+    url('../img/background2.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
 }
 
 #testimonials .section-heading {
@@ -451,7 +482,7 @@ a:hover {
 /*====== OPTIONS ======*/
 
 .options {
-    background-color: #03070A
+    background:inherit;
 }
 
 /* Coding from WebCifar - Editted & Modified: https://github.com/WebCifar/one-page-website-html-css-project-for-practice/blob/master/style.css */
@@ -478,8 +509,6 @@ a:hover {
     margin: 0 auto;
     float: left;
     background-color: #00DDB8;
-    border: solid #fff;
-    border-width: 3px;
 }
 
 .options-item h6 {
@@ -490,28 +519,16 @@ a:hover {
 .options-item:hover {
     color: #00DDB8;
     background-color: transparent;
-    background: white;
+    background: #fff;
     text-decoration: none;
 }
 
 /*====== PROJECTS ======*/
 
 #projects {
-    padding-top: 1.5rem;
-    /* background Image full page - https://css-tricks.com/perfect-full-page-background-image/ */
-    /* To darken the background image - https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css/36390220 */
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.6), 
-        rgba(0, 0, 0, 0.9)
-        ), 
-    url('../img/background.jpeg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: bottom;
-    border-bottom: 100px;
-}
+    padding-top: 5rem;
+    background: inherit;
+} 
 
 #projects .section-heading {
     padding-bottom: 6rem;
@@ -620,19 +637,6 @@ a:hover {
 
 #contactme {
     padding-top: 1.5rem;
-    /* background Image full page - https://css-tricks.com/perfect-full-page-background-image/ */
-    /* To darken the background image - https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css/36390220 */
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.6), 
-        rgba(0, 0, 0, 0.9)
-        ), 
-    url('../img/background.jpeg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: bottom;
-    border-bottom: 100px;
 }
 
 #contactme .section-heading {
@@ -657,7 +661,18 @@ a:hover {
     margin-bottom: 5rem;
     border: 2px solid #fff;
     border-radius: 10px;
-    background: transparent;
+    /* background Image full page - https://css-tricks.com/perfect-full-page-background-image/ */
+    /* To darken the background image - https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css/36390220 */
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.7)
+        ), 
+    url('../img/background.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top;
 }
 
 #contactme h2 {
@@ -814,9 +829,9 @@ a:hover {
   
     #history .timeline .container::before {
         left: 60px;
-        border: medium solid white;
+        border: medium solid black;
         border-width: 10px 10px 10px 0;
-        border-color: transparent white transparent transparent;
+        border-color: transparent black transparent transparent;
     }
   
     #history .timeline .left::after, 
@@ -1051,9 +1066,9 @@ and (max-width: 667px) {
   
     #history .timeline .container::before {
         left: 60px;
-        border: medium solid white;
+        border: medium solid black;
         border-width: 10px 10px 10px 0;
-        border-color: transparent white transparent transparent;
+        border-color: transparent black transparent transparent;
     }
   
     #history .timeline .left::after, 
@@ -1161,6 +1176,10 @@ and (max-width: 667px) {
         margin: -6rem 2.5rem 0 2.5rem;
     }
 
+    #projects .right a {
+        margin-left: 4.2rem;
+    }
+
     /*====== CONTACT ME - iPhone 6,7,8,X ======*/
 
     #contactme .section-heading {
@@ -1172,7 +1191,7 @@ and (max-width: 667px) {
         display: flex;
         flex-direction: column;
         border: 0;
-        padding-bottom: 0;
+        padding-bottom: 2rem;
         margin-bottom: 2rem;
     }
 
