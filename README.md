@@ -229,18 +229,18 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 
 ### Code 
 
-- Bootstrap v4.5.3 Library used for overall site responsiveness - Here's the [link](https://getbootstrap.com/)
+- Bootstrap v4.5.3 Library used for documentation and overall site responsiveness - Here's the [link](https://getbootstrap.com/)
 - Animate on Scroll used throughout the entire website. Check it out [here](https://michalsnik.github.io/aos/)
 - Hover Animation for the [Navbar](https://github.com/IanLunn/Hover/blob/master/css/hover.css)
 - Transparent Navbar Code from Stack Overflow - Here's the [link](https://stackoverflow.com/questions/16453537/bootstrap-transparent-navbar) 
 - How to keep the navbar sticky. This is the [solution](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp)
 - Transparent Navbar with scroll effect when scrolling [solution](https://stackoverflow.com/questions/29646622/set-bootstrap-navbar-transparency-on-scroll)
 - Solution For Visible Navbar Toggler. Here is the [link](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color)
-- Background Image full page. This is the [website](https://css-tricks.com/perfect-full-page-background-image/)
-- To darken the background image from [stackoverflow](https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css/36390220)
+- Solution for full page background Image. This is the [website](https://css-tricks.com/perfect-full-page-background-image/)
+- Solution to darken the background image from [stackoverflow](https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css/36390220)
 - About Me second border behind the main image [border](https://github.com/WebCifar/one-page-website-html-css-project-for-practice)
-- Work History [Timeline](https://www.w3schools.com/howto/howto_css_timeline.asp)
-- Bootstrap Carousel for [Testimonials](https://getbootstrap.com/docs/4.5/components/carousel/)
+- Work History Timeline [guide](https://www.w3schools.com/howto/howto_css_timeline.asp)
+- Documentation for Bootstrap Carousel for [Testimonials](https://getbootstrap.com/docs/4.5/components/carousel/)
 - Adam Sky's code solution to center icons for the footer - here is his github [repo](https://github.com/Adamsky94/milestone1/blob/master/index.html)
 - Underlining the Heading with adjustable border - this is the [solution](https://www.steckinsights.com/shorten-length-border-bottom-pure-css/)
 - Debug solution for unconnected underline after icon. [Click Here to see bug](assets/tests/social-link-error.png). This link will lead you to the [solution](https://stackoverflow.com/questions/33835756/after-including-bootstrap-icons-get-weird-underline)
@@ -268,15 +268,17 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 
 ### Known Bugs
 
-The Navigation bar is clear upon opening the page. This is perfect on laptops and desktops. However, it leads to poor UX for smaller devices/viewports. I do not yet have extensive knowledge to code my own JavaScript and change the navigation bar background to be static when viewing on smaller devices.
+(i) The Navigation bar is clear upon opening the page. This is perfect on laptops and desktops. However, it leads to poor UX for smaller devices/viewports. I do not yet have extensive knowledge to code my own JavaScript and change the navigation bar background to be static when viewing on smaller devices.
+
+(ii) There is a bug with the carousel indicator `.carousel-indicators li` by which the indicators move up and down when the testimonial section is viewed on mobile device (iPhone 6,7,8). 
 
 ### Design Changes 
 
 - The website used to incorporate a black background, this has been changed to a white background. Text colors and section backgrounds have been changed accordingly
 
-- Previously the website would link externally to projects.html and contactme.html. These files have been deleted and instead the site incorporates a one page for all content regiment.
+- Previously, the website would link externally to projects.html and contactme.html. These files have been deleted and instead the site incorporates a one page regiment.
 
-- Previously it was planned that the Footer would have 3 navigation buttons as specified in the Wireframes. This has been altered and now the footer will now contain navigation links, social icons as well as contact information.
+- Previously, it was planned that the Footer would have 3 navigation buttons as specified in the Wireframes. This has been altered and now the footer will now contain navigation links, social icons as well as contact information.
 
 ### Future Implementations 
 

@@ -64,55 +64,40 @@ projects.html bug discovered. The page has 2 scroll bars which is inconvenient f
 
 ## Website Testing:
 
+### Hero Section
+- The social links when clicked open a new tab and going to the relevant websites
+- On mobile, the social links are functioning properly and open new tabs to go to the relevant websites
+- The navigation bar buttons scroll smoothly to the appropriate sections
+- The animations are appearing in the time intended
+
 ### About Me Section
 
-1. Check if 'About me' Section image floats left and the text floats to the right on Laptop and Desktop
-2. Check if the 'About me" Section image is centered when viewed on mobile
-3. Check if 'About me" Section call to action buttons are display in a row when viewed on Laptop and Desktop
-4. Check if 'About me" Section call to action buttons display in a column at the center of the page when viewed on devices smaller than a laptop.
-5. Check if blue border behind the image is responsive and adjusts accordingly to the image size
-6. Check if the blue border is hidden when viewed on devices smaller than a laptop
+- The image and the text on the right are appearing as intended when scrolling down
+- The 'Projects' and 'Contact Me' Button are functioning properly, scrolling to the appropriate sections
+- When viewed on mobile, the image minimizes to the appropriate size and the blue border is hidden
+- The text and the buttons are displaying in a column according to `display:flex;` &
+  `flex-direction:column`
 
-## About Me Section results
+### Work History Section
 
+- The animation on scrolling is functioning in a timely manner
+- The text `fade-up` as the user scrolls down the page
+- On mobile, the timeline shifts to the left of the screen and the text fade-up and cover the majority of the screen
 
+### Testimonials Section
 
-## Work History Section
+- The carousel feature is working as intended and scrolls left or right according to the user interactions
+- On mobile (iPhone 6,7,8) there is a specific bug with the last carousel item where the bottom indicator `.carousel-indicators li` moves up/down (This has been noted in the README.md file)
 
-## Work History Section results
+### Project Section
 
-## Testimonials Section
-
-## Testimonials Section results
-
-## Projects Page
-
-1. Click on the project links via the 'view' buttons
-2. Check if clicking on the links opens a new page for the project
-3. Check if the links lead to the correct page
-4. Check if the buttons are centered
-5. Test if the 'option' buttons near the footer function correctly and link to the correct pages
-
-## Project Page Results
-
+- The projects animations are functioning as intended. 
+- The projects section is responsive and adapts to the screen size of mobile, dekstop, laptop and ipad
 - The project 'view' buttons are centered in the specified view ports tested with Chrome Developer tools (Desktop, Laptop, iPhone 5/SE, 6, 7, 8, X)
-- The buttons are linked to the correct pages 
-- The links open a separate page
-- 'Back' Option button brings the user back to the top of the page
-- 'Home' opens a new page which leads back to index.html page
-- 'Contact Me' opens a new page which leads to the contactme.html page
+- The buttons are linked to the correct websites 
+- The links open a separate tab 
 
-## Contact Me Page
-
-1. Place contact information into the input spaces
-2. Click submit to check if it submits or stops the submission
-3. Place the contact information but this time only partially and submit. e.g. missing information
-4. Place contact information without name
-5. Place contact information without email address
-6. Place contact information without comments
-7. Test if the 'option' buttons near the footer function correctly and link to the correct pages
-
-## Contact Me Page Results
+### Contact Me Form
 
 - The Contact Me page submits the page when all the required input fields are submitted
 - Will not submit without the first name of the user
@@ -122,18 +107,14 @@ projects.html bug discovered. The page has 2 scroll bars which is inconvenient f
 - 'Home' opens a new page which leads back to index.html page
 - 'Projects' opens a new page which leads to the projects.html page
 
-## Footer 
+### Footer
 
-## Footer Results
+- The footer links lead to the appropriate website sections
+- The social links open a new page leading to the appropriate website
+- Hover animations over the links and the social icons function as intended
+- On mobile the footer is responsive and displays the flex direction in a `column`
 
-## Viewport Responsiveness
-
-1. Check if website is responsive by right clicking 'inspect' and going to developer tools
-2. Click on 'Toggle Device Toolbar' and view the website on various viewports.
-3. Check if website is responsive on 'ami.responsivedesign.is'. Here is the [link](http://ami.responsivedesign.is/#)
-4. Check if the website is responsive when using the appropriate physical devices.
-
-### Viewport Responsiveness comments: 
+### Viewport Responsiveness
 
 - The Website is fully responsive on 'ami.responsivedesign.is.' Here is the screenshot: 
   ![screenshot](assets/readMe/banner.png)
@@ -193,23 +174,12 @@ c. I want to be able to navigate to any section of the website in order to read 
 ## Validators 
 
 ### W3Schools HTML Validator 
-
-The results of the validator are as shows: 
-
-- 2 warnings 
-- 0 errors
   
-Here is the [link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwyne-ybanez.github.io%2Fpersonal-portfolio-master%2F)
+Here are the [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwyne-ybanez.github.io%2Fpersonal-portfolio-master%2F)
 
 ### W3Schools CSS Validator 
 
-The results of the CSS validator are as shows:
-
-- 62 errors (All due to Bootstrap CDN, AOS; No developer related errors) 
-- 791 warnings (All due to CDN's used, mainly Bootstrap; No developer related warnings)
-- Majority of the Website is validated CSS
-
-Here is the [link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwyne-ybanez.github.io%2Fpersonal-portfolio-master%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+Here are the [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwyne-ybanez.github.io%2Fpersonal-portfolio-master%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Further Testing
 

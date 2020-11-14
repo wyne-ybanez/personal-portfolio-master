@@ -276,7 +276,6 @@ a:hover {
     padding: 10px 20px;
     color: white;
     border-radius: 100px;
-    border-color: #00DDB8;
     border-width: 1px;
     font-size: 1rem;
     text-transform: uppercase;
@@ -689,8 +688,6 @@ a:hover {
 .footer .footer-social-item {
     font-size: 2rem;
     padding: 0 1rem;
-    align-items: center;
-    justify-content: center;
 } 
 
 /* Hover Code from: https://codepen.io/nxworld/pen/ZYNOBZ?fbclid=IwAR1C0Fp-oCTJS1KfeV7TDmL_3KJNneOL146xKX0Y1Bl6UbP6X6TSF_SKV-k */
@@ -1073,7 +1070,7 @@ and (max-width: 667px) {
 
     #testimonials .carousel-indicators li {
         position: relative;
-        top: 8rem;
+        top: 8.5rem;
     }
 
     /*====== PROJECTS - iPhone 6,7,8,X ======*/
@@ -1311,6 +1308,12 @@ and (max-width: 1024px) {
     #projects .right p {
         padding: 0 7rem;
         text-align: center;
+    }
+
+    /*====== FOOTER ======*/
+
+    .footer .footer-social-item {
+        padding: 0 .5rem;
     }
 } 
 
