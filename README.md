@@ -193,7 +193,7 @@ I have added the testing onto a separate .md file, here is the [link](https://gi
     - Used to debug and style with css for the whole project.
     - Used for media queries
 11. [Ami Responsive](http://ami.responsivedesign.is/#)
-    - Used to test for website responsiveness 
+    - Used to test for website responsiveness and media query establishment
 
 ## Deployment
 
@@ -245,7 +245,7 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 - Debug solution for unconnected underline after icon. [Click Here to see bug](assets/tests/social-link-error.png). This link will lead you to the [solution](https://stackoverflow.com/questions/33835756/after-including-bootstrap-icons-get-weird-underline)
 - WebCifar's code used for the Projects Section design. Here's the [link](https://codepen.io/Web_Cifar/pen/dyXNVep)
 - MDBootstrap.com - Footer guide used for footer. [Check it out](https://mdbootstrap.com/docs/jquery/navigation/footer/)
-- Icons Hover Effects - Here is the [link](https://codepen.io/nxworld/pen/ZYNOBZ?fbclid=IwAR1C0Fp-oCTJS1KfeV7TDmL_3KJNneOL146xKX0Y1Bl6UbP6X6TSF_SKV-k)
+- Icon Hover Effects - Here is the [link](https://codepen.io/nxworld/pen/ZYNOBZ?fbclid=IwAR1C0Fp-oCTJS1KfeV7TDmL_3KJNneOL146xKX0Y1Bl6UbP6X6TSF_SKV-k)
 
 ### Git Bash Code
 
@@ -264,13 +264,13 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 - Images for projects section obtained from [Hubspot's Blog](https://blog.hubspot.com/marketing/best-website-designs-list)
 - Timeline Ending image obtained from [Daily tuition](https://github.com/akashyap2013/PortFolio_Website)
 
-### Known Bugs
+## Known Bugs
 
 (i) There is a bug with the carousel indicator `.carousel-indicators li` by which the indicators move up and down when the testimonial section is viewed on mobile device (iPhone 6, 7, 8).
 
-(ii) When viewed on the Macbook Air 2015 - 13", there was a bug where the blue border behind the "About me" image was not styled properly. The `height` and the `bottom` position the blue box did not apply the styles specified in style.css. However, upon viewing it on the Macbook Pro - 13" and testing on [ami responsive](http://ami.responsivedesign.is/#), the border was followed its styling accordingly. 
+(ii) When viewed on the Macbook Air 2015 - 13", there was a bug where the blue border behind the "About me" image was not styled properly. The `height` and the `bottom` position the blue box did not apply the styles specified in style.css. However, upon viewing it on the Macbook Pro - 13" and testing on [ami responsive](http://ami.responsivedesign.is/#), the border followed its styling accordingly. 
 
-### Design Changes 
+## Design Changes 
 
 - The website used to incorporate a black background, this has been changed to a white background. Text colors and section backgrounds have been changed accordingly
 
@@ -278,7 +278,7 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 
 - Previously, it was planned that the Footer would have 3 navigation buttons as specified in the Wireframes. This has been altered and now the footer will now contain navigation links, social icons as well as contact information.
 
-### Future Implementations 
+## Future Implementations 
 
 - I would like to style further media queries for the website
 - To update the projects.html with real projects
@@ -287,7 +287,7 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 - To code additional Javascript animations on the website in future
 - I would like for the contactme.html to send any contacts to my professional email address
 
-### Acknowledgements
+## Acknowledgements
 
 - One page style website, About me section design, Project Section styling and Footer design inspired by WebCifar (Shaif Arfan).
 - I received Inspiration for the social icons within the Banner section from Code Institute Student David O' Shea, his MS1 [Project](https://www.grahamsweeney.ie/)

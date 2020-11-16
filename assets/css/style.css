@@ -20,10 +20,6 @@ h2 {
     text-align: center;
 }
 
-section {
-    color:#fff;
-}
-
 a {
     margin: 0.5rem;
 }
@@ -420,7 +416,7 @@ a:hover {
 
 .bottom-heading,
 #history .timeline .content h3 {
-    text-shadow: 0 1rem 1rem rgba(0, 0, 0, .5);
+    text-shadow: 0 1rem 1rem rgba(0, 0, 0, .7);
 }
 
 #history .timeline .image {
@@ -1313,11 +1309,11 @@ and (max-width: 1024px) {
     }
 }
 
-/*====== Media Queries for Desktops ======*/
+/*====== Media Query for Desktop: http://ami.responsivedesign.is/#======*/
 
-@media only screen and (min-width: 1300px) {
-
-    /*====== ABOUT ME - Desktops ======*/
+@media only screen 
+and (min-width: 1300px)
+and (max-width: 1600px) {
 
     #about-me .aboutme-img {
         height: auto;
@@ -1325,7 +1321,25 @@ and (max-width: 1024px) {
     }
 
     #about-me .aboutme-img-container::after { 
-        height: 81%;
+        height: 82%;
+        bottom: 4.5rem;
+    }
+
+    #about-me h5 {
+        padding-top: 6rem;
+    }
+}
+
+/*====== Media Query for anything larger than a desktop ======*/
+@media only screen and (min-width: 1600px){
+
+    #about-me .aboutme-img {
+        height: auto;
+        margin: 3rem 0;
+    }
+
+    #about-me .aboutme-img-container::after { 
+        height: 83%;
         bottom: 5rem;
     }
 

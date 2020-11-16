@@ -18,13 +18,13 @@ The W3CSchools and W3C CSS validator services were used to test for the overall 
 
 - Instead of coloring the navbar toggler to become visible. Instead, I initially used an icon from font awesome to show represent it and colored it.
 - This has now been changed to a Font-Awesome Icon.
-- Bug encountered where Navbar would stay sticky only until the header section has finished.
-- The navigation bar animates perfectly when scrolling down the page. However, this is an inconvenience for mobile phones/iPad users.
+  
+(i) Bug encountered where Navbar would stay sticky only until the header section has finished.
 
 ### Navbar Debug
 
-- Fixed non-sticky bug using W3schools code: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp 
-- Fixed Hamburger icon by changing it to 'fa fa-bars' instead of 'fab fa-bars'
+- Fixed non-sticky navbar bug using W3schools [code](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp) 
+- Fixed Hamburger icon by changing it to `fa fa-bars` instead of `fab fa-bars`
 
 ### Hero Section
 
@@ -49,7 +49,7 @@ The W3CSchools and W3C CSS validator services were used to test for the overall 
 
 ### Double Scroll Bar Bug 
 
-projects.html bug discovered. The page has 2 scroll bars which is inconvenient for the user and overall looks unprofessional. 
+(i) projects.html bug discovered. The page has 2 scroll bars which is inconvenient for the user and overall looks unprofessional. 
 
 1. Check if overflow-x and overflow-y is visible or hidden in style.css 
 2. Adjust width and heights of container/content to a shorter amount - see if overflow will change/disappear.
@@ -61,6 +61,22 @@ projects.html bug discovered. The page has 2 scroll bars which is inconvenient f
 
 - Forgot to type in closing section tag 
 - '/section'
+
+### About Me - Secondary blue border
+
+1. Check the blue border's responsiveness to different viewports 
+2. Check if the blue border adjusts depending on screen sizes
+3. Check if blue border is `hidden` when viewed on smaller devices
+4. Check if blue border aligns slightly above and behind the 'About Me' Profile Image
+
+### About Me - Secondary blue border Comments
+
+- The blue border appears to be responsive
+- Adopts the appropriate size when checked on [Ami Responsive](http://ami.responsivedesign.is/#)
+- Blue border is nearly coded perfectly. Error made with media query. 
+- Blue border does not look great on Macbook Air. 
+  
+(i) Bug Found where the blue border did not align itself corectly on another laptop (Macbook Air 2015 - 13"). However, it aligned perfectly on another laptop (Macbook pro 2012 - 13")
 
 ## Website Testing:
 
