@@ -19,7 +19,7 @@ The W3CSchools and W3C CSS validator services were used to test for the overall 
 - Instead of coloring the navbar toggler to become visible. Instead, I initially used an icon from font awesome to show represent it and colored it.
 - This has now been changed to a Font-Awesome Icon.
 - Bug encountered where Navbar would stay sticky only until the header section has finished.
-- The navigation bar animates perfectly when scrolling down the page. However, this is an inconveience for mobile phones/iPad users.
+- The navigation bar animates perfectly when scrolling down the page. However, this is an inconvenience for mobile phones/iPad users.
 
 ### Navbar Debug
 

@@ -12,6 +12,11 @@ html, body {
 h1 {
     font-family: 'Roboto',sans-serif;
     font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+
+h2 {
     text-align: center;
 }
 
@@ -31,7 +36,7 @@ a:hover {
     padding: 0 0;
 }
 
-/* background Image full page - https://css-tricks.com/perfect-full-page-background-image/ */
+/* Continuous background Image full page - https://css-tricks.com/perfect-full-page-background-image/ */
 /* To darken the background image - https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css/36390220 */
 .header {
     width: 100%;
@@ -61,7 +66,7 @@ a:hover {
 }
 
 .navbar.scrolled {
-    background: rgba(0, 0, 0, 0.2); 
+    background: rgba(0, 0, 0, 0.7); 
 }
 
 /* How to keep the navbar sticky: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp */
@@ -124,7 +129,6 @@ a:hover {
     right: 0;
 }
 
-  /* Solution For Visible Navbar Toggler: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color */
 .fa {
     color: #fff;
     margin-top: .3rem;
@@ -177,6 +181,8 @@ a:hover {
 
 /*====== ABOUT ME ======*/
 
+/* Continuous background Image full page - https://css-tricks.com/perfect-full-page-background-image/ */
+/* To darken the background image - https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css/36390220 */
 #about-me {
     padding: 5rem 0;
     background: linear-gradient(
@@ -193,7 +199,6 @@ a:hover {
 
 #about-me .section-heading {
     margin: 6rem 0 4rem 0;
-
 }
 
 /* Underlining the Heading with adjustable border: https://www.steckinsights.com/shorten-length-border-bottom-pure-css/ */
@@ -245,7 +250,7 @@ a:hover {
     position: absolute;
     left: -33px;
     bottom: 130px;
-    height: 70%;
+    height: 71%;
     width: 98%;
     border: 9px solid #1E90FF;
     z-index: -1;
@@ -267,7 +272,6 @@ a:hover {
 
 .projects-cta:hover {
     color: #1E90FF;
-    background-color: transparent;
     background: white;
 }
 
@@ -289,7 +293,6 @@ a:hover {
 
 .contactme-cta:hover {
     color: #00DDB8;
-    background-color: transparent;
     background: white;
 }
 
@@ -410,13 +413,13 @@ a:hover {
 }
   
 #history .timeline .content {
-    padding: 5px 30px;
+    padding: 0px 30px;
     position: relative;
     border-radius: 6px;
 }
 
 .bottom-heading,
-#history .timeline .content h2 {
+#history .timeline .content h3 {
     text-shadow: 0 1rem 1rem rgba(0, 0, 0, .5);
 }
 
@@ -629,13 +632,6 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     background-position: top;
-}
-
-#contactme h2 {
-    text-decoration: underline;
-    text-align: center;
-    visibility: hidden;
-    padding-top: 0;
 }
 
 #contactme .btn {
@@ -1315,9 +1311,9 @@ and (max-width: 1024px) {
     .footer .footer-social-item {
         padding: 0 .5rem;
     }
-} 
+}
 
-    /*====== Media Queries for Desktops ======*/
+/*====== Media Queries for Desktops ======*/
 
 @media only screen and (min-width: 1300px) {
 
@@ -1329,7 +1325,7 @@ and (max-width: 1024px) {
     }
 
     #about-me .aboutme-img-container::after { 
-        height: 82%;
+        height: 81%;
         bottom: 5rem;
     }
 

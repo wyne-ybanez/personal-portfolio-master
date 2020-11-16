@@ -8,7 +8,7 @@ View the live project here: https://wyne-ybanez.github.io/personal-portfolio-mas
 
 This project aims to portray a junior software developer in the best light personally, technically and professionally. It should show the personality of the person, what skills and experience they have obtained throughout their journey as a developer. The project ultimately intends to pitch the junior developer as an asset to hiring businesses/companies. 
 
-Hence the target audience for this project are recruiters (mainly) and users who wish to collabroate with the candidate.
+Hence the target audience for this project are recruiters (mainly) and users who wish to collaborate with the candidate.
 
 ## Disclaimer
 
@@ -134,7 +134,7 @@ For the purpose of this project, the content used to portray the candidate's pot
 
   There should be some sort of indicator or animation that can confirm whenever the user is hovering over a button or clicking on it when using a computer or desktop.
 
-  It should shrink it's windows and align items correctly when the user is minimizing the window or using a mobile phone. The website should be responsive when viewed on modern devices.
+  It should shrink windows and align items correctly when the user is minimizing the window or using a mobile phone. The website should be responsive when viewed on modern devices.
 
   The website should function accordingly in modern web browsers.
 
@@ -235,7 +235,6 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 - Transparent Navbar Code from Stack Overflow - Here's the [link](https://stackoverflow.com/questions/16453537/bootstrap-transparent-navbar) 
 - How to keep the navbar sticky. This is the [solution](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp)
 - Transparent Navbar with scroll effect when scrolling [solution](https://stackoverflow.com/questions/29646622/set-bootstrap-navbar-transparency-on-scroll)
-- Solution For Visible Navbar Toggler. Here is the [link](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color)
 - Solution for full page background Image. This is the [website](https://css-tricks.com/perfect-full-page-background-image/)
 - Solution to darken the background image from [stackoverflow](https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css/36390220)
 - About Me second border behind the main image [border](https://github.com/WebCifar/one-page-website-html-css-project-for-practice)
@@ -244,7 +243,6 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 - Adam Sky's code solution to center icons for the footer - here is his github [repo](https://github.com/Adamsky94/milestone1/blob/master/index.html)
 - Underlining the Heading with adjustable border - this is the [solution](https://www.steckinsights.com/shorten-length-border-bottom-pure-css/)
 - Debug solution for unconnected underline after icon. [Click Here to see bug](assets/tests/social-link-error.png). This link will lead you to the [solution](https://stackoverflow.com/questions/33835756/after-including-bootstrap-icons-get-weird-underline)
-- Styling from WebCifar for Options Section near the footer. Here is his Github [repo](https://github.com/WebCifar/one-page-website-html-css-project-for-practice/blob/master/style.css)
 - WebCifar's code used for the Projects Section design. Here's the [link](https://codepen.io/Web_Cifar/pen/dyXNVep)
 - MDBootstrap.com - Footer guide used for footer. [Check it out](https://mdbootstrap.com/docs/jquery/navigation/footer/)
 - Icons Hover Effects - Here is the [link](https://codepen.io/nxworld/pen/ZYNOBZ?fbclid=IwAR1C0Fp-oCTJS1KfeV7TDmL_3KJNneOL146xKX0Y1Bl6UbP6X6TSF_SKV-k)
@@ -256,7 +254,7 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 
 ### Content
 - Index.html content was created originally
-- Using [Hubspot's blog](https://blog.hubspot.com/marketing/best-website-designs-list) website's content for project.html projects
+- Using [Hubspot's blog](https://blog.hubspot.com/marketing/best-website-designs-list) website's content for projects section
 - ReadMe content for how to clone a repo in depth. This is the [link](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop)
 
 ### Media 
@@ -268,9 +266,9 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 
 ### Known Bugs
 
-(i) The Navigation bar is clear upon opening the page. This is perfect on laptops and desktops. However, it leads to poor UX for smaller devices/viewports. I do not yet have extensive knowledge to code my own JavaScript and change the navigation bar background to be static when viewing on smaller devices.
+(i) There is a bug with the carousel indicator `.carousel-indicators li` by which the indicators move up and down when the testimonial section is viewed on mobile device (iPhone 6, 7, 8).
 
-(ii) There is a bug with the carousel indicator `.carousel-indicators li` by which the indicators move up and down when the testimonial section is viewed on mobile device (iPhone 6,7,8). 
+(ii) When viewed on the Macbook Air 2015 - 13", there was a bug where the blue border behind the "About me" image was not styled properly. The `height` and the `bottom` position the blue box did not apply the styles specified in style.css. However, upon viewing it on the Macbook Pro - 13" and testing on [ami responsive](http://ami.responsivedesign.is/#), the border was followed its styling accordingly. 
 
 ### Design Changes 
 
