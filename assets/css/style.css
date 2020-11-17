@@ -139,7 +139,7 @@ a:hover {
     color: #fff;
     font-size: 56px;
     text-align: center;
-    text-shadow: 0 1rem 1rem rgba(0, 0, 0, 2);
+    text-shadow: 0 1rem 1rem rgba(0, 0, 0, 1);
 }
 
 .hero-h1 {
@@ -1062,7 +1062,7 @@ and (max-width: 667px) {
 
     #testimonials .carousel-indicators li {
         position: relative;
-        top: 8.5rem;
+        top: 10rem;
     }
 
     /*====== PROJECTS - iPhone 6,7,8,X ======*/
@@ -1309,7 +1309,7 @@ and (max-width: 1024px) {
     }
 }
 
-/*====== Media Query for Desktop: http://ami.responsivedesign.is/#======*/
+/*====== Media Query for Desktop: http://ami.responsivedesign.is/# ======*/
 
 @media only screen 
 and (min-width: 1300px)

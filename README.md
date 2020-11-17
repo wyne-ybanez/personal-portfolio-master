@@ -12,7 +12,7 @@ Hence the target audience for this project are recruiters (mainly) and users who
 
 ## Disclaimer
 
-For the purpose of this project, the content used to portray the candidate's potential will be fictional. 
+The website will show the candidate in his best light. For the purpose of this project, the content used to portray the candidate's potential will be fictional. 
 
 ## UX 
 
@@ -243,9 +243,10 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 - Adam Sky's code solution to center icons for the footer - here is his github [repo](https://github.com/Adamsky94/milestone1/blob/master/index.html)
 - Underlining the Heading with adjustable border - this is the [solution](https://www.steckinsights.com/shorten-length-border-bottom-pure-css/)
 - Debug solution for unconnected underline after icon. [Click Here to see bug](assets/tests/social-link-error.png). This link will lead you to the [solution](https://stackoverflow.com/questions/33835756/after-including-bootstrap-icons-get-weird-underline)
-- WebCifar's code used for the Projects Section design. Here's the [link](https://codepen.io/Web_Cifar/pen/dyXNVep)
-- MDBootstrap.com - Footer guide used for footer. [Check it out](https://mdbootstrap.com/docs/jquery/navigation/footer/)
-- Icon Hover Effects - Here is the [link](https://codepen.io/nxworld/pen/ZYNOBZ?fbclid=IwAR1C0Fp-oCTJS1KfeV7TDmL_3KJNneOL146xKX0Y1Bl6UbP6X6TSF_SKV-k)
+- WebCifar's code used for the Projects Section [design](https://codepen.io/Web_Cifar/pen/dyXNVep)
+- MDBootstrap.com - Footer [guide](https://mdbootstrap.com/docs/jquery/navigation/footer/)
+- Icon Hover [Effects](https://codepen.io/nxworld/pen/ZYNOBZ?fbclid=IwAR1C0Fp-oCTJS1KfeV7TDmL_3KJNneOL146xKX0Y1Bl6UbP6X6TSF_SKV-k)
+- Website [favicon](https://favicon.io/favicon-generator/)
 
 ### Git Bash Code
 
@@ -266,9 +267,9 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 
 ## Known Bugs
 
-(i) There is a bug with the carousel indicator `.carousel-indicators li` by which the indicators move up and down when the testimonial section is viewed on mobile device (iPhone 6, 7, 8).
+- There is a bug with the carousel indicator `.carousel-indicators li` by which the indicators move up and down when the testimonial section is viewed on mobile device (iPhone 6, 7, 8).
 
-(ii) When viewed on the Macbook Air 2015 - 13", there was a bug where the blue border behind the "About me" image was not styled properly. The `height` and the `bottom` position the blue box did not apply the styles specified in style.css. However, upon viewing it on the Macbook Pro - 13" and testing on [ami responsive](http://ami.responsivedesign.is/#), the border followed its styling accordingly. 
+- When viewed on the Macbook Air 2015 - 13", there was a bug where the blue border behind the "About me" image was not styled properly. The `height` and the `bottom` position the blue box did not apply the styles specified in style.css. However, upon viewing it on the Macbook Pro - 13" and testing on [ami responsive](http://ami.responsivedesign.is/#), the border followed its styling accordingly. 
 
 ## Design Changes 
 

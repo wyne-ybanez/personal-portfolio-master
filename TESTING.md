@@ -1,9 +1,5 @@
 # Tests 
 
-Tests are carried out first on the largest screen size and then updated regularly for smaller screens.
-
-The W3CSchools and W3C CSS validator services were used to test for the overall syntax of the html and css pages.
-
 ## Bugs previously found: 
 
 ### Navigation Bar
@@ -35,7 +31,7 @@ The W3CSchools and W3C CSS validator services were used to test for the overall 
    
 ### Hero Section Comments: 
 
-- When hovering over social icons, there is a bug where there is a small underline next to the icons. 
+(i) When hovering over social icons, there is a bug where there is a small underline next to the icons. 
 
 ![SocialLink-error](assets/tests/social-link-error.png)
 ### Hero Section Debug
@@ -53,7 +49,8 @@ The W3CSchools and W3C CSS validator services were used to test for the overall 
 
 1. Check if overflow-x and overflow-y is visible or hidden in style.css 
 2. Adjust width and heights of container/content to a shorter amount - see if overflow will change/disappear.
-3. Check to see if index.html page is encountering the same bug
+3. Check to see if index.html page is encountering the same bug (bug encountered when the 'contact me' section was in a separate contactme.html file)
+4. Check if bug is appearing in other viewports 
 
 ![2ScrollBar-bug](assets/tests/2scrollbars.png) 
 
@@ -119,9 +116,6 @@ The W3CSchools and W3C CSS validator services were used to test for the overall 
 - Will not submit without the first name of the user
 - Will not submit without email address or any input that does not have an '@'
 - Will not submit without any comments on the contact form
-- 'Back' option button brings the user back to the top of the page
-- 'Home' opens a new page which leads back to index.html page
-- 'Projects' opens a new page which leads to the projects.html page
 
 ### Footer
 
@@ -132,7 +126,7 @@ The W3CSchools and W3C CSS validator services were used to test for the overall 
 
 ### Viewport Responsiveness
 
-- The Website is fully responsive on 'ami.responsivedesign.is.' Here is the screenshot: 
+- The Website is fully responsive on [ami.responsivedesign.is](http://ami.responsivedesign.is/#) Here is the screenshot: 
   ![screenshot](assets/readMe/banner.png)
 - The Website is responsive on when checking on Chrome developer tools.
 - The Website was tested physically through Desktop, Laptop, iPad, iPhone XR and iPhone 11. The results showed that the website was responsive.
@@ -190,16 +184,20 @@ c. I want to be able to navigate to any section of the website in order to read 
 ## Validators 
 
 ### W3Schools HTML Validator 
+
+- During testing, I had trouble passing this validator as I was using the 'headers' within a `section` tag incorrectly. I have changed <`section`> into <`div`> instead in order to pass the validator tests.
   
 Here are the [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwyne-ybanez.github.io%2Fpersonal-portfolio-master%2F)
 
 ### W3Schools CSS Validator 
 
+- There are multiple CDN's that I use which is causing this validator to find errors and issue warnings.
+
 Here are the [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwyne-ybanez.github.io%2Fpersonal-portfolio-master%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Further Testing
 
--   The Website was tested on Google Chrome, Firefox, Microsoft Edge and Safari browsers.
+-   The Website was tested on Google Chrome and Safari browsers.
 -   The Website was viewed on the specified testing devices such as Desktop, Laptop, iPad, iPhone 5, SE 6, 7, 8 and iPhone X using Chrome Developer Tools.
 -   Links were tested repeatedly.
 -   Friends and family members were asked to review the website, its content and the user experience overall.
