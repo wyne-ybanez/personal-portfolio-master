@@ -131,7 +131,7 @@ a:hover {
 }
 /*====== END NAVBAR ======*/
 
-/*====== BANNER SECTION ======*/
+/*====== HERO SECTION ======*/
 
 .hero-h1, .hero-h2, .social-icons {   
     position: relative; 
@@ -173,7 +173,7 @@ a:hover {
     color:#00DDB8;
 }
 
-/*====== END OF BANNER SECTION ======*/
+/*====== END OF HERO SECTION ======*/
 
 /*====== ABOUT ME ======*/
 
@@ -584,8 +584,8 @@ a:hover {
 /* End of WebCifar Code */
 
 #projects .right a:hover {
-    background-color:#fff;
-    color:#00DDB8;
+    background-color:#1E90FF; 
+    color:#fff; 
 }
 
 /*====== CONTACT ME ======*/
@@ -632,6 +632,7 @@ a:hover {
 
 #contactme .btn {
     margin-top: 1.5em;
+    margin-left: 0;
     border-radius: 10px;
     background-color: #00DDB8;
     color: #fff;
@@ -639,8 +640,8 @@ a:hover {
 }
 
 #contactme .btn:hover {
-    background-color: #fff;
-    color: #00DDB8;
+    background-color: #1E90FF;
+    color: #fff;
 }
 
 #contactme .contact-info {
@@ -651,6 +652,49 @@ a:hover {
     justify-content: center;
     padding-bottom: 5rem;
 }
+
+/*====== THANKYOU.HTML ======*/
+
+#gratitude {
+    margin-bottom: 0%;
+}
+
+.gratitude-h1, .gratitude-h2, .social-icons {   
+    position: relative; 
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 56px;
+    text-align: center;
+    text-shadow: 0 1rem 1rem rgba(0, 0, 0, 1);
+}
+
+.gratitude-h1 {
+    padding-top: 5rem;
+    font-weight:400;
+}
+
+.gratitude-h2 {
+    padding-top: 3rem;
+    font-weight: 200;
+}
+
+#gratitude .gratitude-btn {
+    text-align: center;
+}
+
+#gratitude .gratitude-btn a{
+    font-weight: 600;
+    padding: .7rem 4rem;
+    border-radius: 100px;
+    background-color:#00DDB8;
+    color: #fff;
+}
+
+#gratitude .gratitude-btn a:hover {
+    background-color: #1E90FF;
+}
+
+/*====== END OF THANKYOU.HTML ======*/
 
 /*====== FOOTER ======*/
 .footer {
@@ -722,6 +766,10 @@ a:hover {
     .hero-h2, 
     .social-icons {
         font-size: 40px
+    }
+
+    .social-icons .fa {
+        margin: 0;
     }
 
     /*====== ABOUT ME - iPhone 5/SE ======*/
@@ -914,6 +962,12 @@ a:hover {
 
     #contactme .contact-address {
         padding-bottom: 1.5rem;
+    }
+
+    /*====== THANKYOU.HTML- iPhone 5/SE ======*/
+
+    .gratitude-h1, .gratitude-h2, .social-icons{
+        font-size: 30px;
     }
 }
 
@@ -1137,6 +1191,12 @@ and (max-width: 667px) {
     #contactme .contact-address {
         padding-bottom: 1.5rem;
     }
+
+    /*====== THANKYOU.HTML- iPhone 6,7,8,X ======*/
+
+    .gratitude-h1 {
+        padding-top: 8rem;
+    }
 }   
 
 /*====== Media Queries for tablets/iPad ======*/
@@ -1255,6 +1315,19 @@ and (max-width: 1024px) {
         left: 1rem;
     }
 
+    /*====== CONTACT ME - iPad ======*/
+
+    .gratitude-h1 {
+        padding-top: 9rem;
+    }
+
+    .gratitude-h2 {
+        padding: 3rem 4rem;
+    }
+
+    #gratitude .gratitude-btn a {
+        margin-top: 2rem;
+    }
     /*====== PROJECTS - iPad ======*/
 
     #projects .section-heading {

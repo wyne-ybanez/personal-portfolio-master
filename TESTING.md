@@ -10,7 +10,7 @@
   5. Check to see if the links work and bring you to the right sections/html files
   6. Check to see if the navbar toggler/hamburger is visible
    
-### Navbar Comments
+### Navbar Comments & Bug
 
 - Instead of coloring the navbar toggler to become visible. Instead, I initially used an icon from font awesome to show represent it and colored it.
 - This has now been changed to a Font-Awesome Icon.
@@ -22,14 +22,12 @@
 - Fixed non-sticky navbar bug using W3schools [code](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp) 
 - Fixed Hamburger icon by changing it to `fa fa-bars` instead of `fab fa-bars`
 
-### Hero Section
+### Hero Section Bug
 
 1. Check to see if AOS animations are working
 2. Check to see if social links work 
 3. Check if there is a small underline after the social icons
 4. Check if the image is being shrunk when on mobile
-   
-### Hero Section Comments: 
 
 (i) When hovering over social icons, there is a bug where there is a small underline next to the icons. 
 
@@ -47,7 +45,7 @@
 
 (i) projects.html bug discovered. The page has 2 scroll bars which is inconvenient for the user and overall looks unprofessional. 
 
-1. Check if overflow-x and overflow-y is visible or hidden in style.css 
+1. Check if `overflow-x` and `overflow-y` is visible or hidden in style.css 
 2. Adjust width and heights of container/content to a shorter amount - see if overflow will change/disappear.
 3. Check to see if index.html page is encountering the same bug (bug encountered when the 'contact me' section was in a separate contactme.html file)
 4. Check if bug is appearing in other viewports 
@@ -74,6 +72,19 @@
 - Blue border does not look great on Macbook Air. 
   
 (i) Bug Found where the blue border did not align itself corectly on another laptop (Macbook Air 2015 - 13"). However, it aligned perfectly on another laptop (Macbook pro 2012 - 13")
+
+### Contact Form Bug
+
+1. Check if the form would submit with/without any user inputs
+2. Check if the form would submit with user inputs
+3. Check if certain inputs are required (Choose one not to input: first name/ email/ comment)
+
+(i) Bug discovered where the form would submit but it would not validate the user's inputs. It would just automatically send the user to 'thankyou.html' and ignore the `require` code in the form.
+
+### Contact Form Debug 
+
+- Debugged using `action="thankyou.html"` and `method="post"`. These elements were added to the form tag
+- Debug solution found in a forum. Here is the [link](https://www.sitepoint.com/community/t/turn-form-button-into-hyperlink/16244/7)
 
 ## Website Testing:
 

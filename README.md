@@ -10,10 +10,6 @@ This project aims to portray a junior software developer in the best light perso
 
 Hence the target audience for this project are recruiters (mainly) and users who wish to collaborate with the candidate.
 
-## Disclaimer
-
-The website will show the candidate in his best light. For the purpose of this project, the content used to portray the candidate's potential will be fictional. 
-
 ## UX 
 
 ### User Stories:
@@ -244,15 +240,15 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 - Underlining the Heading with adjustable border - this is the [solution](https://www.steckinsights.com/shorten-length-border-bottom-pure-css/)
 - Debug solution for unconnected underline after icon. [Click Here to see bug](assets/tests/social-link-error.png). This link will lead you to the [solution](https://stackoverflow.com/questions/33835756/after-including-bootstrap-icons-get-weird-underline)
 - WebCifar's code used for the Projects Section [design](https://codepen.io/Web_Cifar/pen/dyXNVep)
+- Form validation debug solution (by user 'ralphm') found in this [forum](https://www.sitepoint.com/community/t/turn-form-button-into-hyperlink/16244)
 - MDBootstrap.com - Footer [guide](https://mdbootstrap.com/docs/jquery/navigation/footer/)
 - Icon Hover [Effects](https://codepen.io/nxworld/pen/ZYNOBZ?fbclid=IwAR1C0Fp-oCTJS1KfeV7TDmL_3KJNneOL146xKX0Y1Bl6UbP6X6TSF_SKV-k)
 - Website [favicon](https://favicon.io/favicon-generator/)
 
 ### Git Bash Code
 
-- I had initially started the project with a local IDE and a local username. My contributions were not counted by Github because of this. The solution as to how to change the author/committer email and user name is found [here](https://stackoverflow.com/questions/750172/how-to-change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-gi)
+- I had initially started the project with a local IDE and a local username. I forgot to configure and log the right username and email for the author. Hence, my intial contributions were not counted by Github. The solution as to how to change the author/committer email and user name is found [here](https://stackoverflow.com/questions/750172/how-to-change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-gi)
   
-
 ### Content
 - Index.html content was created originally
 - Using [Hubspot's blog](https://blog.hubspot.com/marketing/best-website-designs-list) website's content for projects section
@@ -275,18 +271,18 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 
 - The website used to incorporate a black background, this has been changed to a white background. Text colors and section backgrounds have been changed accordingly
 
-- Previously, the website would link externally to projects.html and contactme.html. These files have been deleted and instead the site incorporates a one page regiment.
+- Previously, the website would link externally to 'projects.html' and 'contactme.html'. These files have been deleted and instead the site incorporates a one page design.
 
 - Previously, it was planned that the Footer would have 3 navigation buttons as specified in the Wireframes. This has been altered and now the footer will now contain navigation links, social icons as well as contact information.
 
 ## Future Implementations 
 
 - I would like to style further media queries for the website
-- To update the projects.html with real projects
+- To update the 'projects' section with real projects
 - To update the content to show real work experience
 - To add a download cv button in the options menu or the footer
 - To code additional Javascript animations on the website in future
-- I would like for the contactme.html to send any contacts to my professional email address
+- I would like for the 'contact me' form to send any contacts to my professional email address
 
 ## Acknowledgements
 

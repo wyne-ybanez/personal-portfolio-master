@@ -382,7 +382,9 @@
                         </div>
                     </div>
                     <div class="col-md-7 col-sm-12">
-                        <form>
+                        <!-- Form Submission Debug: https://www.sitepoint.com/community/t/turn-form-button-into-hyperlink/16244/7 -->
+                        <form action="thankyou.html" method="post">
+                        <!-- End of Debug -->
                             <div class="form-row name">                                
                                 <div class="col">
                                     <label for="fname" class="lead text-light"><strong>First Name:</strong></label> 
@@ -408,7 +410,7 @@
                             </div>
                             <div class="row no-gutters">
                                 <div class="col-12">
-                                    <button type="submit" class="btn">Submit</button>
+                                    <button class="btn" type="submit" href="thankyou.html">Submit</button>
                                 </div>
                             </div>
                         </form>
