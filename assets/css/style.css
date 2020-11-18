@@ -769,7 +769,7 @@ a:hover {
     }
 
     .social-icons .fa {
-        margin: 0;
+        margin: 5px;
     }
 
     /*====== ABOUT ME - iPhone 5/SE ======*/
@@ -966,7 +966,7 @@ a:hover {
 
     /*====== THANKYOU.HTML- iPhone 5/SE ======*/
 
-    .gratitude-h1, .gratitude-h2, .social-icons{
+    .gratitude-h1, .gratitude-h2{
         font-size: 30px;
     }
 }
@@ -1196,6 +1196,10 @@ and (max-width: 667px) {
 
     .gratitude-h1 {
         padding-top: 8rem;
+    }
+
+    #gratitude .social-icons .fa {
+        margin: 10px;
     }
 }   
 
