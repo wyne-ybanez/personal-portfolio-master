@@ -104,6 +104,8 @@ Hence the target audience for this project are recruiters (mainly) and users who
 
 [Screenshot](assets/readMe/contactme-sc.png)
 
+Screenshot of page that will come after the user send their comments - [link](assets/readMe/thankyou-sc.png)
+
 ### Projects: 
   
 - It will display 4 projects. The projects will for the mean time link to external third-party websites however, in future I will link my other completed projects to this section.
@@ -266,6 +268,10 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 - There is a bug with the carousel indicator `.carousel-indicators li` by which the indicators move up and down when the testimonial section is viewed on mobile device (iPhone 6, 7, 8).
 
 - When viewed on the Macbook Air 2015 - 13", there was a bug where the blue border behind the "About me" image was not styled properly. The `height` and the `bottom` position the blue box did not apply the styles specified in style.css. However, upon viewing it on the Macbook Pro - 13" and testing on [ami responsive](http://ami.responsivedesign.is/#), the border followed its styling accordingly. 
+  
+- When viewed on github pages using a physical mobile phone, the hero image is not clear nor is it fully presented. The hero image looks zoomed in and the alignment is unknown.
+  
+- An Error 405 Bug was discovered when testing the website's contact form on github [pages.](assets/tests/405error.png) After further researching the issue, I have concluded that I am currently too inexperienced to resolve the bug (I don't yet know server side scripting). Here is the link for my [reasoning](https://stackoverflow.com/questions/37761926/does-github-pages-allow-http-post-method) 
 
 ## Design Changes 
 

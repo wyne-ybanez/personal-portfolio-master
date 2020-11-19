@@ -9,13 +9,13 @@
   4. Check if navbar stays sticky past the header 
   5. Check to see if the links work and bring you to the right sections/html files
   6. Check to see if the navbar toggler/hamburger is visible
+
+  (i) Bug encountered where Navbar would stay sticky only until the header section has finished.
    
-### Navbar Comments & Bug
+### Navbar Comments
 
 - Instead of coloring the navbar toggler to become visible. Instead, I initially used an icon from font awesome to show represent it and colored it.
 - This has now been changed to a Font-Awesome Icon.
-  
-(i) Bug encountered where Navbar would stay sticky only until the header section has finished.
 
 ### Navbar Debug
 
@@ -32,7 +32,8 @@
 (i) When hovering over social icons, there is a bug where there is a small underline next to the icons. 
 
 ![SocialLink-error](assets/tests/social-link-error.png)
-### Hero Section Debug
+
+### Hero Section Debug 
 - Annoying underline has been debugged using the following css: 
   
  `.social-icons a {
@@ -43,12 +44,12 @@
 
 ### Double Scroll Bar Bug 
 
-(i) projects.html bug discovered. The page has 2 scroll bars which is inconvenient for the user and overall looks unprofessional. 
-
 1. Check if `overflow-x` and `overflow-y` is visible or hidden in style.css 
 2. Adjust width and heights of container/content to a shorter amount - see if overflow will change/disappear.
 3. Check to see if index.html page is encountering the same bug (bug encountered when the 'contact me' section was in a separate contactme.html file)
 4. Check if bug is appearing in other viewports 
+
+(i) projects.html bug discovered. The page has 2 scroll bars which is inconvenient for the user and overall looks unprofessional. 
 
 ![2ScrollBar-bug](assets/tests/2scrollbars.png) 
 
@@ -64,14 +65,16 @@
 3. Check if blue border is `hidden` when viewed on smaller devices
 4. Check if blue border aligns slightly above and behind the 'About Me' Profile Image
 
+(i) Bug Found where the blue border did not align itself corectly on another laptop (Macbook Air 2015 - 13"). However, it aligned perfectly on another laptop (Macbook pro 2012 - 13")
+
 ### About Me - Secondary blue border Comments
 
 - The blue border appears to be responsive
 - Adopts the appropriate size when checked on [Ami Responsive](http://ami.responsivedesign.is/#)
 - Blue border is nearly coded perfectly. Error made with media query. 
 - Blue border does not look great on Macbook Air. 
-  
-(i) Bug Found where the blue border did not align itself corectly on another laptop (Macbook Air 2015 - 13"). However, it aligned perfectly on another laptop (Macbook pro 2012 - 13")
+
+* This bug has not yet been resolved and will be noted in the README file *
 
 ### Contact Form Bug
 
@@ -79,13 +82,21 @@
 2. Check if the form would submit with user inputs
 3. Check if certain inputs are required (Choose one not to input: first name/ email/ comment)
 
-(i) Bug discovered where the form would submit but it would not validate the user's inputs. It would just automatically send the user to 'thankyou.html' and ignore the `require` code in the form.
+(i) Bug discovered where the form would submit but it would not validate the user's inputs. It would just automatically send the user to 'thankyou.html' and ignore the `required` code in the html file.
+
+(ii) Error 405 Bug discovered when testing the website's contact form on github [pages.](assets/tests/405error.png) 
 
 ### Contact Form Debug 
 
-- Debugged using `action="thankyou.html"` and `method="post"`. These elements were added to the form tag
-- Debug solution found in a forum. Here is the [link](https://www.sitepoint.com/community/t/turn-form-button-into-hyperlink/16244/7)
+(i)
 
+- Debugged using `action="thankyou.html"` and `method="POST"` or `method="GET`. These elements were added to the form tag.
+- Debug solution found in a forum. Here is the [link.](https://www.sitepoint.com/community/t/turn-form-button-into-hyperlink/16244/7)
+  
+(ii)
+
+- Cannot yet Debug this issue. I have not yet acquired the necessary skills to resolve it. This conclusion was reached after researching for a solution extensively. Here is the [explanation.](https://stackoverflow.com/questions/37761926/does-github-pages-allow-http-post-method)
+  
 ## Website Testing:
 
 ### Hero Section
@@ -127,6 +138,9 @@
 - Will not submit without the first name of the user
 - Will not submit without email address or any input that does not have an '@'
 - Will not submit without any comments on the contact form
+- The contact form will lead the user to 'thankyou.html' once all the input requirements have been made
+- Locally this functions as intended 
+- Does not function on Github Pages - Error 405  
 
 ### Footer
 
