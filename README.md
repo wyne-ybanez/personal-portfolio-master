@@ -45,10 +45,12 @@ Hence the target audience for this project are recruiters (mainly) and users who
 ## Design
 
 ### Colour Scheme 
+
 - The overall project will use the colors turquoise, sky-blue, dark gray and white. 
 - The two main contrasting colours for the project are turquoise and blue. This will be complimented with dark and white background/texts.
 
 ### Fonts 
+
 - Montserrat is the font used for the body, it looks clean and professional.
 - Roboto is the secondary font - used mainly for headings.
 - Sans serif is the fallback font should the fonts be imported incorrectly.
@@ -155,7 +157,7 @@ Screenshot of page that will come after the user send their comments - [link](as
 
 ## Testing 
   
-I have added the testing onto a separate .md file, here is the [link](https://github.com/wyne-ybanez/personal-portfolio-master/blob/main/TESTING.md)
+I have added the testing onto a separate .md file as its content has increased exponentially, here is the [link](https://github.com/wyne-ybanez/personal-portfolio-master/blob/main/TESTING.md)
 
 ## Technologies used:
 
@@ -267,11 +269,9 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 
 - There is a bug with the carousel indicator `.carousel-indicators li` by which the indicators move up and down when the testimonial section is viewed on mobile device (iPhone 6, 7, 8).
 
-- When viewed on the Macbook Air 2015 - 13", there was a bug where the blue border behind the "About me" image was not styled properly. The `height` and the `bottom` position the blue box did not apply the styles specified in style.css. However, upon viewing it on the Macbook Pro - 13" and testing on [ami responsive](http://ami.responsivedesign.is/#), the border followed its styling accordingly. 
+- When viewed on the Macbook Air 2015 - 13", there was a bug where the blue border behind the "About me" image was not styled properly. The `height` and the `bottom` position the blue border did not apply the styles specified in style.css. However, upon viewing it on the Macbook Pro - 13" and testing on [ami responsive](http://ami.responsivedesign.is/#), the border followed its styling accordingly. 
   
 - When viewed on github pages using a physical mobile phone, the hero image is not clear nor is it fully presented. The hero image looks zoomed in and the alignment is unknown.
-  
-- An Error 405 Bug was discovered when testing the website's contact form on github [pages.](assets/tests/405error.png) After further researching the issue, I have concluded that I am currently too inexperienced to resolve the bug (I don't yet know server side scripting). Here is the link for my [reasoning](https://stackoverflow.com/questions/37761926/does-github-pages-allow-http-post-method) 
 
 ## Design Changes 
 

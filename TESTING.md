@@ -3,6 +3,7 @@
 ## Bugs previously found: 
 
 ### Navigation Bar
+
   1. Hover over navigation bar with cursor
   2. Check to see if the toggler works on mobile screens
   3. Ensure that the navbar is semi-transparent at the start of the main page and becomes transparent as you scroll down 
@@ -55,8 +56,7 @@
 
 ### Double Scroll Bar Debug
 
-- Forgot to type in closing section tag 
-- '/section'
+- Forgot to type in closing section tag `/section'`
 
 ### About Me - Secondary blue border
 
@@ -72,7 +72,7 @@
 - The blue border appears to be responsive
 - Adopts the appropriate size when checked on [Ami Responsive](http://ami.responsivedesign.is/#)
 - Blue border is nearly coded perfectly. Error made with media query. 
-- Blue border does not look great on Macbook Air. 
+- Blue border does not function properly when tested on a Macbook Air. 
 
 * This bug has not yet been resolved and will be noted in the README file *
 
@@ -90,16 +90,17 @@
 
 (i)
 
-- Debugged using `action="thankyou.html"` and `method="POST"` or `method="GET`. These elements were added to the form tag.
+- Debugged using the code `action="thankyou.html"` and `method="POST"` or `method="GET`. These elements were added to the form tag.
 - Debug solution found in a forum. Here is the [link.](https://www.sitepoint.com/community/t/turn-form-button-into-hyperlink/16244/7)
   
 (ii)
 
-- Cannot yet Debug this issue. I have not yet acquired the necessary skills to resolve it. This conclusion was reached after researching for a solution extensively. Here is the [explanation.](https://stackoverflow.com/questions/37761926/does-github-pages-allow-http-post-method)
+- Error 405 has been debugged by changing (initially used method) `method="POST"` to `method="GET"`.
   
 ## Website Testing:
 
 ### Hero Section
+
 - The social links when clicked open a new tab and going to the relevant websites
 - On mobile, the social links are functioning properly and open new tabs to go to the relevant websites
 - The navigation bar buttons scroll smoothly to the appropriate sections
@@ -153,8 +154,9 @@
 
 - The Website is fully responsive on [ami.responsivedesign.is](http://ami.responsivedesign.is/#) Here is the screenshot: 
   ![screenshot](assets/readMe/banner.png)
-- The Website is responsive on when checking on Chrome developer tools.
-- The Website was tested physically through Desktop, Laptop, iPad, iPhone XR and iPhone 11. The results showed that the website was responsive.
+- The Website is responsive on when checking on Chrome developer tools bar the blue border (responsive only on some viewports) behind the 'About me' profile picture.
+- The Website was tested physically through Desktop, Laptop, iPad, iPhone XR and iPhone 11. The results showed that the website was responsive only to a certain point. On github pages, the website did not display the correct width and alignment for the hero image.
+- Additionally, the 'About me' section blue border does not reduce or increase according to my intended specifications when viewed on certain devices (e.g. iPhone xr and Macbook Air)
 
 ## Testing User Stories from UX 
 
@@ -210,7 +212,7 @@ c. I want to be able to navigate to any section of the website in order to read 
 
 ### W3Schools HTML Validator 
 
-- During testing, I had trouble passing this validator as I was using the 'headers' within a `section` tag incorrectly. I have changed <`section`> into <`div`> instead in order to pass the validator tests.
+- During testing, I had trouble passing this validator as I was using the 'headers' within a `section` tag incorrectly. I have changed `<section>` into `<div>` instead in order to pass the validator tests.
   
 Here are the [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwyne-ybanez.github.io%2Fpersonal-portfolio-master%2F)
 
@@ -224,6 +226,7 @@ Here are the [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3
 
 -   The Website was tested on Google Chrome and Safari browsers.
 -   The Website was viewed on the specified testing devices such as Desktop, Laptop, iPad, iPhone 5, SE 6, 7, 8 and iPhone X using Chrome Developer Tools.
+-   The Website was tested using the following physical devices: Macbook Pro Mid 2012, Macbook Air 2015, iPhone XR, 11, iPad, iPad pro.
 -   Links were tested repeatedly.
 -   Friends and family members were asked to review the website, its content and the user experience overall.
 -   Code Institute students were asked to review the website for any responsiveness insufficiencies and coding errors.
