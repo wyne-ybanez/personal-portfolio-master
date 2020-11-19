@@ -12,7 +12,39 @@ Hence the target audience for this project are recruiters (mainly) and users who
 
 ## UX 
 
-### User Stories:
+### Strategy 
+
+My goal for the website was to allow the user/recruiter to navigate to any section of the website with ease. Additionally, their interactions with the site should be acknowledged. The website aims to entice the user to contact the candidate once they have finished reading the content.
+
+### Scope 
+
+The website will display solely relevant information with regards to the candidate's potential. The start of the website will communicate straight off the bat, what the website was created for. It will provide an overview of the candidate's skills, experience and education. Links are provided should the user wish to contact the candidate ore research him further.
+
+### Structure 
+
+The website incorporates a one page style design. The user will only need to scroll down to digest the content. Every section will lead to a relevant and complimentary section which is designed to maintain the user's interest. The experience should be seamless and at no point in time should the user feel lost.
+
+### Skeleton
+
+  [Hero Image](wireframes/hero-img.png)
+
+  [About me](wireframes/about-me.png)
+
+  [Timeline](wireframes/timeline.png) 
+
+  [Sticky Navbar](wireframes/sticky-navbar.png)
+
+  [Contact Me form](wireframes/contact-me.png) 
+
+  [Projects](wireframes/projects.png) 
+
+  [Footer](wireframes/footer.png)
+
+### Surface
+
+I want to provide users and recruiters an immersive experience where the site animates accordingly to catch the user's attention. Ultimately appealing to the user's senses and making it seem like reading the content is instinctive, nearly second nature. The colors will contrast between white, dark, turquoise and shades of blue. 'Montserrat' will be the main font as this font style looks neat and professional.
+
+## User Stories:
 
 - ### First Time Visitor Goals:
 
@@ -42,7 +74,7 @@ Hence the target audience for this project are recruiters (mainly) and users who
   <br>
   c. I want to be able to navigate to any section of the website in order to read it in more detail.
 
-## Design
+## Design - In Depth
 
 ### Colour Scheme 
 
@@ -54,22 +86,6 @@ Hence the target audience for this project are recruiters (mainly) and users who
 - Montserrat is the font used for the body, it looks clean and professional.
 - Roboto is the secondary font - used mainly for headings.
 - Sans serif is the fallback font should the fonts be imported incorrectly.
-
-## Wireframes
-
-  [Hero Image](wireframes/hero-img.png)
-
-  [About me](wireframes/about-me.png)
-
-  [Timeline](wireframes/timeline.png) 
-
-  [Sticky Navbar](wireframes/sticky-navbar.png)
-
-  [Contact Me form](wireframes/contact-me.png) 
-
-  [Projects](wireframes/projects.png) 
-
-  [Footer](wireframes/footer.png)
 
 ### Opening the website: 
 
@@ -251,7 +267,7 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 
 ### Git Bash Code
 
-- I had initially started the project with a local IDE and a local username. I forgot to configure and log the right username and email for the author. Hence, my intial contributions were not counted by Github. The solution as to how to change the author/committer email and user name is found [here](https://stackoverflow.com/questions/750172/how-to-change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-gi)
+- I had initially started the project with a local IDE and a local username. I forgot to configure and log the right username and email for the author. Hence, my initial contributions were not counted by Github. The solution as to how to change the author/committer email and user name is found [here](https://stackoverflow.com/questions/750172/how-to-change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-gi)
   
 ### Content
 - Index.html content was created originally
@@ -271,7 +287,7 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 
 - When viewed on the Macbook Air 2015 - 13", there was a bug where the blue border behind the "About me" image was not styled properly. The `height` and the `bottom` position the blue border did not apply the styles specified in style.css. However, upon viewing it on the Macbook Pro - 13" and testing on [ami responsive](http://ami.responsivedesign.is/#), the border followed its styling accordingly. 
   
-- When viewed on github pages using a physical mobile phone, the hero image is not clear nor is it fully presented. The hero image looks zoomed in and the alignment is unknown.
+- When viewed on Github pages using a physical mobile phone, the hero image is not clear nor is it fully presented. The hero image looks zoomed in and the alignment is unknown.
 
 ## Design Changes 
 

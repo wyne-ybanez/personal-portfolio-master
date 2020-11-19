@@ -65,7 +65,7 @@
 3. Check if blue border is `hidden` when viewed on smaller devices
 4. Check if blue border aligns slightly above and behind the 'About Me' Profile Image
 
-(i) Bug Found where the blue border did not align itself corectly on another laptop (Macbook Air 2015 - 13"). However, it aligned perfectly on another laptop (Macbook pro 2012 - 13")
+(i) Bug Found where the blue border did not align itself correctly on another laptop (Macbook Air 2015 - 13"). However, it aligned perfectly on another laptop (Macbook pro 2012 - 13")
 
 ### About Me - Secondary blue border Comments
 
@@ -84,7 +84,7 @@
 
 (i) Bug discovered where the form would submit but it would not validate the user's inputs. It would just automatically send the user to 'thankyou.html' and ignore the `required` code in the html file.
 
-(ii) Error 405 Bug discovered when testing the website's contact form on github [pages.](assets/tests/405error.png) 
+(ii) Error 405 Bug discovered when testing the website's contact form on Github [pages.](assets/tests/405error.png) 
 
 ### Contact Form Debug 
 
@@ -128,7 +128,7 @@
 ### Project Section
 
 - The projects animations are functioning as intended. 
-- The projects section is responsive and adapts to the screen size of mobile, dekstop, laptop and ipad
+- The projects section is responsive and adapts to the screen size of mobile, desktop, laptop and iPad
 - The project 'view' buttons are centered in the specified view ports tested with Chrome Developer tools (Desktop, Laptop, iPhone 5/SE, 6, 7, 8, X)
 - The buttons are linked to the correct websites 
 - The links open a separate tab 
@@ -155,8 +155,8 @@
 - The Website is fully responsive on [ami.responsivedesign.is](http://ami.responsivedesign.is/#) Here is the screenshot: 
   ![screenshot](assets/readMe/banner.png)
 - The Website is responsive on when checking on Chrome developer tools bar the blue border (responsive only on some viewports) behind the 'About me' profile picture.
-- The Website was tested physically through Desktop, Laptop, iPad, iPhone XR and iPhone 11. The results showed that the website was responsive only to a certain point. On github pages, the website did not display the correct width and alignment for the hero image.
-- Additionally, the 'About me' section blue border does not reduce or increase according to my intended specifications when viewed on certain devices (e.g. iPhone xr and Macbook Air)
+- The Website was tested physically through Desktop, Laptop, iPad, iPhone XR and iPhone 11. The results showed that the website was responsive only to a certain point. On Github pages, the website did not display the correct width and alignment for the hero image.
+- Additionally, the 'About me' section blue border does not reduce or increase according to my intended specifications when viewed on certain devices (e.g. iPhone XR and Macbook Air)
 
 ## Testing User Stories from UX 
 
@@ -191,22 +191,22 @@ b. I would like to see if the candidate has completed any coding experience with
 c. I would like to it if there were a way to contact the candidate and find out more information.
   - There is a 'contact me' button in the navigation bar.
   - There is a 'contact me' button in the 'About Me' section.
-  - There is a 'contact me' form at the very end of the page.
+  - There is a 'contact me' form at the end of the page.
 
 ### Frequent Visitor Goals:
 
 a. I would like to check if the candidate is working on any projects.
   - The Projects section is constantly updated and will show any newly finished projects.
-  - There is a github icon in the footer and the social icons in the hero section which leads to the candidates github page.
+  - There is a Github icon in the footer and the social icons in the hero section which leads to the candidates Github page.
 
 b. I want to be able to contact the candidate quickly.
   - The 'contact me' button in the navigation bar which will lead to the contact form where the user can message the candidate about current projects.
   - There is a contact button placed in the 'About me' section.
-  - At the end of every HTML page, the 'contact me' button is always present.
+  - At the end of the page, the 'contact me' form is present.
 
 c. I want to be able to navigate to any section of the website in order to read it in more detail.
   - The navigation bar is sticky, the user will be able to access this and press the appropriate button to travel to the desired section/page.
-  - There are additional buttons at the end of every page which gives the user the option to return to the top of the page or check the candidate's projects or to read more about the candidate's work experience. 
+  - There are additional links in the footer which gives the user the option to return to the top of the page or check the candidate's projects or to read more about the candidate's work experience. 
 
 ## Validators 
 
@@ -224,7 +224,7 @@ Here are the [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3
 
 ## Further Testing
 
--   The Website was tested on Google Chrome and Safari browsers.
+-   The Website was tested on Google Chrome, Microsoft Edge and Safari browsers.
 -   The Website was viewed on the specified testing devices such as Desktop, Laptop, iPad, iPhone 5, SE 6, 7, 8 and iPhone X using Chrome Developer Tools.
 -   The Website was tested using the following physical devices: Macbook Pro Mid 2012, Macbook Air 2015, iPhone XR, 11, iPad, iPad pro.
 -   Links were tested repeatedly.
