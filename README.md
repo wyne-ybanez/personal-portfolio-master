@@ -8,7 +8,7 @@ View the live project here: https://wyne-ybanez.github.io/personal-portfolio-mas
 
 This project aims to portray a junior software developer in the best light personally, technically and professionally. It should show the personality of the person, what skills and experience they have obtained throughout their journey as a developer. The project ultimately intends to pitch the junior developer as an asset to hiring businesses/companies. 
 
-Hence the target audience for this project are recruiters (mainly) and users who wish to collaborate with the candidate.
+Hence the target audience for this project are recruiters and users who wish to collaborate with the candidate.
 
 ## UX 
 
@@ -42,7 +42,7 @@ The website incorporates a one page style design. The user will only need to scr
 
 ### Surface
 
-I want to provide users and recruiters an immersive experience where the site animates accordingly to catch the user's attention. Ultimately appealing to the user's senses and making it seem like reading the content is instinctive, nearly second nature. The colors will contrast between white, dark, turquoise and shades of blue. 'Montserrat' will be the main font as this font style looks neat and professional.
+I want to provide users and recruiters an immersive experience where the site animates accordingly both to catch the user's attention and acknowledge their actions. Ultimately appealing to the user's senses and making it seem like reading the content is instinctive, nearly second nature. The colors will contrast between white, dark, turquoise and shades of blue. 'Montserrat' will be the main font as this font style looks neat and professional.
 
 ## User Stories:
 
@@ -95,9 +95,9 @@ I want to provide users and recruiters an immersive experience where the site an
 
 ### About Me:
 
-- This section of the page will have a call to action buttons, mainly to project.html and contactme.html. 
-  
-- Should at any point the user feels that they would like to see my projects or contact me. This shortcut shall be provided. 
+- To display an overview of the candidate, his current skills, a profile image, a summary text and progression bars of his technical ability
+
+- This section of the page will have a call to action buttons, mainly to 'projects' and 'contact me' section. 
   
 [Screenshot](assets/readMe/aboutme-sc.png)
 
@@ -117,7 +117,7 @@ I want to provide users and recruiters an immersive experience where the site an
 
 - It would be efficient if there was a way for users to contact the candidate at any point of whilst traversing their website. There is a button 'contact me' on the navigation bar to help with this.
 - This feature will require the user to input their contact details via a contact form. 
-- Name and the email address is required. 
+- First name and the email address is required. 
 - If the candidate should ever respond, he/she will then know where/who the response is going to. 
 
 [Screenshot](assets/readMe/contactme-sc.png)
