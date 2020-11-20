@@ -253,7 +253,6 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 
 ### Code 
 
-- Bootstrap v4.5.3 Library used for documentation and overall site responsiveness - Here's the [link](https://getbootstrap.com/)
 - Animate on Scroll used throughout the entire website. Check it out [here](https://michalsnik.github.io/aos/)
 - Hover Animation for the [Navbar](https://github.com/IanLunn/Hover/blob/master/css/hover.css)
 - Transparent Navbar Code from Stack Overflow - Here's the [link](https://stackoverflow.com/questions/16453537/bootstrap-transparent-navbar) 
@@ -264,6 +263,7 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 - About Me second border behind the main image [border](https://github.com/WebCifar/one-page-website-html-css-project-for-practice)
 - Work History Timeline [guide](https://www.w3schools.com/howto/howto_css_timeline.asp)
 - Documentation for Bootstrap Carousel for [Testimonials](https://getbootstrap.com/docs/4.5/components/carousel/)
+- Documentation for Bootstrap [Contact Form](https://getbootstrap.com/docs/4.0/components/forms/) 
 - Adam Sky's code solution to center icons for the footer - here is his github [repo](https://github.com/Adamsky94/milestone1/blob/master/index.html)
 - Underlining the Heading with adjustable border - this is the [solution](https://www.steckinsights.com/shorten-length-border-bottom-pure-css/)
 - Debug solution for unconnected underline after icon. [Click Here to see bug](assets/tests/social-link-error.png). This link will lead you to the [solution](https://stackoverflow.com/questions/33835756/after-including-bootstrap-icons-get-weird-underline)
