@@ -26,6 +26,8 @@ The website incorporates a one page style design. The user will only need to scr
 
 ### Skeleton
 
+These wireframes are the blueprints to the project prior to any coding. These were made to help plan the project, to see how sections were to be arranged and what features could be implemented. Design decisions were made during the production of the website that may stray from what the wireframes initially conveyed.
+
   [Hero Image](wireframes/hero-img.png)
 
   [About me](wireframes/about-me.png)
@@ -97,6 +99,8 @@ I want to provide users and recruiters an immersive experience where the site an
 
 - To display an overview of the candidate, his current skills, a profile image, a summary text and progression bars of his technical ability
 
+- Unlike the wireframe, the placements of the content has switched
+
 - This section of the page will have a call to action buttons, mainly to 'projects' and 'contact me' section. 
   
 [Screenshot](assets/readMe/aboutme-sc.png)
@@ -104,6 +108,8 @@ I want to provide users and recruiters an immersive experience where the site an
 ### Work History Timeline:
 
 - To display the candidate's past work experience.
+  
+- Follows the 'Timeline' wireframe accordingly
 
 [Screenshot](assets/readMe/timeline-sc.png)
 
@@ -128,7 +134,7 @@ Screenshot of page that will come after the user send their comments - [link](as
   
 - It will display 4 projects. The projects will for the mean time link to external third-party websites however, in future I will link my other completed projects to this section.
 
-- It will consist of 4 projects supported by descriptive text at the side.
+- It will consist of 4 projects supported by descriptive text at the side just as specified on the wireframe.
 
 [Screenshot](assets/readMe/projects-sc.png)
 
@@ -230,6 +236,8 @@ You can fork the repository through the following steps. Forking the repository 
 3. You should now have a copy of the original repository in your GitHub account
 
 ### Local Clone
+
+This is used when you would like to make changes to the project code
 
 1. Should you wish to use a different IDE like VSCode. You first log in to Github and locate the required repository. Here is the link for this [repository](https://github.com/wyne-ybanez/personal-portfolio-master)
 2. Open a new terminal on Git Bash
