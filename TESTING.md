@@ -32,7 +32,7 @@
 
 (i) When hovering over social icons, there is a bug where there is a small underline next to the icons. 
 
-![SocialLink-error](assets/tests/social-link-error.png)
+[Social-Links bug screenshot](assets/tests/social-link-error.png)
 
 ### Hero Section Debug 
 - Annoying underline has been debugged using the following css: 
@@ -52,7 +52,7 @@
 
 (i) projects.html bug discovered. The page has 2 scroll bars which is inconvenient for the user and overall looks unprofessional. 
 
-![2ScrollBar-bug](assets/tests/2scrollbars.png) 
+[Double Scrollbar bug screenshot](assets/tests/2scrollbars.png) 
 
 ### Double Scroll Bar Debug
 
@@ -152,8 +152,7 @@
 
 ### Viewport Responsiveness
 
-- The Website is fully responsive on [ami.responsivedesign.is](http://ami.responsivedesign.is/#) Here is the screenshot: 
-  ![screenshot](assets/readMe/banner.png)
+- The Website is fully responsive on [ami.responsivedesign.is](http://ami.responsivedesign.is/#) Here is the [screenshot](assets/readMe/banner.png)
 - The Website is responsive on when checking on Chrome developer tools bar the blue border (responsive only on some viewports) behind the 'About me' profile picture.
 - The Website was tested physically through Desktop, Laptop, iPad, iPhone XR and iPhone 11. The results showed that the website was responsive only to a certain point. On Github pages, the website did not display the correct width and alignment for the hero image.
 - Additionally, the 'About me' section blue border does not reduce or increase according to my intended specifications when viewed on certain devices (e.g. iPhone XR and Macbook Air)
