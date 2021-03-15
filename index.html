@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>Wyne's Personal Portfolio Website</title>
         <!-- Boostrap CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- Google Fonts -->
@@ -25,7 +25,7 @@
     <!-- Navbar -->
         <!-- Transparent Navbar: https://stackoverflow.com/questions/16453537/bootstrap-transparent-navbar -->
     <div class="header container-fluid">
-        <nav class="navbar navbar-expand-lg sticky-top">
+        <nav class="navbar navbar-expand-lg sticky-top fixed-top">
             <a href="index.html" class="navbar-brand font-weight-bold">
                 <h4 class="navbar-logo"><strong>WYNE YBANEZ</strong></h4>
             </a>
@@ -34,8 +34,8 @@
                         <i class="fa fa-bars"></i>
                     </span>
                 </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
                             <li> 
                                 <a class="nav-item nav-link active hvr-underline-from-center" href="#hero">Home <span class="sr-only">(current)</span></a>
                             </li>
@@ -43,7 +43,7 @@
                                 <a class="nav-item nav-link hvr-underline-from-center" data-after="about-me" href="#about-me">About Me</a>
                             </li>
                             <li>            
-                                <a class="nav-item nav-link hvr-underline-from-center" data-after="timeline" href="#history">Timeline</a>
+                                <a class="nav-item nav-link hvr-underline-from-center" data-after="timeline" href="#history">Experience</a>
                             </li>
                             <li>                
                                 <a class="nav-item nav-link hvr-underline-from-center" data-after="testimonials" href="#testimonials">Testimonials</a>
@@ -104,13 +104,16 @@
                     <img src="assets/img/aboutme.jpg" class="aboutme-img img-fluid" alt="About Me Image">
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12" data-aos="fade-left">
-                        <h5 class="float-right">I am an aspiring junior developer. 
+                        <h5 class="float-right">I am an aspiring Software Developer. 
                             I've recently graduated from University. I have worked in 
-                            retail and hospitality for a number of years. Ever since I started on Software Development, 
+                            customer service for a number of years. Ever since I started on Software Development, 
                             I have not looked back.
                         <br><br>
-                            Along with HTML, CSS and Bootstrap. I am currently learning new technologies in relation to Full-Stack Developement. These will
-                            include JavaScript, Python, Jquery, Django, SQL, Flask. 
+                            Here are the languages of which I am currently skilled at: 
+                        <br><br>
+                            HTML, CSS, Bootstrap, JavaScript, Python, Jquery
+                        <br><br>
+                            I am currently studying material in relation to Full-Stack Developement.
                             I am an ambitious candidate and I hope to develop my skills even further.
                             I am currently attending Code Institute.
                             I believe I can be of benefit to you and your organization. 
@@ -118,35 +121,6 @@
                             <a href="#projects" class="projects-cta btn btn-primary">Projects</a> 
                             <a href="#contactme" class="contactme-cta btn">Contact Me</a>
                         </h5>
-                </div>
-                <div class="col-md-10 offset-md-2 col-sm-12">
-                    <!-- BootStrap Progress bars - Modified: https://getbootstrap.com/docs/4.5/components/progress/ -->
-                    <div class="progress-section">
-                        <div class="progress">
-                            <h5 class="progress1" style="width: 12%;">HTML5</h5>
-                            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                                <span class="sr-only">70% complete</span>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <h5 class="progress-2" style="width: 12%;">CSS3</h5>
-                            <div class="progress-bar" role="progressbar" style="width: 68%;" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">
-                                <span class="sr-only">78% complete</span>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <h5 class="progress-3" style="width: 12%;">Bootstrap</h5>
-                            <div class="progress-bar" role="progressbar" style="width: 55%;"  aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                                <span class="sr-only">65% complete</span>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <h5 class="progress-4" style="width: 12%;">JavaScript</h5>
-                            <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                                <span class="sr-only">50% complete</span>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -159,7 +133,7 @@
         <div id="history">
             <div class="row no-gutters">
                 <div class="col-sm-12">
-                    <h1 class="section-heading text-uppercase">WORK HISTORY TIMELINE</h1>
+                    <h1 class="section-heading text-uppercase">Experience</h1>
                 </div>
         <!-- W3Schools Timeline Modified: https://www.w3schools.com/howto/howto_css_timeline.asp -->
         <div class="col-sm-12">
@@ -168,27 +142,26 @@
                     <div class="content" data-aos="fade-up">
                         <h3>2017 - UCC College Enrollment</h3>
                             <h5>I began my university education in Bachelor's of Arts with a Single Honours in English
-                                and Computer Science as my chosen elective. Here is where I got my first taste of programming.
-                                It was from this elective that where I learned the foundations of HTML, CSS as well as PHP.
+                                and Computer Science. Here is where I got my first taste of programming.
+                                It was from this elective that where I learned the foundations of HTML, CSS as well as PHP. 
                             </h5>
                     </div>
                 </div>
                 <div class="container right">
                     <div class="content" data-aos="fade-up">
-                        <h3>2018 - CSA at Amazon</h3>
-                            <h5>During my days in college I was working numerous jobs in both the retail and hospitality sector.
-                                Most of my professional skills were developed as a bartender. Eventually, I was hired by Amazon as a customer service
-                                associate due to the skills I have obtained from working and from my degree. In this position I obtained insight into web design and content creation.
+                        <h3>2019 - Exposure to Programming</h3>
+                            <h5>Whilst attending college, I was enjoying the Computer Science modules more than
+                                my English major. I delved deeper into programming and was involved 
+                                with working on a CMS through pantheon.io, solely using PHP.
                             </h5>
                     </div>
                 </div>
                 <div class="container left">
                     <div class="content" data-aos="fade-up">
-                        <h3>2020 - Front-End Developer</h3>
+                        <h3>2020 - Code Institute & Employed by Amazon</h3>
                             <h5> I graduated from College with a Bachelors Degree. 
-                                After my degree I thought to expand my programming skills. I enrolled into the coding bootcamp
-                                'Code Institute'. I progressed my skills even further and with the help of the bootcamp I was
-                                able to secure a short-term front-end position in 'WebDesignZ'.
+                                I then enrolled into the coding bootcamp
+                                'Code Institute' whilst working part-time at Amazon.
                             </h5>
                     </div>
                 </div>
@@ -196,9 +169,9 @@
                     <h3 class="text-center bottom-heading">PRESENT DAY</h3>
                         <img class="image" src="assets/img/developer.png" data-aos="fade-up" alt="developer">
                     <h5 class="text-center bottom-text" data-aos="fade-up">
-                        I am educating to become a Full-Stack Developer with Code Institute. In my spare time, I help local businesses here in Cork by improving their online
-                        presence. I collaborate with them to see how best we can reach their chosen markets and 
-                        how their website can be designed to suit their business needs.
+                        I am educating to become a Full-Stack Developer with Code Institute. I've created numerous front-end projects and I 
+                        am continuing to build my portfolio. I also attend careers meetings and I have joined a hackathon with the bootcamp. When it
+                        comes to coding, I will continue to collaborate with others, as much as I can.
                     </h5>
                 </div>
                 </div>
@@ -208,7 +181,7 @@
     <!-- End of Timeline  -->
 
     <!-- Testimonials  -->
-    <!-- Bootstrap Carousel - Modified: https://getbootstrap.com/docs/4.5/components/carousel/ -->
+    <!-- Bootstrap Carousel - Modified: https://getbootstrap.com/docs/5.0/components/carousel/ -->
     <div class="container-fluid testimonials">
         <div id="testimonials">
             <div class="row">
@@ -217,11 +190,11 @@
                 </div>
             </div>
 
-            <div id="carouselIndicators" class="carousel slide " data-ride="carousel">
+            <div id="carouselIndicators" class="carousel slide " data-bs-ride="carousel">
                 <ol class="carousel-indicators">
-                    <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselIndicators" data-slide-to="2"></li>
+                    <li data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselIndicators" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselIndicators" data-bs-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner" data-aos="fade-up">
                     <div class="carousel-item active" data-interval="30000">
@@ -256,13 +229,13 @@
                             </h5> 
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                    <span class="visually-hidden">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carouselIndicators" role="button" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                    <span class="visually-hidden">Next</span>
                 </a>
             </div>
         </div>
@@ -280,12 +253,13 @@
                         <div class="left" data-aos="fade-up"></div>
                         <div class="right bg-dark" data-aos="fade-up">
                             <div class="content">
-                                <h2>Frans Hals Museum</h2>
-                                <p>This website uses a combination of digital design elements and its own exhibits. 
-                                    This mixture helps visitors understand what they'll see, when they can see it, 
-                                    and where else they can get a taste of what this museum has to offer. 
+                                <h2>Fast-Travel</h2>
+                                <p> Self-Driving Taxi Delivery Service project (Front-End).
+                                    This website/app uses a variety of Googlg's API's.
+                                    These are utilised so that the user can create an order where their journey is displayed on the app and their 
+                                    preferences are remembered. The page is aimed to be fully interactive and informative.
                                 </p>
-                                <a href="https://www.franshalsmuseum.nl/en/" class="btn" target="_blank">View</a>
+                                <a href="https://wyne-ybanez.github.io/self-driving-car-delivery/" class="btn" target="_blank">View</a>
                             </div> 
                         </div>   
                     </div>
@@ -347,7 +321,7 @@
     <!-- End of Projects -->
 
     <!-- Contact Me Section -->
-    <!-- Boostrap Forms component - Modified: https://getbootstrap.com/docs/4.0/components/forms/ -->
+    <!-- Boostrap Forms component - Modified: https://getbootstrap.com/docs/5.0/forms/overview/-->
     <div class="container-fluid contactme bg-light">
         <div id="contactme">
             <div class="row no-gutters">
@@ -361,19 +335,22 @@
                         <div class="contactme-left text-light">
                             <div class="contact-phone" data-aos="fade-right" data-aos-delay="200">
                                 <i class="fa fa-phone fa-2x"></i>
-                                    <p class="mt-2"><strong>Contact No:</strong> <br>
+                                    <h5><strong>Contact No:</strong></h5>
+                                    <p>
                                         +353 35 353 3535 
                                     </p>
                             </div>
                             <div class="contact-email" data-aos="fade-right" data-aos-delay="400">
                                 <i class="fa fa-envelope fa-2x mt-4"></i>
-                                    <p class="mt-2"><strong>Email Address:</strong> <br>
+                                    <h5><strong>Email Address:</strong></h5> 
+                                    <p>
                                         wyneyban@ybanwyne.io 
                                     </p>
                             </div>
                             <div class="contact-address" data-aos="fade-right" data-aos-delay="600">
                                 <i class="fa fa-home fa-2x mt-4"></i>
-                                    <p class="mt-2"><strong>Address:</strong> <br>
+                                    <h5><strong>Address:</strong></h5>
+                                    <p>
                                         St. Patrick's Hill <br>
                                         Superville, <br>
                                         TF3 MR8,    <br>
@@ -389,29 +366,25 @@
                             <div class="form-row name">                                
                                 <div class="col">
                                     <label for="fname" class="lead text-light"><strong>First Name:</strong></label> 
-                                    <input type="text" class="form-control" id="fname" aria-describedby="fname" placeholder="First Name" required>
-                                </div>
-                                <div class="col">
-                                    <label for="lname" class="lead text-light"><strong>Last Name:</strong></label> 
-                                    <input type="text" class="form-control" id="lname" aria-describedby="lname" placeholder="Last Name">
-                                </div>    
+                                    <input type="text" class="form-control form-control-lg" id="fname" aria-describedby="fname" placeholder="First Name" required>
+                                </div> 
                             </div>
                             <div class="form-email">
                                 <label for="emailaddress" class="lead text-light mt-2"><strong>Email:</strong></label> 
-                                <input type="email" class="form-control" id="emailaddress" aria-describedby="emailaddress" placeholder="Enter Email" required>
+                                <input type="email" class="form-control form-control-lg" id="emailaddress" aria-describedby="emailaddress" placeholder="Enter Email" required>
                                 <small id="emailinfo" class="form-text text-light">Your email address is the main form of contact</small> 
                             </div>
                             <div class="form-phone">
                                 <label for="phone" class="lead text-light mt-2"><strong>Phone Number</strong></label> 
-                                <input type="tel" class="form-control" id="phone" aria-describedby="phone" placeholder="Enter Phone">
+                                <input type="tel" class="form-control form-control-lg" id="phone" aria-describedby="phone" placeholder="Enter Phone">
                             </div>
                             <div class="text-area">
                                 <label for="commentarea" class="lead text-light mt-3"><strong>Comments:</strong></label>
                                 <textarea class="form-control form-control-lg" id="commentarea" aria-describedby="commentarea" rows="3" placeholder="Enter comments" required></textarea>
                             </div>
-                            <div class="row no-gutters">
+                            <div class="row">
                                 <div class="col-12">
-                                    <input type="submit" class="btn">
+                                    <input type="submit" class="btn btn-lg text-uppercase">
                                 </div>
                             </div>
                         </form>
@@ -436,7 +409,7 @@
                     <h5 class="text-center"><strong>WYNE YBANEZ</strong></h5>
                         <hr class="accent-2 d-inline-block mt-0" style="width: 100px; background-color:#00DDB8;">
                     <p class="text-light pb-3">
-                        An aspiring junior developer <br>
+                        An aspiring Software Developer <br>
                         A candidate with unlimited potential <br>
                         Reach out now!
                     </p>
@@ -471,7 +444,7 @@
                                     <a href="#about-me">About Me</a>
                                 </p>
                                 <p>
-                                    <a href="#history">Timeline</a>
+                                    <a href="#history">Experience</a>
                                 </p>
                                 <p>
                                     <a href="#testimonials">Testimonials</a>
@@ -497,13 +470,13 @@
                     </div>
             </div>
             <br>
-            © 2020 Copyright, Wyne Ybanez
+            © 2021 Copyright, Wyne Ybanez
         </div>
     <!-- End of Footer -->
 
     <!-- JS Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
     <script>

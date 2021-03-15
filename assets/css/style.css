@@ -11,9 +11,11 @@ html, body {
 
 h1 {
     font-family: 'Roboto',sans-serif;
-    font-weight: 700;
-    font-size: 35px;
+    font-weight: 500;
+    font-size: 55px;
     text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 0 1rem 1rem rgba(0, 0, 0, .3);
 }
 
 h2 {
@@ -518,34 +520,33 @@ a:hover {
     border-width: 3px;
 }
 
-#projects .left-2 {
-    width: 70%;
-    height: 30rem;
-    background: url(https://blog.hubspot.com/hs-fs/hubfs/00-Blog-Related_Images/blog/images/Screen_Shot_2015-08-04_at_5.16.53_PM.png?width=667&height=353&name=Screen_Shot_2015-08-04_at_5.16.53_PM.png)
-    no-repeat center / cover;
-    border-radius: 8px; 
-    border: solid #fff;
-    border-width: 3px;
-}
-
-#projects .left-3 {
-    width: 70%;
-    height: 30rem;
-    background: url(https://blog.hubspot.com/hs-fs/hubfs/rainforest-guardians-best-website-design-2016.jpg?width=690&name=rainforest-guardians-best-website-design-2016.jpg)
-    no-repeat center / cover;
-    border-radius: 8px; 
-    border: solid #fff;
-    border-width: 3px;
-}
-
+#projects .left,
+#projects .left-2,
+#projects .left-3,
 #projects .left-4 {
     width: 70%;
     height: 30rem;
-    background: url(https://blog.hubspot.com/hs-fs/hubfs/1917%20homepage.png?width=1395&name=1917%20homepage.png)
+    background: url(https://blog.hubspot.com/hs-fs/hubfs/frans-hals-museum-best-website-design-2018.png?width=690&name=frans-hals-museum-best-website-design-2018.png)
     no-repeat center / cover;
     border-radius: 8px; 
     border: solid #fff;
     border-width: 3px;
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 100%);
+}
+
+#projects .left-2 {
+    background: url(https://blog.hubspot.com/hs-fs/hubfs/00-Blog-Related_Images/blog/images/Screen_Shot_2015-08-04_at_5.16.53_PM.png?width=667&height=353&name=Screen_Shot_2015-08-04_at_5.16.53_PM.png)
+    no-repeat center / cover;
+}
+
+#projects .left-3 {
+    background: url(https://blog.hubspot.com/hs-fs/hubfs/rainforest-guardians-best-website-design-2016.jpg?width=690&name=rainforest-guardians-best-website-design-2016.jpg)
+    no-repeat center / cover;
+}
+
+#projects .left-4 {
+    background: url(https://blog.hubspot.com/hs-fs/hubfs/1917%20homepage.png?width=1395&name=1917%20homepage.png)
+    no-repeat center / cover;
 }
 
 #projects .right {
@@ -558,6 +559,7 @@ a:hover {
     border-radius: 8px;
     color: #fff;
     margin-left: -150px;
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 50%);
 }
 
 #projects .right h1 {
@@ -612,7 +614,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 4rem;
+    padding: 5rem;
     margin-bottom: 5rem;
     border: 2px solid #fff;
     border-radius: 10px;
@@ -637,6 +639,8 @@ a:hover {
     background-color: #00DDB8;
     color: #fff;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 #contactme .btn:hover {
