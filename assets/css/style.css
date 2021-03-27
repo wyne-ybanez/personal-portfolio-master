@@ -11,8 +11,7 @@ html, body {
 
 h1 {
     font-family: 'Roboto',sans-serif;
-    font-weight: 500;
-    font-size: 55px;
+    font-weight: 600;
     text-align: center;
     letter-spacing: 1px;
     text-shadow: 0 1rem 1rem rgba(0, 0, 0, .3);
@@ -224,6 +223,8 @@ a:hover {
     border: 10px solid #00DDB8;
     width: 98%;
     margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
 }
 
 #about-me .progress h5 {
@@ -236,26 +237,13 @@ a:hover {
    height: 25px;
 }
 
-#about-me .progress-bar {
-    border-radius: 5px;
-    background-color: #00DDB8;
-}
-
-
-/* Coding from WebCifar - Modified: https://github.com/WebCifar/one-page-website-html-css-project-for-practice/blob/master/style.css */
-#about-me .aboutme-img-container::after {
-    content:'';
-    position: absolute;
-    left: -33px;
-    bottom: 130px;
-    height: 71%;
-    width: 98%;
-    border: 9px solid #1E90FF;
-    z-index: -1;
+#about-me .cta {
+    display: flex;
+    flex-direction: row;
 }
 
 .projects-cta {
-    padding: 10px 20px;
+    padding: 10px;
     color: white;
     border-radius: 100px;
     font-size: 1rem;
@@ -275,7 +263,7 @@ a:hover {
 
 .contactme-cta {
     background-color: #00DDB8;
-    padding: 10px 20px;
+    padding: 10px;
     color: white;
     border-radius: 100px;
     border-width: 1px;
@@ -286,7 +274,7 @@ a:hover {
     margin-right: 4rem;
     transition: .3s ease;
     transition-property: background-color, color;
-    float: left;
+    float: right;
 }
 
 .contactme-cta:hover {
@@ -712,6 +700,7 @@ a:hover {
 
 .footer a{
     color: #fff;
+    text-decoration: none;
 }
 
 .footer a:hover {
@@ -792,16 +781,24 @@ a:hover {
     #about-me h5 {
         padding: 1rem .5rem 1rem .5rem;
         text-align: center;
+        margin-left: 1.2rem;
+    }
+
+    #about-me .cta {
+    display: flex;
+    flex-direction: column;
     }
 
     #about-me .projects-cta {
-        margin-left: 5.2rem; 
+        position: relative;
+        float: left;
+        left: 2rem;
     }   
 
     #about-me .contactme-cta {
         position: relative;
-        left: 4.2rem;
-        padding: 10px 15px;
+        float: left;
+        left: 2rem;
     }
 
     #about-me .progress h5 {
@@ -1010,7 +1007,7 @@ and (max-width: 667px) {
 
     #about-me .aboutme-img {
         position: relative;
-        right: 5rem;
+        right: 9rem;
         margin-top: 0;
         height: 100%;
     }
@@ -1022,19 +1019,7 @@ and (max-width: 667px) {
     #about-me h5 {
         padding: 1rem 1rem 2rem 1rem;
         text-align: center;
-    }
-
-    #about-me .projects-cta {
-        margin-left: 6.5rem; 
-    }   
-
-    #about-me .contactme-cta {
-        margin-left: 1.55rem !important;
-        padding: 10px 20px !important;
-    }
-
-    #about-me .progress h5 {
-        margin-right: 5rem;
+        margin-left: 1.2rem;
     }
 
     #about-me {
@@ -1257,25 +1242,6 @@ and (max-width: 1024px) {
         text-align: center;
         position: relative;
         left: 12rem;
-    }
-
-    #about-me .contactme-cta {
-        position: relative;
-        left: 6.3rem;
-    }
-
-    #about-me .projects-cta {
-        position: relative;
-        left: 7rem;
-    }
-
-    #about-me .progress h5 {
-        position: absolute;
-        left: 0rem;
-    }
-
-    #about-me .progress-bar {
-        margin-left: 6rem;
     }
 
     /*====== TIMELINE - iPad ======*/
