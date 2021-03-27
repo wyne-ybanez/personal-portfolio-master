@@ -63,7 +63,7 @@ a:hover {
 }
 
 .navbar.scrolled {
-    background: rgba(0, 0, 0, 0.7); 
+    background: rgba(0, 0, 0, 0.8); 
 }
 
 /* How to keep the navbar sticky: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp */
