@@ -213,8 +213,11 @@ a:hover {
 }
 
 #about-me .aboutme-img-container {
-    margin-left: 10rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin-bottom: 2rem;
+    margin: 0 auto;
     position:relative;
     z-index: 1;
 }
@@ -543,6 +546,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     padding: 30px;
     border-radius: 8px;
     color: #fff;
@@ -569,7 +573,6 @@ a:hover {
     padding: 15px 30px;
     display: inline-block;
     letter-spacing: 2px;
-    margin-left: 9rem;
 }
 /* End of WebCifar Code */
 
@@ -768,8 +771,7 @@ a:hover {
 
     /*====== ABOUT ME - iPhone 5/SE ======*/
     #about-me .aboutme-img {
-        position: relative;
-        right: 5rem;
+        margin-left: 0.9rem;
         margin-top: 0;
         height: 100%;
     }
@@ -890,7 +892,7 @@ a:hover {
 
     #testimonials .carousel-indicators li {
         position: relative;
-        top: 9.2rem;
+        top: 10.2rem;
     }
 
     /*====== PROJECTS - iPhone 5/SE ======*/
@@ -931,10 +933,6 @@ a:hover {
     #projects .right {
         width: 90%;
         margin: -6rem 2.5rem 0 2.5rem;
-    }
-
-    #projects .right a{
-        margin-left: 2.5rem;
     }
 
     /*====== CONTACT ME - iPhone 5/SE ======*/
@@ -1007,7 +1005,6 @@ and (max-width: 667px) {
 
     #about-me .aboutme-img {
         position: relative;
-        right: 9rem;
         margin-top: 0;
         height: 100%;
     }
@@ -1101,12 +1098,12 @@ and (max-width: 667px) {
     #testimonials .carousel-control-next-icon, 
     #testimonials .carousel-control-prev-icon {
         position: relative;
-        top: 13.5rem;
+        top: 11.5rem;
     }
 
     #testimonials .carousel-indicators li {
         position: relative;
-        top: 10rem;
+        top: 7rem;
     }
 
     /*====== PROJECTS - iPhone 6,7,8,X ======*/
@@ -1147,10 +1144,6 @@ and (max-width: 667px) {
     #projects .right {
         width: 90%;
         margin: -6rem 2.5rem 0 2.5rem;
-    }
-
-    #projects .right a {
-        margin-left: 4.2rem;
     }
 
     /*====== CONTACT ME - iPhone 6,7,8,X ======*/
@@ -1226,22 +1219,17 @@ and (max-width: 1024px) {
     /*====== ABOUT ME - iPad ======*/
 
     #about-me .aboutme-img {
-        height: auto;
-        margin: 2rem 0 0 7rem; 
-    } 
-
-    #about-me .aboutme-img-container::after {
-        height: 90%;
-        bottom: 18px;
-        margin: 2rem 0 0 7rem; 
+        visibility: hidden;
+        height: 100%;
     } 
 
     #about-me h5 {
-        padding: 1rem 0rem 2.5rem 0rem;
-        margin: 0;
+        padding: 1rem 0rem 0rem 0rem;
+        margin: 0 auto;
         text-align: center;
+        justify-content: center;
+        align-items: center;
         position: relative;
-        left: 12rem;
     }
 
     /*====== TIMELINE - iPad ======*/
