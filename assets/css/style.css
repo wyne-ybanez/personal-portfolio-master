@@ -519,7 +519,7 @@ a:hover {
 }
 
 #projects .left-2 {
-    background: url(https://blog.hubspot.com/hs-fs/hubfs/00-Blog-Related_Images/blog/images/Screen_Shot_2015-08-04_at_5.16.53_PM.png?width=667&height=353&name=Screen_Shot_2015-08-04_at_5.16.53_PM.png)
+    background: url('../img/papercuts.png')
     no-repeat center / cover;
 }
 
