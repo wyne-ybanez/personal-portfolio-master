@@ -1223,12 +1223,17 @@ and (max-width: 1024px) {
         justify-content: center;
         align-items: center;
         position: relative;
+        right: 165px;
+    }
+
+    .contactme-cta {
+        padding: 0;
     }
 
     /*====== TIMELINE - iPad ======*/
 
     #history .timeline::after {
-        bottom: 38rem;
+        bottom: 36.5rem;
     }
 
     #history .timeline .container::after {
