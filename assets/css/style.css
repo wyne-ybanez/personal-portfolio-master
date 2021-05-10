@@ -524,7 +524,7 @@ a:hover {
 }
 
 #projects .left-3 {
-    background: url(https://blog.hubspot.com/hs-fs/hubfs/rainforest-guardians-best-website-design-2016.jpg?width=690&name=rainforest-guardians-best-website-design-2016.jpg)
+    background: url('../img/portfolio.png')
     no-repeat center / cover;
 }
 
@@ -672,8 +672,8 @@ a:hover {
 }
 
 #gratitude .gratitude-btn a{
-    font-weight: 600;
-    padding: .7rem 4rem;
+    letter-spacing: 1px;
+    padding: .5rem 3rem;
     border-radius: 100px;
     background-color:#00DDB8;
     color: #fff;
