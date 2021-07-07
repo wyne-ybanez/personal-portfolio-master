@@ -126,7 +126,7 @@ a:hover {
     right: 0;
 }
 
-.fa {
+.fab {
     color: #fff;
     margin-top: .3rem;
 }
@@ -162,7 +162,7 @@ a:hover {
     text-decoration: none;
 }
 
-.social-icons .fa { 
+.social-icons .fab { 
     position: relative;
     padding: 5px;
     margin-bottom: 10px;
@@ -170,7 +170,7 @@ a:hover {
     text-decoration: none;
 }
 
-.social-icons .fa:hover {
+.social-icons .fab:hover {
     color:#00DDB8;
 }
 
@@ -181,7 +181,7 @@ a:hover {
 /* Continuous background Image full page - https://css-tricks.com/perfect-full-page-background-image/ */
 /* To darken the background image - https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css/36390220 */
 #about-me {
-    padding: 5rem 0;
+    padding-top: 5rem;
     background: linear-gradient(
         rgba(0, 0, 0, 0.5), 
         rgba(0, 0, 0, 1)
@@ -192,6 +192,7 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     background-position: bottom;
+    padding-bottom: 30px;
 }
 
 #about-me .section-heading {
@@ -236,8 +237,19 @@ a:hover {
 
 #about-me .progress {
    background-color: inherit; 
-   margin: 20px;
-   height: 25px;
+}
+
+.code-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.code-icon {
+    overflow: visible;
+    margin: 40px 70px 20px 70px;
 }
 
 #about-me .cta {
@@ -608,7 +620,7 @@ a:hover {
         rgba(0, 0, 0, 0.4), 
         rgba(0, 0, 0, 0.7)
         ), 
-    url('../img/background.jpeg') no-repeat center center fixed;
+    url('../img/portfolio-bg3.jpeg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -758,7 +770,7 @@ a:hover {
         font-size: 40px
     }
 
-    .social-icons .fa {
+    .social-icons .fab {
         margin: 5px;
     }
 
@@ -794,10 +806,6 @@ a:hover {
         position: relative;
         float: left;
         left: 2rem;
-    }
-
-    #about-me .progress h5 {
-        margin-right: 5rem;
     }
 
     #about-me {
@@ -1166,16 +1174,6 @@ and (max-width: 667px) {
 
     #contactme .contact-address {
         padding-bottom: 1.5rem;
-    }
-
-    /*====== THANKYOU.HTML- iPhone 6,7,8,X ======*/
-
-    .gratitude-h1 {
-        padding-top: 8rem;
-    }
-
-    #gratitude .social-icons .fa {
-        margin: 10px;
     }
 }   
 
