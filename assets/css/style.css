@@ -62,6 +62,14 @@ a:hover {
     padding: 0 1rem;
 }
 
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 .navbar.scrolled {
     background: rgba(0, 0, 0, 0.8); 
 }
