@@ -972,12 +972,6 @@ a:hover {
     #contactme .contact-address {
         padding-bottom: 1.5rem;
     }
-
-    /*====== THANKYOU.HTML- iPhone 5/SE ======*/
-
-    .gratitude-h1, .gratitude-h2{
-        font-size: 30px;
-    }
 }
 
 /*====== Media queries - Mobile Phones - iPhone 6,7,8,X ======*/
@@ -1229,11 +1223,21 @@ and (max-width: 1024px) {
         justify-content: center;
         align-items: center;
         position: relative;
-        right: 165px;
+        right: 180px;
+    }
+
+    #about-me .cta {
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
     }
 
     .contactme-cta {
-        padding: 0;
+        white-space: nowrap;
+    }
+
+    .code-icon {
+        margin: 40px 40px 20px 70px;
     }
 
     /*====== TIMELINE - iPad ======*/
