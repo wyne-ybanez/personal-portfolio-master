@@ -464,10 +464,6 @@ a:hover {
     background-position: center;
 }
 
-#testimonials .section-heading {
-    margin-bottom: 6rem;
-}
-
 #testimonials .section-heading:after{
     content: ""; 
     display: block; 
@@ -885,10 +881,6 @@ a:hover {
         padding-bottom: 7rem;
     }
 
-    #testimonials .section-heading {
-        margin-bottom: 4rem;
-    }
-
     #testimonials .carousel-item {
         padding:0 1rem;
     }
@@ -1088,10 +1080,6 @@ and (max-width: 667px) {
 
     #testimonials {
         padding-bottom: 7rem;
-    }
-
-    #testimonials .section-heading {
-        margin-bottom: 4rem;
     }
 
     #testimonials .carousel-item {
