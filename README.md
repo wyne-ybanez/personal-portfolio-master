@@ -133,8 +133,8 @@ I want to provide users and recruiters an immersive experience where the site an
 ![Screenshot](assets/readMe/contactme-sc.png)
 
 ### Projects: 
-  
-- It will display 4 projects. The projects will for the mean time link to external third-party websites however, in future I will link my other completed projects to this section.
+
+- This section will display the projects the candidate has developed.
 
 - It will consist of 4 projects supported by descriptive text at the side just as specified on the wireframe.
 
