@@ -8,7 +8,7 @@ View the live project here: https://wyne-ybanez.github.io/personal-portfolio-mas
 
 This project aims to portray a junior software developer in the best light personally, technically and professionally. It should show the personality of the person, what skills and experience they have obtained throughout their journey as a developer. The project ultimately intends to pitch the junior developer as an asset to hiring businesses/companies. 
 
-Hence the target audience for this project are recruiters and users who wish to collaborate with the candidate.
+Hence the target audience for this project are recruiters and developers who wish to collaborate with the candidate.
 
 ## UX 
 
@@ -81,6 +81,10 @@ I want to provide users and recruiters an immersive experience where the site an
 ### Colour Scheme 
 
 - The overall project will use the colors turquoise, sky-blue, dark gray and white. 
+  * #00DDB8
+  * #ffffff
+  * #6c757d
+
 - The two main contrasting colours for the project are turquoise and blue. This will be complimented with dark and white background/texts.
 
 ### Fonts 
@@ -103,7 +107,7 @@ I want to provide users and recruiters an immersive experience where the site an
 
 - This section of the page will have a call to action buttons, mainly to 'projects' and 'contact me' section. 
   
-[Screenshot](assets/readMe/aboutme-sc.png)
+![Screenshot](assets/readMe/aboutme-sc.png)
 
 ### Work History Timeline:
 
@@ -111,7 +115,7 @@ I want to provide users and recruiters an immersive experience where the site an
   
 - Follows the 'Timeline' wireframe accordingly
 
-[Screenshot](assets/readMe/timeline-sc.png)
+![Screenshot](assets/readMe/timeline-sc.png)
 
 ### Transparent Sticky-Navbar: 
 
@@ -126,7 +130,7 @@ I want to provide users and recruiters an immersive experience where the site an
 - First name and the email address is required. 
 - If the candidate should ever respond, he/she will then know where/who the response is going to. 
 
-[Screenshot](assets/readMe/contactme-sc.png)
+![Screenshot](assets/readMe/contactme-sc.png)
 
 Screenshot of page that will come after the user send their comments - [link](assets/readMe/thankyou-sc.png)
 
@@ -136,7 +140,7 @@ Screenshot of page that will come after the user send their comments - [link](as
 
 - It will consist of 4 projects supported by descriptive text at the side just as specified on the wireframe.
 
-[Screenshot](assets/readMe/projects-sc.png)
+![Screenshot](assets/readMe/projects-sc.png)
 
 ### Footer:
   
@@ -146,7 +150,7 @@ Screenshot of page that will come after the user send their comments - [link](as
   
 - The footer should have the relevant social links and navigation links. These can help users/recruiters to research candidate further or go back over specific content. 
 
-[Screenshot](assets/readMe/footer-sc.png)
+![Screenshot](assets/readMe/footer-sc.png)
 
 ## Features
 
@@ -216,6 +220,8 @@ I have added the testing onto a separate .md file as its content has increased e
     - Used for media queries
 11. [Ami Responsive](http://ami.responsivedesign.is/#)
     - Used to test for website responsiveness and media query establishment
+12. [EmailJS](https://www.emailjs.com/)
+    - Used to send emails to the developer if the user would like to contact the candidate directly
 
 ## Deployment
 
@@ -279,7 +285,6 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
   
 ### Content
 - Index.html content was created originally
-- Using [Hubspot's blog](https://blog.hubspot.com/marketing/best-website-designs-list) website's content for projects section
 - ReadMe content for how to clone a repo in depth. This is the [link](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop)
 
 ### Media 
@@ -305,14 +310,17 @@ $ git clone https://github.com/wyne-ybanez/personal-portfolio-master
 
 - Previously, it was planned that the Footer would have 3 navigation buttons as specified in the Wireframes. This has been altered and now the footer will now contain navigation links, social icons as well as contact information.
 
+- Sending an email to the candidate initially directed the user to a page 'thankyou.html'. This page has been removed through the implementation of EmailJS. The user will not remain in the portfolio website.
+
+- Removed the progression bar from 'About Me' section and updated with font-awesome icons to represent coding languages of which the candidate is proficient with.
+
+- Migration of CSS framework from Bootstrap 4 to Bootstrap 5
+
 ## Future Implementations 
 
 - I would like to style further media queries for the website
-- To update the 'projects' section with real projects
-- To update the content to show real work experience
 - To add a download cv button in the options menu or the footer
 - To code additional Javascript animations on the website in future
-- I would like for the 'contact me' form to send any contacts to my professional email address
 
 ## Acknowledgements
 
