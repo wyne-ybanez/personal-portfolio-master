@@ -132,8 +132,6 @@ I want to provide users and recruiters an immersive experience where the site an
 
 ![Screenshot](assets/readMe/contactme-sc.png)
 
-Screenshot of page that will come after the user send their comments - [link](assets/readMe/thankyou-sc.png)
-
 ### Projects: 
   
 - It will display 4 projects. The projects will for the mean time link to external third-party websites however, in future I will link my other completed projects to this section.
